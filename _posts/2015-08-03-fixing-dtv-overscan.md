@@ -4,8 +4,6 @@ title: Fixing digital television HDMI overscan
 comments: true
 ---
 
-# Fixing digital television HDMI overscan
-
 My TV: NOBLEX 24LD839FT
 
 Other equivalent models: 
