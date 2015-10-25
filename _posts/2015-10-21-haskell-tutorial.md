@@ -16,10 +16,7 @@ Para este tutorial voy a usar [ideone](https://ideone.com), una ide online que n
 
 La estructura de un programa básico en Haskell para que pueda ejecutarse en ideone es la siguiente
 
-```
-1. main = do
-2.    print("Hola mundo")
-```
+<script src="http://ideone.com/e.js/mD3KOU" type="text/javascript" ></script>
 
 La línea `1` contiene el punto de entrada al programa y la línea `2` es la forma de escribir en la salida estándar (pantalla). Es importante destacar la indentación (margen) que tiene la línea `2`, ya que es obligatorio porque marca el inicio y fin del cuerpo del bloque contenido dentro del `do`
 
