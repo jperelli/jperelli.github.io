@@ -16,15 +16,26 @@ Para este tutorial voy a usar [ideone](https://ideone.com), una ide online que n
 
 La estructura de un programa básico en Haskell para que pueda ejecutarse en ideone es la siguiente
 
-<script src="http://ideone.com/e.js/mD3KOU" type="text/javascript" ></script>
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/e.js/mD3KOU)
+</div>
 
-La línea `1` contiene el punto de entrada al programa y la línea `2` es la forma de escribir en la salida estándar (pantalla). Es importante destacar la indentación (margen) que tiene la línea `2`, ya que es obligatorio porque marca el inicio y fin del cuerpo del bloque contenido dentro del `do`
+```
+1. main = do
+2.    print( hola )
+```
+
+La línea 1 contiene el punto de entrada al programa y la línea 2 es la forma de escribir en la salida estándar (pantalla). Es importante destacar la indentación (margen) que tiene la línea 2, ya que es obligatorio porque marca el inicio y fin del cuerpo del bloque contenido dentro del `do`
 
 ### Funciones
 
 #### Sin parámetros
 
 Si sumamos una declaración de una función simple
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/4pqaWx)
+</div>
 
 ```
 1. hola :: String
@@ -40,12 +51,16 @@ En la línea 2 el símbolo `=` marca que lo que viene a continuación es el valo
 
 #### Con un parámetro
 
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/8Xv2ya)
+</div>
+
 ```
 1. hola :: String -> String
 2. hola x = "Hola " ++ x
 
 3. main = do
-4.    print( hola("Julian") )
+4.    print( hola "Julian" )
 ```
 
 Ahora en la declaración de la función (línea 1) vemos `String -> String`, el primer `String` define el tipo del primer (único) argumento de la función `hola`. El segundo `String` que aparece después de la "flecha" `->` define el tipo del valor de retorno de la función `hola`.
@@ -58,12 +73,16 @@ En la línea 4 vemos la llamada a la función hola con el parámetro actual, el 
 
 #### Con mas de un parámetro
 
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/1QObSv)
+</div>
+
 ```
 1. suma :: Int -> Int -> Int
 2. suma a b = a + b
 
 3. main = do
-4.    print( suma(2, 3) )
+4.    print( suma 2 3 )
 ```
 
 Al utilizar mas de un parámetro se puede ver como se declaran los tipos de las variables. En este caso, en la línea 1 aparece `Int -> Int -> Int`. Los primeros dos `Int` se corresponden posicionalmente con el tipo de los dos parámetros formales (`a` y `b`) y el último `Int` se refiere al tipo del valor de retorno de la función `suma`.
@@ -86,6 +105,67 @@ Luego en la línea 4 se observa una llamada a la función `suma`. Los valores de
  * `Bool`: Booleano
  * `[Int]`: Lista de enteros
  * `[[Int]]`: Lista de listas de enteros
+
+### Estructuras de control
+
+#### Condicional
+
+Hay dos formas de estructura condicional en haskell, la primera es por búsqueda de "patrones" en los argumentos de la función
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/SvZzDT)
+</div>
+
+```
+1. undostres :: Int -> String
+2. undostres 1 = "uno"
+3. undostres 2 = "dos"
+4. undostres 3 = "tres"
+5. undostres x = "otro"
+
+6. main = do
+7.    print( undostres 2 )
+```
+
+Esto funciona igual que un "case" o "switch" en otros lenguajes. Los patrones son los números que aparecen como argumentos `1`, `2`, `3`, `x`. El argumento de la función se compara por igualdad `=` con cada uno de los "patrones". Si es igual a algún patrón, la función ejecuta y retorna lo que aparece en esa línea después del `=`. Si no es igual a ningún patrón determinado (`1`, `2`, `3`) ejecuta y retorna lo que aparece con patrón `x`.
+
+La segunda forma de estructura condicional se basa en utilizar "guardas", representadas por el símbolo `|`
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/Uzzwaw)
+</div>
+
+```
+1. positivoNegativo :: Int -> String
+2. positivoNegativo a
+3.    | a > 0        = "positivo"
+4.    | a < 0        = "negativo"
+5.    | otherwise    = "neutro"
+ 
+6. main = do
+7.    print( positivoNegativo 2 )
+```
+
+En las líneas 3 y 4 podemos ver como se definen 2 resultados para la función `positivoNegativo`, basandose en condiciones. Los resultados son aquellos que están después del símbolo `=`, las condiciones se encuentran previamente en cada línea, entre el símbolo `|` y el `=`. La palabra clave `otherwise` sirve para marcar lo que la función debe devolver en caso de que no se cumpla ninguna de las otras condiciones de las guardas previas.
+
+#### Repeticion
+
+No existen estructuras de repetición, en su reemplazo, se utiliza el acercamiento mas natural para el lenguaje funcional: la recursión.
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/Cv0J18)
+</div>
+
+```
+1. acumular :: [Int] -> Int
+2. acumular [] = 0
+3. acumular (x:xs) = x + acumular xs
+ 
+4. main = do
+5.    print( acumular [5,6,7] )
+```
+
+
 
 ### Funciones de primer orden
 
@@ -135,6 +215,10 @@ El código `B` utiliza el concepto de funcion de primera clase. En la línea 2 s
 
 #### Ejemplo: pasar una función como parámetro
 
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/9d4nbw)
+</div>
+
 ```
 1. suma a b = a + b
 2. resta a b = a - b
@@ -149,6 +233,10 @@ La línea 5 envía la función `suma` como parámetro a la función aplicar, que
 En este caso, la función `aplicar` es una **función de orden superior** (ver mas adelante)
 
 #### Ejemplo: función anónima o función lambda
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/F5zHX0)
+</div>
 
 ```
 1. aplicar x a b = x(a, b)
@@ -178,9 +266,13 @@ filter(fn, list): Devuelve una lista nueva que contiene los valores de la lista 
 
 `fn` debe recibir un argumento y retornar un `Bool`.
 
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/DO8HzN)
+</div>
+
 ```
-mayores20 :: Int -> Bool
-mayores20 n = n > 20
+mayoresQue20 :: Int -> Bool
+mayoresQue20 n = n > 20
 
 main = do
   print( filter(mayoresQue20, [11, 22, 44, 88]) )
@@ -193,6 +285,10 @@ El ejemplo imprime `[22, 44, 88]`
 map(fn, list): Devuelve una lista con el valor de retorno de `fn` aplicada a cada valor de `list`
 
 `fn` debe recibir un argumento y retornar cualquier tipo.
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/1XbPGc)
+</div>
 
 ```
 incrementar20 :: Int -> Int
@@ -213,6 +309,10 @@ foldl(fn, init, list): aplica la funcion `fn` a cada par de valores recursivamen
 `list` es una lista
 
 Existen las versiones foldl (que reduce de derecha a izquierda) y foldr (que reduce de izquierda a derecha)
+
+<div style="text-align:right">
+[ver en ideone](http://ideone.com/YKyp4k)
+</div>
 
 ```
 suma a b = a + b
