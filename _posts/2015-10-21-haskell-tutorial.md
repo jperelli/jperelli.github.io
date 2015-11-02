@@ -16,9 +16,7 @@ Para este tutorial voy a usar [ideone](https://ideone.com), una ide online que n
 
 La estructura de un programa básico en Haskell para que pueda ejecutarse en ideone es la siguiente
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/e.js/mD3KOU)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/mD3KOU">ver en ideone</a></div>
 
 ```
 1. main = do
@@ -33,9 +31,7 @@ La línea 1 contiene el punto de entrada al programa y la línea 2 es la forma d
 
 Si sumamos una declaración de una función simple
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/4pqaWx)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/4pqaWx">ver en ideone</a></div>
 
 ```
 1. hola :: String
@@ -51,9 +47,7 @@ En la línea 2 el símbolo `=` marca que lo que viene a continuación es el valo
 
 #### Con un parámetro
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/8Xv2ya)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/8Xv2ya">ver en ideone</a></div>
 
 ```
 1. hola :: String -> String
@@ -73,9 +67,7 @@ En la línea 4 vemos la llamada a la función hola con el parámetro actual, el 
 
 #### Con mas de un parámetro
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/1QObSv)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/1QObSv">ver en ideone</a></div>
 
 ```
 1. suma :: Int -> Int -> Int
@@ -112,9 +104,7 @@ Luego en la línea 4 se observa una llamada a la función `suma`. Los valores de
 
 Hay dos formas de estructura condicional en haskell, la primera es por búsqueda de "patrones" en los argumentos de la función
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/SvZzDT)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/SvZzDT">ver en ideone</a></div>
 
 ```
 1. undostres :: Int -> String
@@ -131,9 +121,7 @@ Esto funciona igual que un "case" o "switch" en otros lenguajes. Los patrones so
 
 La segunda forma de estructura condicional se basa en utilizar "guardas", representadas por el símbolo `|`
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/Uzzwaw)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/Uzzwaw">ver en ideone</a></div>
 
 ```
 1. positivoNegativo :: Int -> String
@@ -152,9 +140,7 @@ En las líneas 3 y 4 podemos ver como se definen 2 resultados para la función `
 
 No existen estructuras de repetición, en su reemplazo, se utiliza el acercamiento mas natural para el lenguaje funcional: la recursión.
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/Cv0J18)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/Cv0J18">ver en ideone</a></div>
 
 ```
 1. acumular :: [Int] -> Int
@@ -165,7 +151,9 @@ No existen estructuras de repetición, en su reemplazo, se utiliza el acercamien
 5.    print( acumular [5,6,7] )
 ```
 
+En la línea 2 se define el caso base, cuando se presenta una lista vacía, retorna `0`.
 
+En la línea 3 se puede ver la llamada recursiva. Esta línea se ejecuta solamente cuando el parámetro es distinto a una lista vacía, o sea, cuando el parámetro contiene una lista con al menos un elemento. El formato `(x:xs)` siginifica que en la variable `x` se guarde la cabeza de la lista que está siendo pasada como argumento, y en la variable `xs` el resto de la lista (la cola). Esto quiere decir que para la primer llamada a la función `acumular` con `[5,6,7]`, `x` vale `5` (un `Int`) y `xs` vale `[6,7]` (una lista). Entonces se ejecuta `x + acumular xs` con esos valores, siendo así `5 + acumular [6,7]`. Se llamará a recursion, hasta que `xs` sea igual a una lista vacía `[]` con lo que se llega al caso base.
 
 ### Funciones de primer orden
 
@@ -215,9 +203,7 @@ El código `B` utiliza el concepto de funcion de primera clase. En la línea 2 s
 
 #### Ejemplo: pasar una función como parámetro
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/9d4nbw)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/9d4nbw">ver en ideone</a></div>
 
 ```
 1. suma a b = a + b
@@ -234,9 +220,7 @@ En este caso, la función `aplicar` es una **función de orden superior** (ver m
 
 #### Ejemplo: función anónima o función lambda
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/F5zHX0)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/F5zHX0">ver en ideone</a></div>
 
 ```
 1. aplicar x a b = x(a, b)
@@ -266,9 +250,7 @@ filter(fn, list): Devuelve una lista nueva que contiene los valores de la lista 
 
 `fn` debe recibir un argumento y retornar un `Bool`.
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/DO8HzN)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/DO8HzN">ver en ideone</a></div>
 
 ```
 mayoresQue20 :: Int -> Bool
@@ -286,9 +268,7 @@ map(fn, list): Devuelve una lista con el valor de retorno de `fn` aplicada a cad
 
 `fn` debe recibir un argumento y retornar cualquier tipo.
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/1XbPGc)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/1XbPGc">ver en ideone</a></div>
 
 ```
 incrementar20 :: Int -> Int
@@ -310,9 +290,7 @@ foldl(fn, init, list): aplica la funcion `fn` a cada par de valores recursivamen
 
 Existen las versiones foldl (que reduce de derecha a izquierda) y foldr (que reduce de izquierda a derecha)
 
-<div style="text-align:right">
-[ver en ideone](http://ideone.com/YKyp4k)
-</div>
+<div style="text-align:right"><a href="http://ideone.com/YKyp4k">ver en ideone</a></div>
 
 ```
 suma a b = a + b
