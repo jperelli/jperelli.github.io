@@ -83,7 +83,7 @@ Prolog utiliza el método de **cortocircuito** o **evaluacion perezosa** para la
 
 Para trabajar con listas en prolog, tomemos el problema de contar la cantidad de elementos de una lista. La forma de encarar estos problemas es análoga a un algoritmo recursivo. De hecho, definiremos cláusulas de manera recursiva directamente. Para poder resolverlo, necesitamos definir de alguna manera una división de la lista, o quitar un elemento de la lista cada vez que se invoca la recursión.
 
-<div style="text-align:right"><a href="http://ideone.com/8QXGKg">ver en ideone</a></div>
+<div style="text-align:right"><a href="http://ideone.com/HSpo4r">ver en ideone</a></div>
 
 ```
 1. longitud([], 0).
@@ -99,3 +99,27 @@ En la línea 1 se define lo que sería el caso base de una recursión. Para una 
 `N is N1 + 1` significa que el valor de `N` debe ser igual a `N1 + 1`. En el caso de que `N` no esté definido, se fuerza a que su valor sea igual a `N1 + 1`. Si hacemos una analogía con algún lenguaje imperativo, esto sería similar a hacer la **asignación** `N := N1 + 1` si `N` no tiene ningún valor, pero sería equivalente a hacer la **comparación** `N == N1 + 1` si `N` tiene un valor, que devuelve true o false.
 
 En la línea 2 podemos ver una definición recursiva: la longitud de una lista separada entre cabeza y cola es `N` si y solo si la longitud de la sublista cola es `N1` y ademas `N = N1 + 1`. una definición recursiva.
+
+#### Filtrar elementos en listas
+
+<div style="text-align:right"><a href="http://ideone.com/brKoTe">ver en ideone</a></div>
+
+```
+1. pares([], []).
+2. pares([X|Xs], L) :- X mod 2 =:= 0, pares(Xs, Laux), append([X], Laux, L).
+3. pares([X|Xs], L) :- X mod 2 =\= 0, pares(Xs, Laux), L = Laux.
+4.
+5. ?- pares([1,2,3,4], L), write(L).
+```
+
+#### Eliminar un elemento de una lista
+
+<div style="text-align:right"><a href="http://ideone.com/8QXGKg">ver en ideone</a></div>
+
+```
+eliminar([], E, []).
+eliminar([X|Xs], N, [X|Laux]) :- N =\= X, eliminar(Xs, N, Laux).
+eliminar([X|Xs], N, Laux) :- N =:= X, eliminar(Xs, N, Laux).
+ 
+?- eliminar([2,4,6,8,4,5], 4, L), write(L).
+```
