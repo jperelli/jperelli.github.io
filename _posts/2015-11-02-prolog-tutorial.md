@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial Haskell
+title: Tutorial Prolog
 comments: true
 ---
 
