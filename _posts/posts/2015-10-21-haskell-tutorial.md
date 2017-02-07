@@ -2,6 +2,7 @@
 layout: post
 title: Tutorial Haskell
 comments: true
+category: post
 ---
 
 Haskell es un lenguaje de programación de propósito general estáticamente tipado, con evaluación perezosa y **funcional puro**. Esto determina como característica particular que las funciones no tienen efectos secundarios, hacen al programa muy predecible, lo que permite hacer un análisis estático que puede predecir con poco margen de error al análisis dinámico.

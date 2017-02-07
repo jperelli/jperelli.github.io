@@ -2,6 +2,7 @@
 layout: post
 title: Fixing digital television HDMI overscan
 comments: true
+category: post
 ---
 
 My TV: NOBLEX 24LD839FT
@@ -34,7 +35,7 @@ This is entirely a TV issue, called overscan. You can find a lot of people strug
 
 ## How to test it
 
-To test if this is happening to the TV, [images published here](http://www.fossiltoys.com/monitor.html) can be used. This images can easily be used to detect rescaling. Just see them in the TV with in 1:1 resolution (i.e. no zoom on web page).
+To test if this is happening to the TV, [images published here](http://web.archive.org/web/20150912232445/http://fossiltoys.com/monitor.html) can be used. This images can easily be used to detect rescaling. Just see them in the TV with in 1:1 resolution (i.e. no zoom on web page).
 
 ## How to fix it
 

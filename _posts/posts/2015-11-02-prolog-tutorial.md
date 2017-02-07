@@ -2,6 +2,7 @@
 layout: post
 title: Tutorial Prolog
 comments: true
+category: post
 ---
 
 Prolog es un lenguaje que utiliza los paradigmas lógico y declarativo de programación. Del paradigma lógico toma la llamada lógica de primer orden, la cual describe hechos (proposiciones), valores de verdad (verdadero/falso) y operaciones como la conjunción, disjunción y la implicación. Al ser declarativo, se posiciona opuesto a paradigmas mas conocidos como el imperativo+procedural. Esta caracteristica hace que la escritura de un programa sea dada en dos fases bien separadas: definición de proposiciones y reglas; y construcción de consultas.

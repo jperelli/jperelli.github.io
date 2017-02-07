@@ -2,6 +2,7 @@
 layout: post
 title: Adding systemd simple service in ubuntu 15.04
 comments: true
+category: post
 ---
 
 I was trying to add a simple service to run just one time at boot, it was a little difficult and I couldn't find the information easily, so I'll share the commands here

@@ -2,6 +2,7 @@
 layout: post
 title: Pascal simple script stream editor
 comments: true
+category: post
 ---
 
 # Pascal simple script
