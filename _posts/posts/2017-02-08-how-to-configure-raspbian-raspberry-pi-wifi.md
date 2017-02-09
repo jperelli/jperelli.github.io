@@ -2,6 +2,7 @@
 layout: page
 title: How to configure raspberry pi wifi
 comments: true 
+category: post
 ---
 
 I'm making this simple tutorial because I have Raspberry pi 3 with wifi integrated, but I do not have an UTP cable. The idea is to be able to connect to the raspberry and use it without ever having to connect a network cable. Here are the steps:
