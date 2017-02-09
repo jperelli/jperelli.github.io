@@ -15,6 +15,8 @@ author:
 
 paginate:         1
 
+future:           true
+
 # Custom vars
 version:          1.0.0
 
