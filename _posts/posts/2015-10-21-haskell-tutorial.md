@@ -118,7 +118,7 @@ Hay dos formas de estructura condicional en haskell. La primera es por búsqueda
 7.    print( undostres 2 )
 ```
 
-Ésto funciona igual que un "case" o "switch" en otros lenguajes. Los patrones son los números que aparecen como argumentos `1`, `2`, `3`, `x`. El argumento de la función se compara por igualdad `=` con cada uno de los "patrones". Si la función es igual a algún patrón, ejecuta y retorna lo que aparece en esa línea después del `=`. Si no es igual a ningún patrón determinado (`1`, `2`, `3`) ejecuta y retorna lo que aparece con patrón `x`.
+Ésto funciona igual que un "case" o "switch" en otros lenguajes. Los patrones son los números que aparecen como argumentos `1`, `2`, `3`, `x`. El argumento de la función se compara por igualdad `=` con cada uno de los "patrones". Si el argumento es igual a algún patrón, ejecuta y retorna lo que aparece en esa línea después del `=`. Si no es igual a ningún patrón determinado (`1`, `2`, `3`) ejecuta y retorna lo que aparece con patrón `x`.
 
 La segunda forma de estructura condicional se basa en utilizar "guardas", representadas por el símbolo `|`
 
