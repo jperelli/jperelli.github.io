@@ -9,7 +9,7 @@ category: post
 
 Hoy estuve jugando un poco con el viejo amigo Pascal, y encontré [InstantFPC](http://wiki.freepascal.org/InstantFPC/), que se autodenomina: _una herramienta para correr programas como scripts_.
 
-InstantFPC se instala junto a free-pascal-compiler, en distribuciones linux basadas en debian, se puede instalar con `sudo apt-get install fpc`
+InstantFPC se instala junto a free-pascal-compiler, en distribuciones linux basadas en debian. Se puede instalar con `sudo apt-get install fpc`.
 
 Me puse manos a la obra y en un ratito armé un script en Pascal para leer la entrada estándar (stdin), transformarla y enviarla a la salida estándar (stdout).
 
@@ -42,7 +42,7 @@ Este programa bastante simple, se puede utilizar para transformar cualquier coma
 
 Una vieja disputa en la [facultad](http://www.frlp.utn.edu.ar/) es sobre qué lenguaje se debería usar para enseñar a programar. Rápidamente la discusión deriva en que deberíamos estar utilizando lenguajes "mejores" o "más potentes" que Pascal, como C, Python, Java.
 
-Tomando este ejemplo y otros como [HDCT](https://github.com/mxlian/hdct), donde se ven llamadas a interrupciones [directamente desde un .pas](https://github.com/mxlian/hdct/blob/master/CTFINAL.PAS#L340), se ve que Pascal tiene un tremendo potencial, que puede asemejarse bastante a C en con la gran diferencia de agregar el tipo String.
+Tomando este ejemplo y otros como [HDCT](https://github.com/mxlian/hdct), donde se ven llamadas a interrupciones [directamente desde un .pas](https://github.com/mxlian/hdct/blob/master/CTFINAL.PAS#L340), se ve que Pascal tiene un tremendo potencial, que puede asemejarse bastante a C, con la gran diferencia de agregar el tipo String.
 
 La idea no es decir que Pascal es el mejor lenguaje, sino simplemente que no es un lenguaje malo. Creo que la discusión pasa por qué cosas se enseñan y no por el lenguaje en sí. Podría utilizarse C o python, pero si se sigue enseñando de la misma manera, cambiar el lenguaje no va a ayudar.
 

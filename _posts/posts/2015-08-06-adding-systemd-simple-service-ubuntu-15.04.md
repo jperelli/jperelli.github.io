@@ -5,7 +5,7 @@ comments: true
 category: post
 ---
 
-I was trying to add a simple service to run just one time at boot, it was a little difficult and I couldn't find the information easily, so I'll share the commands here
+I was trying to add a simple service to run just one time at boot, but it was a little difficult and I couldn't find the information easily, so I'll share the commands here:
 
 
 Create file *`/etc/systemd/system/startallvagrant.service`* with this contents
