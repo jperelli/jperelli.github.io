@@ -13,17 +13,20 @@ Variables vulnerables / sql injection
 En PHP, al obtener el valor de una variable pasada por parámetro (POST o GET), esa variable puede contener cualquier valor. En el caso de que esa variable sea embebida directamente en una consulta SQL, se está ingresando directamente el contenido de la variable en la consulta.
 
 Ejemplo de código PHP extremadamente vulnerable:
-
-    mysql_query(“SELECT nombre FROM hospital WHERE zona=”.$_POST[‘var’]);
+{% highlight ruby linenos %}
+mysql_query("SELECT nombre FROM hospital WHERE zona=".$_POST['var']);
+{% endhighlight %}
 
 Otro ejemplo:
 
-    $str = $_GET[‘var’]
-    mysql_query(“SELECT nombre FROM hospital WHERE zona=’”.$str.”’”);
+{% highlight ruby linenos %}
+$str = $_GET['var']
+mysql_query("SELECT nombre FROM hospital WHERE zona='".$str."'");
+{% endhighlight %}
 
-Cuando un usuario ingresa al formulario algo como Region I, la consulta SQL generada y enviada al servidor mysql desde PHP es: `SELECT nombre FROM hospital WHERE zona=’Region I’`.
+Cuando un usuario ingresa al formulario algo como Region I, la consulta SQL generada y enviada al servidor mysql desde PHP es: `SELECT nombre FROM hospital WHERE zona='Region I'`.
 
-Pero cuando un usuario ingresa al formulario algo como `’ or 1=1 -- -`, la consulta SQL generada y enviada al servidor mysql desde PHP es: `SELECT nombre FROM hospital WHERE zona=’’ or 1=1 -- -’`.
+Pero cuando un usuario ingresa al formulario algo como `' or 1=1 -- -`, la consulta SQL generada y enviada al servidor mysql desde PHP es: `SELECT nombre FROM hospital WHERE zona=' or 1=1 -- -'`.
 El `-- -` hace que el resto de la consulta sea ignorada por el servidor (comentario SQL), y el `or 1=1` hace que el where retorne verdadero para todas las tuplas de la tabla. Con esta consulta, se obtienen todas las tuplas de la tabla hospital.
 
 Complicando más las consultas pueden encontrarse datos de todas las tablas visibles por el usuario mysql, insertarse datos en caso de que haya permisos, y efectuarse el resto de operaciones explicadas anteriormente.
@@ -46,13 +49,17 @@ La recomendación es utilizar funciones ya existentes para no reinventar la rued
 
 Para parámetros que son números enteros, la idea es utilizar casteo para verificar que el string recibido sea un número. Luego de verificar eso, el número se pasa a SQL sin comillas.
 
-    $num = (int)$_POST[‘entero’];
-    mysql_query(“SELECT nombre FROM hospital WHERE id=”.$num);
+{% highlight ruby linenos %}
+$num = (int)$_POST['entero'];
+mysql_query("SELECT nombre FROM hospital WHERE id=".$num);
+{% endhighlight %}
 
 Para parámetros que son cadenas de caracteres, se utiliza una función que limpia los strings para que no inyecten SQL.
 
-    $zona = mysql_real_escape($_GET[‘zona’]);
-    mysql_query(“SELECT nombre FROM hospital WHERE zona=’”.$zona.”’”);
+{% highlight ruby linenos %}
+$zona = mysql_real_escape($_GET['zona']);
+mysql_query("SELECT nombre FROM hospital WHERE zona='".$zona."'");
+{% endhighlight %}
 
 ## PHP mail() Injection
 
@@ -70,7 +77,9 @@ Básicamente, el atacante puede tomar el control del envío de mails a discreci�
 Explicación técnica:
 Siendo que la función de envío de mail utilizada tiene el siguiente formato:
 
-    mail($recipiente, $asunto, $mensaje, $cabeceras_extra)
+{% highlight ruby linenos %}
+mail($recipiente, $asunto, $mensaje, $cabeceras_extra)
+{% endhighlight %}
 
 La vulnerabilidad se encuentra en $recipiente, $asunto y $cabeceras_extra. Si alguna de esas variables es completada directamente por un usuario y pasada a la función mail sin chequeos, un usuario malicioso puede introducir cabeceras indeseadas en el mail.
 
@@ -84,10 +93,12 @@ Dado que la función mail() traduce esos parámetros a un mail con el siguiente 
  
 Si los valores de las variables son:
 
-    $recipiente = “mail@server.com”;
-    $asunto = “hola!”;
-    $cabeceras_extra = “From: desde@otroserver.com”;
-    $mensaje = “saludos!”
+{% highlight ruby linenos %}
+$recipiente = "mail@server.com";
+$asunto = "hola!";
+$cabeceras_extra = "From: desde@otroserver.com";
+$mensaje = "saludos!"
+{% endhighlight %}
 
 A través de la función mail() se genera el siguiente e-mail:
 
@@ -101,10 +112,12 @@ El cual está bien formado y es lo esperado.
 
 Pero considerando que las variables son obtenidas a través de la entrada de un usuario, los valores podrían ser:
 
-    $recipiente = “mail@server.com”;
-    $asunto = “hola!”;
-    $cabeceras_extra = “From: desde@otroserver.com\nBcc: otradireccion@server2.com”;
-    $mensaje = “visite www.sitiospammer.com”
+{% highlight ruby linenos %}
+$recipiente = "mail@server.com";
+$asunto = "hola!";
+$cabeceras_extra = "From: desde@otroserver.com\nBcc: otradireccion@server2.com";
+$mensaje = "visite www.sitiospammer.com"
+{% endhighlight %}
 
 Siendo \n el carácter de nueva línea o retorno de carro, a través de la función mail() se genera el siguiente e-mail:
 
@@ -121,9 +134,11 @@ Realizando otro tipo de inyecciones mail() mas complejas, se puede también envi
 Solución recomendada:
 Utilizar esta función para validar la entrada del usuario. 
 
-    function isemail($input) {
-      return strlen($input) < 256 && preg_match("/^[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/", $input);
-    }
+{% highlight ruby linenos %}
+function isemail($input) {
+  return strlen($input) < 256 && preg_match("/^[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/", $input);
+}
+{% endhighlight %}
 
 Si la función devuelve true, es porque lo ingresado es un solo email.
 Si la función devuelve false, el usuario no está ingresando un email válido, y lo ingresado es sospechoso como ataque.
@@ -131,22 +146,28 @@ Si la función devuelve false, el usuario no está ingresando un email válido, 
 La recomendación es la siguiente:
 Asignar un valor fijo a $recipiente y a $asunto
 
-> $recipiente = “autoridad@ms.gba.gob.ar”;
-> $asunto = “Consulta web”
+{% highlight ruby linenos %}
+$recipiente = "autoridad@ms.gba.gob.ar";
+$asunto = "Consulta web"
+{% endhighlight %}
 
 Utilizar $mensaje creado por el usuario
 Utilizar la funcion isemail sobre el email del usuario que llena la consulta. Si da verdadero, se puede continuar asignando:
 
-> $cabeceras_extra = "From: $email\n"
+{% highlight ruby linenos %}
+$cabeceras_extra = "From: $email\n"
+{% endhighlight %}
 
 Código de ejemplo:
 
-    if (isemail($_POST['email'])) {
-      $cabeceras_extra = 'From: '.$_POST['email']."\n";
-      $recipiente = 'webmaster@ms.gba.gov.ar';
-      $asunto = 'Consulta web';
-      $mensaje = $_POST['mensaje'];
-      mail($recipiente, $asunto, $mensaje, $cabeceras_extra)
-    }
-    else
-    	echo "error en el campo email";
+{% highlight ruby linenos %}
+if (isemail($_POST['email'])) {
+  $cabeceras_extra = 'From: '.$_POST['email']."\n";
+  $recipiente = 'webmaster@ms.gba.gov.ar';
+  $asunto = 'Consulta web';
+  $mensaje = $_POST['mensaje'];
+  mail($recipiente, $asunto, $mensaje, $cabeceras_extra)
+}
+else
+  echo "error en el campo email";
+{% endhighlight %}

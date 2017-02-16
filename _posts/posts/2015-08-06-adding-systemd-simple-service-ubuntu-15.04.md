@@ -9,7 +9,7 @@ I was trying to add a simple service to run just one time at boot, but it was a 
 
 
 Create file *`/etc/systemd/system/startallvagrant.service`* with this contents
-<pre>
+{% highlight ini linenos %}
 [Unit]
 Description=Start all vagrant machines
 
@@ -19,19 +19,23 @@ ExecStart=/vagrant_vm/start-all-2015.sh
 
 [Install]
 WantedBy=multi-user.target
-</pre>
+{% endhighlight %}
 
 Create symlink from *multi-user.target.wants*:
 
-    ln -s /etc/systemd/system/startallvagrant.service /etc/systemd/system/multi-user.target.wants/startallvagrant.service
+{% highlight terminal linenos %}
+# ln -s /etc/systemd/system/startallvagrant.service /etc/systemd/system/multi-user.target.wants/startallvagrant.service
+{% endhighlight %}
 
 Enable/activate the service in systemd
 
-    systemctl enable startallvagrant.service
+{% highlight terminal linenos %}
+# systemctl enable startallvagrant.service
+{% endhighlight %}
 
 Check if configuration is working
 
-<pre>
+{% highlight terminal linenos %}
 root@breadboard:~# systemctl list-unit-files
 
 UNIT FILE                              STATE   
@@ -82,11 +86,12 @@ sudo.service                           disabled
 syslog.service                         enabled 
 systemd-ask-password-console.service   static  
 systemd-ask-password-plymouth.service  static  
-</pre>
+root@breadboard:~# 
+{% endhighlight %}
 
 Check if the service worked / started ok
 
-<pre>
+{% highlight terminal linenos %}
 root@breadboard:~# systemctl status startallvagrant.service 
 
 ● startallvagrant.service - Start all vagrant machines
@@ -103,11 +108,12 @@ Aug 06 18:30:11 breadboard systemd[1]: startallvagrant.service failed.
 root@breadboard:~# journalctl _PID=854
 -- Logs begin at Thu 2015-08-06 18:30:08 CEST, end at Thu 2015-08-06 18:33:40 CEST. --
 Aug 06 18:30:11 breadboard systemd[854]: Failed at step EXEC spawning /vagrant-vm/start-all-2015.sh: No such file or directory
-</pre>
+root@breadboard:~# 
+{% endhighlight %}
 
 See if something else has failed
 
-<pre>
+{% highlight terminal linenos %}
 root@breadboard:~# systemctl --failed --all
 
   UNIT                    LOAD   ACTIVE SUB    DESCRIPTION
@@ -119,4 +125,5 @@ SUB    = The low-level unit activation state, values depend on unit type.
 
 1 loaded units listed.
 To show all installed unit files use 'systemctl list-unit-files'.
-</pre>
+root@breadboard:~# 
+{% endhighlight %}

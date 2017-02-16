@@ -13,28 +13,47 @@ InstantFPC se instala junto a free-pascal-compiler, en distribuciones linux basa
 
 Me puse manos a la obra y en un ratito armé un script en Pascal para leer la entrada estándar (stdin), transformarla y enviarla a la salida estándar (stdout).
 
-<script src="https://gist.github.com/jperelli/297ae7a994c97ab736cf.js"></script>
+{% highlight pascal linenos %}
+#!/usr/bin/env instantfpc
+ 
+uses
+  sysutils;
+ 
+var
+  entrada: String;
+ 
+begin
+ 
+  repeat
+    readln(entrada);
+    writeln(uppercase(entrada));
+  until eoln;
+ 
+end.
+{% endhighlight %}
 
 Después le di permiso de ejecución con `chmod +x mayusculizar` y lo probé de la siguiente manera:
-
-    jperelli@jperelli-awesome:~ $ ls -l /var | ./mayusculizar
-    TOTAL 3652
-    DRWXR-XR-X   2 ROOT     ROOT        4096 MAY  5 08:14 BACKUPS
-    DRWXR-XR-X  31 ROOT     ROOT        4096 FEB 12 22:27 CACHE
-    DRWXRWSRWT   2 ROOT     WHOOPSIE    4096 FEB 24 00:14 CRASH
-    DRWXR-XR-X   2 ROOT     ROOT        4096 DIC 12  2012 GAMES
-    DRWXR-XR-X 114 ROOT     ROOT        4096 MAR 25 09:12 LIB
-    DRWXRWSR-X   2 ROOT     STAFF       4096 OCT  9  2011 LOCAL
-    LRWXRWXRWX   1 ROOT     ROOT           9 FEB  4  2014 LOCK -> /RUN/LOCK
-    DRWXRWXR-X  32 ROOT     SYSLOG      4096 MAY  8 08:07 LOG
-    DRWXRWSR-X   2 ROOT     MAIL        4096 JUN  7  2013 MAIL
-    DRWXRWSRWT   2 ROOT     WHOOPSIE    4096 OCT 21  2012 METRICS
-    -RW-R--R--   1 ROOT     ROOT     3685369 MAR 27  2012 NULL
-    DRWXR-XR-X   2 ROOT     ROOT        4096 OCT 12  2011 OPT
-    LRWXRWXRWX   1 ROOT     ROOT           4 FEB  4  2014 RUN -> /RUN
-    DRWXR-XR-X  12 ROOT     ROOT        4096 ABR 21 12:35 SPOOL
-    DRWXRWXRWT   5 ROOT     ROOT        4096 MAY  8 23:21 TMP
-    DRWXR-XR-X   5 WWW-DATA WWW-DATA    4096 JUL  4  2014 WWW
+{% highlight terminal linenos %}
+jperelli@jperelli-awesome:~ $ ls -l /var | ./mayusculizar
+TOTAL 3652
+DRWXR-XR-X   2 ROOT     ROOT        4096 MAY  5 08:14 BACKUPS
+DRWXR-XR-X  31 ROOT     ROOT        4096 FEB 12 22:27 CACHE
+DRWXRWSRWT   2 ROOT     WHOOPSIE    4096 FEB 24 00:14 CRASH
+DRWXR-XR-X   2 ROOT     ROOT        4096 DIC 12  2012 GAMES
+DRWXR-XR-X 114 ROOT     ROOT        4096 MAR 25 09:12 LIB
+DRWXRWSR-X   2 ROOT     STAFF       4096 OCT  9  2011 LOCAL
+LRWXRWXRWX   1 ROOT     ROOT           9 FEB  4  2014 LOCK -> /RUN/LOCK
+DRWXRWXR-X  32 ROOT     SYSLOG      4096 MAY  8 08:07 LOG
+DRWXRWSR-X   2 ROOT     MAIL        4096 JUN  7  2013 MAIL
+DRWXRWSRWT   2 ROOT     WHOOPSIE    4096 OCT 21  2012 METRICS
+-RW-R--R--   1 ROOT     ROOT     3685369 MAR 27  2012 NULL
+DRWXR-XR-X   2 ROOT     ROOT        4096 OCT 12  2011 OPT
+LRWXRWXRWX   1 ROOT     ROOT           4 FEB  4  2014 RUN -> /RUN
+DRWXR-XR-X  12 ROOT     ROOT        4096 ABR 21 12:35 SPOOL
+DRWXRWXRWT   5 ROOT     ROOT        4096 MAY  8 23:21 TMP
+DRWXR-XR-X   5 WWW-DATA WWW-DATA    4096 JUL  4  2014 WWW
+jperelli@jperelli-awesome:~ $  
+{% endhighlight %}
 
 Este programa bastante simple, se puede utilizar para transformar cualquier comando en mayúsculas. Es una aplicación trivial, pero sirve para ejemplificar la potencia de lo que se puede realizar utilizando InstantFPC.
 

@@ -21,11 +21,12 @@ Los "hechos" son proposiciones que tienen un "valor de verdad" (true o false) ex
 
 Ejemplo de dos hechos y una regla
 
-```
-1. hermano(Juan, Pedro).
-2. hijo(Juancito, Juan).
-3. tio(X, Y) :- hermano(X, Z), hijo(Y, Z).
-```
+{% highlight prolog linenos %}
+hermano(Juan, Pedro).
+hijo(Juancito, Juan).
+tio(X, Y) :- hermano(X, Z), hijo(Y, Z).
+{% endhighlight %}
+
 
 Las primer línea define que `hermano(Juan, Pedro)` es `verdadero`. De ésto podemos entender que Juan es hermano de Pedro o que la relación `hermano` entre las "constantes" `Juan` y `Pedro` es y debe ser siempre `verdadero`.
 
@@ -42,11 +43,11 @@ De ésto se desprende que el carácter `:-` define una implicación de derecha a
 
 Las consultas pueden considerarse como análogas a la "invocación a un procedimiento" en el paradigma imperativo+procedural. Son las consultas las que inician la ejecución de un programa, pero en ellas no se define ninguna lógica de programación.
 
-```
-1. ?- tio(Pedro, Juancito)
-2. ?- tio(Pedro, X)
-3. ?- tio(Juancito, X)
-```
+{% highlight prolog linenos %}
+?- tio(Pedro, Juancito)
+?- tio(Pedro, X)
+?- tio(Juancito, X)
+{% endhighlight %}
 
 El símbolo `?-` marca el comienzo de una consulta sobre la base de reglas definidas previamente.
 
@@ -62,17 +63,17 @@ La estructura de un programa básico en Prolog para que pueda ejecutarse en ideo
 
 <div style="text-align:right"><a href="http://ideone.com/fW63DL">ver en ideone</a></div>
 
-```
-1. % clausulas
-2. hermano("juan", "pedro").
-3. hijo("juancito", "juan").
-4. tio(X, Y) :- hermano(Z, X), hijo(Y, Z).
-5.
-6. % consultas
-7. ?- tio("pedro", "juancito"), writeln('Pedro es tio de Juancito').
-8. ?- tio("pedro", A), write('Pedro es tio de '), writeln(A).
-9. ?- tio("juancito", B), write('Juancito es tio de '), writeln(B).
-```
+{% highlight prolog linenos %}
+% clausulas
+hermano("juan", "pedro").
+hijo("juancito", "juan").
+tio(X, Y) :- hermano(Z, X), hijo(Y, Z).
+
+% consultas
+?- tio("pedro", "juancito"), writeln('Pedro es tio de Juancito').
+?- tio("pedro", A), write('Pedro es tio de '), writeln(A).
+?- tio("juancito", B), write('Juancito es tio de '), writeln(B).
+{% endhighlight %}
 
 En ésta estructura de programa deben estar definidas primero las cláusulas (Hechos y Reglas), y luego pueden hacerse consultas sobre las cláusulas previamente definidas.
 
@@ -86,12 +87,12 @@ Para trabajar con listas en prolog, tomemos el problema de contar la cantidad de
 
 <div style="text-align:right"><a href="http://ideone.com/HSpo4r">ver en ideone</a></div>
 
-```
-1. longitud([], 0).
-2. longitud([X|Xs], N) :- longitud(Xs, N1), N is N1 + 1.
-3. 
-4. ?- longitud([2,4,6,8], X), write('longitud: '), writeln(X).
-```
+{% highlight prolog linenos %}
+longitud([], 0).
+longitud([X|Xs], N) :- longitud(Xs, N1), N is N1 + 1.
+
+?- longitud([2,4,6,8], X), write('longitud: '), writeln(X).
+{% endhighlight %}
 
 En la línea 1 se define lo que sería el caso base de una recursión. Para una lista que está vacía, la "longitud" es `0`. Eso es verdadero siempre.
 
@@ -105,22 +106,23 @@ En la línea 2 podemos ver una definición recursiva: la longitud de una lista s
 
 <div style="text-align:right"><a href="http://ideone.com/brKoTe">ver en ideone</a></div>
 
-```
-1. pares([], []).
-2. pares([X|Xs], L) :- X mod 2 =:= 0, pares(Xs, Laux), append([X], Laux, L).
-3. pares([X|Xs], L) :- X mod 2 =\= 0, pares(Xs, Laux), L = Laux.
-4.
-5. ?- pares([1,2,3,4], L), write(L).
-```
+{% highlight prolog linenos %}
+pares([], []).
+pares([X|Xs], L) :- X mod 2 =:= 0, pares(Xs, Laux), append([X], Laux, L).
+pares([X|Xs], L) :- X mod 2 =\= 0, pares(Xs, Laux), L = Laux.
+
+?- pares([1,2,3,4], L), write(L).
+{% endhighlight %}
 
 #### Eliminar un elemento de una lista
 
 <div style="text-align:right"><a href="http://ideone.com/8QXGKg">ver en ideone</a></div>
 
-```
+{% highlight prolog linenos %}
 eliminar([], E, []).
 eliminar([X|Xs], N, [X|Laux]) :- N =\= X, eliminar(Xs, N, Laux).
 eliminar([X|Xs], N, Laux) :- N =:= X, eliminar(Xs, N, Laux).
  
 ?- eliminar([2,4,6,8,4,5], 4, L), write(L).
-```
+{% endhighlight %}
+
