@@ -49,6 +49,8 @@ La mayor utilidad se puede ver en:
 
    * Algunas veterinarias suelen ser permisivas con respecto a los pagos cuando atienden un animal rescatado de la calle y ofecen pagos en cuotas. Suele suceder que no se logra recaudar la suma de dinero necesaria para el tratamiento y en ese caso la veterinaria no cobra lo que debería. Esto podría ser solucionado por la aplicación haciendo un seguimiento del caso, registrando donaciones hasta una meta, y manteniendo visibles los casos que aún no están resueltos.
 
+   * Madrinazgo: En este caso la aplicación puede ayudar haciendo recaudaciones periódicas automáticas o enviando notificaciones para recordar pagos periódicos.
+
 ## Concepto
 
 ### Fuente de información
