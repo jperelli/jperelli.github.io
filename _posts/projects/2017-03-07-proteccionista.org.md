@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to configure wifi on the Raspberry Pi 
+title: proteccionista.org 
 comments: true 
 category: project
 ---
