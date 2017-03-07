@@ -7,63 +7,65 @@ category: project
 
 ## Problema
 
-Hace tiempo que estamos notando la falta de control de animales domésticos en la ciudad de La Plata. Al mismo tiempo, hay mucha gente dispuesta a dar una ayuda a los animales que estan en problemas (perdidos, lastimados, hambrientos, en situación de calle). Estos voluntarios, denominados comunmente proteccionistas, lograron mantener una forma de organización dentro de grupos de facebook. Estos grupos suelen sumar entre 20 a 60 posts diarios pidiendo ayuda para resolver el problema que puede tener algun animal.
+Hace tiempo que estamos notando la falta de control respecto del extravío, el avistaje, la castración y el rescate de animales domésticos en la ciudad de La Plata. Al mismo tiempo, hay mucha gente dispuesta a dar una ayuda a los animales que estan en problemas (perdidos, lastimados, hambrientos, en situación de calle, etc). Estos voluntarios (denominados comunmente proteccionistas), lograron establecer una forma de organización mediante grupos de facebook, que suelen sumar entre 20 a 60 posts diarios pidiendo ayuda para resolver el problema que puede tener algún animal.
 
-El problema principal de los grupos de facebook es que los posts no pueden catalogarse, son simplemente foto y texto. Con respecto a la organización, los grupos terminan siendo un caos, en los cuales se complica mucho encontrar información dentro del mar de posts.
+El problema principal de los grupos de facebook es que los posts no pueden catalogarse, son simplemente foto y texto. Con respecto a la organización, los grupos terminan siendo un caos, en los cuales se complica mucho encontrar información dentro del mar de posts. Aparecen posts duplicados, con texto pero sin foto, con foto pero sin información, con información pero sin contacto, etc. A pesar de que en muchos grupos se establecen reglas para hacer un post (entre ellas usar tags o incluir determinados campos de información) los usuarios no leen las reglas, o las leen pero no las respetan. La falta de campos obligatorios a la hora de postear, permite que se puedan crear publicaciones incompletas, confusas e incluso engañosas.
+De esa manera se hace muy engorroso acceder a la información de forma ordenada. La falta de organización sumada a la gran cantidad de grupos creados con la misma finalidad pone en relieve la necesidad de organizar, catalogar y centralizar la información.
 
 Generalmente los problemas se pueden catalogar como:
 
  * **Posts de larga duración:** Requieren ser guardados un largo tiempo, y no se espera que la solución del post sea inmediata (puede solucionarse en dias, meses o años). Estos posts suelen perderse rápidamente en los grupos de facebook.
 
-   * **Animal perdido:** Se perdió un animal. Se necesitan fotos, la última ubicación donde fué visto y caracteristicas del animal como color de pelo, tamaño, edad, raza. Teniendo toda esa información bien catalogada, puede realizarse una búsqueda sobre "animales encontrados" periódicamente y de esta forma encontrar al animal perdido.
+   * **Animal perdido:** Se perdió un animal. Se necesitan fotos, la última ubicación donde fué visto y caracteristicas del animal como color de pelo, tamaño, edad, raza y contacto del dueño. Teniendo toda esa información bien catalogada, puede realizarse una búsqueda sobre "animales encontrados" periódicamente y de esta forma encontrar al animal perdido.
 
-   * **Animal encontrado:** Se encontró un animal en la calle que parece tener dueño (tiene collar, es dócil, come alimento para animales, etc). De estos animales se requiere tener información bien catalogada como ubicación, color de pelo, tamaño, edad, raza. Esta información puede cruzarse con la de "animales perdidos", para ayudar a encontrar el dueño de un animal
+   * **Animal encontrado:** Se encontró un animal en la calle que parece tener dueño (tiene collar, es dócil, come alimento para animales, etc). De éstos animales se requiere tener información bien catalogada como ubicación, color de pelo, tamaño, edad, raza y contacto de la persona que lo encontró. Esta información puede cruzarse con la de "animales perdidos" para ayudar a encontrar el dueño de un animal.
 
-   * **Adopción:** Se da un animal en adopción. Puede estar en esta situación por unos meses sin problema.
+   * **Adopción:** Se da un animal en adopción. En éste caso es de gran ayuda contar con fotografías del animal, y es indispensable tener el contacto de la persona que tiene al animal para contactarla. El animal puede estar en esta situación por unos meses sin problema.
 
-   * **Tránsito:** Se requiere que una persona cuide un animal por un tiempo determinado (algunos días). Posiblemente porque el animal está bajo tratamiento, o por alguna mudanza o problema familiar, las personas no pueden tener el animal durante un lapso de tiempo corto.
+ * **Posts de urgencias:** Necesitan ser resueltos rápidamente, ya que la vida de un animal suele depender de la resolución
 
- * **Posts de emergencias:** Necesitan ser resueltos rápidamente, ya que la vida de un animal suele depender de la resolución
+   * **Tránsito:** Se requiere que una persona cuide un animal por un tiempo determinado (algunos días, semanas e incluso meses) hasta su adopción, castración, etc. Por lo general suelen ser situaciones que requieren rápida resolución.
 
-   * **Operación urgente:** Por algún accidente, un animal requiere una intervención quirúrgica o internación.
+   * **Atención veterinaria:** Se necesita atención veterinaria de emergencia. Sucede en casos de animales que sufrieron accientes y requieren intervención quirúrgica o internación, o animales que fueron encontrados en estados de salud muy delicados.
 
  * **Otros:** Posts secundarios de pedidos de ayuda anexa a problemas principales
 
    * **Transporte:** Se requiere llevar animales de un lugar a otro, generalmente para terminar de resolver algún otro problema.
-   * **Colaboración Económica:** Suelen necesitarse para animales que estan en situación de calle y requieren intervención quirúrgica. Estos posts requieren un seguimiento adicional para hacer una recolección de dinero para pagar en la veterinaria con aportes de varias personas.
-   * **Donaciones:** Donación de comida, medicamentos, etc. Suelen necesitarse para animales que estan en situación de calle o requieren operación, pero la persona que se hace cargo, no llega a pagar todo lo necesario.
+   * **Colaboración Económica:** Suelen necesitarse para animales que estan en situación de calle y requieren intervención quirúrgica, internación o atención veterinaria. Estos posts requieren un seguimiento adicional para hacer una recolección de dinero para pagar en la veterinaria con aportes de varias personas.
+   * **Donaciones:** Donación de comida, medicamentos, etc. Suelen necesitarse para animales que estan en situación de calle o requieren atención veterinaria, pero la persona que se hace cargo no llega a pagar todo lo necesario.
+   * **Madrinazgo:** Son ayudas económicas periódicas que se requieren para animales que están siendo transitados, que están pensionados, o que se encuentran en familias que tienen una situación económica precaria.
 
 ### En qué ayuda una aplicación?
 
-La idea detrás de la aplicación es tomar toda esa colección de posts caóticos y organizarlos coherentemente, para facilitar la búsqueda de información y ayudar a resolver rápidamente los problemas comentados anteriormente.
+La idea detrás de la aplicación es tomar toda esa colección de posts caóticos y organizarlos coherentemente para facilitar la búsqueda de información y ayudar a resolver rápidamente los problemas comentados anteriormente.
 
-La mayor utilidad se puede ver en
+La mayor utilidad se puede ver en:
 
- * Animal encontrado + animal perdido: Con el sitio funcionando, los animales pueden buscarse por características que los definen y por ubicación, de esta forma, no se pierden en un mar de posts.
+ * Animal encontrado + animal perdido: Con el sitio funcionando, los animales pueden buscarse por características que los definen y por ubicación. De esta forma, no se pierden en un mar de posts.
 
  * Colaboración económica:
 
-   * Hay personas que muchas veces quieren colaborar, pero no pueden hacerlo por la complejidad de transferir dinero a un CBU, o si no tienen cuenta bancaria ni movilidad es difícil donar dinero. En este caso, una solución utilizando mercadopago o similar sería de gran ayuda para juntar dinero hasta llegar a una meta.
+   * Hay personas que muchas veces quieren colaborar, pero no pueden hacerlo por la complejidad de transferir dinero a un CBU, por falta de movilidad o por no contar con una cuenta bancaria. En este caso, una solución utilizando mercadopago o similar sería de gran ayuda para juntar dinero hasta llegar a una meta.
 
-   * Las veterinarias suelen ser permisivas con respecto a los pagos cuando atienden un animal rescatado de la calle, dejan que les paguen por el tratamiento necesario en cuotas o lo que se pueda juntar de dinero. Suele suceder que no se pueda llegar a la suma de dinero para el tratamiento y la veterinaria no cobra lo que debería. Esto podría ser solucionado por la aplicación haciendo un seguimiento del caso, registrando donaciones hasta una meta.
+   * Algunas veterinarias suelen ser permisivas con respecto a los pagos cuando atienden un animal rescatado de la calle y ofecen pagos en cuotas. Suele suceder que no se logra recaudar la suma de dinero necesaria para el tratamiento y en ese caso la veterinaria no cobra lo que debería. Esto podría ser solucionado por la aplicación haciendo un seguimiento del caso, registrando donaciones hasta una meta, y manteniendo visibles los casos que aún no están resueltos.
 
 ## Concepto
 
 ### Fuente de información
 
-La aplicación debería tomar datos desde los grupos de facebook donde se publican este tipo de problemas, inicialmente de forma semiautomática, luego podría ser utilizando técnicas de NLP + IA supervisada para catalogar casos y sacar características de animales del texto.
+La aplicación debería tomar datos desde los grupos de facebook donde se publican este tipo de problemas, inicialmente de forma semiautomática, y luego utilizando técnicas de NLP + IA supervisada para catalogar casos y sacar características de animales del texto.
 
 ### Crowd Sourcing
 
 Para lograr elevar la cantidad de contenido en la aplicación, deberían utilizarse técnicas comunes de crowd sourcing:
 
- * Video motivacional: Animación / GIF / merchandising para redes sociales.
+ * Video motivacional / Animación / GIF / merchandising para redes sociales.
 
- * Posts en revisión: Usuarios sin permisos podrían crear contenido desde posts que irían a revisión. Luego usuarios con permisos elevados aceptarían ese contenido o no, con lo cual aceleraría la creación de contenido en el sitio.
+ * Posts en revisión: Usuarios sin permisos podrían crear contenido a partir de posts sujetos a revisión. Así, los usuarios con permisos elevados revisarían el post para aprobar o rechazar ese contenido, acelerando la creación de contenido en el sitio.
 
- * Flagging: Para llamar la atención de admins de la app.
+ * Flagging: Se podría flaggear contenido para llamar la atención de admins de la app.
 
- * Gamificacion: ganar puntos por contribuír información útil al sitio (estilo waze). Tal vez regalar objetos de merchandising / alimento / juguetes para animales al llegar a determinada cantidad de puntos.
+ * Gamificacion: Se basaría en ganar puntos por contribuír información útil al sitio (estilo waze), estimulando la participación mediante premios como objetos de merchandising / alimento / juguetes para animales al llegar a determinada cantidad de puntos.
 
 ## Tecnología
 
