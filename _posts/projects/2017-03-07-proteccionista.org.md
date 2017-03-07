@@ -31,8 +31,11 @@ Generalmente los problemas se pueden catalogar como:
  * **Otros:** Posts secundarios de pedidos de ayuda anexa a problemas principales
 
    * **Transporte:** Se requiere llevar animales de un lugar a otro, generalmente para terminar de resolver algún otro problema.
+
    * **Colaboración Económica:** Suelen necesitarse para animales que estan en situación de calle y requieren intervención quirúrgica, internación o atención veterinaria. Estos posts requieren un seguimiento adicional para hacer una recolección de dinero para pagar en la veterinaria con aportes de varias personas.
+
    * **Donaciones:** Donación de comida, medicamentos, etc. Suelen necesitarse para animales que estan en situación de calle o requieren atención veterinaria, pero la persona que se hace cargo no llega a pagar todo lo necesario.
+
    * **Madrinazgo:** Son ayudas económicas periódicas que se requieren para animales que están siendo transitados, que están pensionados, o que se encuentran en familias que tienen una situación económica precaria.
 
 ### En qué ayuda una aplicación?
@@ -75,7 +78,7 @@ Aproveché para utilizar tecnología moderna (2016/2017)
 
 ### Backend
 
-https://github.com/jperelli/proteccionista.org
+[repo github proteccionista.org](https://github.com/jperelli/proteccionista.org)
 
  * API Nodejs + Expressjs
  * jwt auth
@@ -84,7 +87,7 @@ https://github.com/jperelli/proteccionista.org
 
 ### Frontend
 
-https://github.com/jperelli/proteccionista-app
+[repo github proteccionista-app](https://github.com/jperelli/proteccionista-app)
 
  * VueJS2 (ES6) + vuex
  * [quasar framework](http://quasar-framework.org/)
