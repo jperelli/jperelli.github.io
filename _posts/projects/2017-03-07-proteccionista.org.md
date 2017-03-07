@@ -75,15 +75,20 @@ Aproveché para utilizar tecnología moderna (2016/2017)
 
 https://github.com/jperelli/proteccionista.org
 
- * Nodejs + Expressjs
+ * API Nodejs + Expressjs
+ * jwt auth
  * Sequelize
- * Postgresql 9.6 + postgis
+ * Postgresql 9.6 + postgis 2.3
 
 ### Frontend
 
 https://github.com/jperelli/proteccionista-app
 
  * VueJS2 (ES6) + vuex
- * [quasar-framework.org](http://quasar-framework.org/)
+ * [quasar framework](http://quasar-framework.org/)
  * fb graph api
- * apache-cordova
+ * apache cordova
+
+### Prototipo publicado
+
+https://proteccionista.org/
