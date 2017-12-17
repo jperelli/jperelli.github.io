@@ -7,7 +7,7 @@ category: talk
 
 Easy introduction into docker, docker-compose and aws deployment of docker containers for data scientists.
 
-Source code for examples in the talk is available here https://github.com/celerative/galvanize-docker
+Source code for examples in the talk is available here [https://github.com/celerative/galvanize-docker](https://github.com/celerative/galvanize-docker)
 
 Galvanize - San Francisco - Data Science event organized by Celerative
 
