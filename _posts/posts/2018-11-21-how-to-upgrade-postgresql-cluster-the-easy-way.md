@@ -39,7 +39,7 @@ mkdir volume_dev_db_11
 mkdir upgradepg-10-11
 echo "FROM tianon/postgres-upgrade:10-to-11" > upgradepg-10-11/Dockerfile
 echo "RUN apt update && apt install postgresql-10-postgis-2.5 postgresql-11-postgis-2.5 -yy" >> upgradepg-10-11/Dockerfile
-docker build upgradepg-10-11 temp
+docker build --tag temp upgradepg-10-11
 ```
 here stop all docker-compose using the pg10 volume
 ```
