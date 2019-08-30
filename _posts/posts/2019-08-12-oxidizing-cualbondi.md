@@ -45,7 +45,7 @@ node
 
 For example in the next image, a relation would be all the data that is highlighted, composed by 4 ways (each segment in a different color) and 6 nodes, each one at the end of a line.
 
-![relation broken](./2019-08-12-oxidizing-cualbondi/relation-broken.png)
+![relation broken](/public/images/2019-08-12-oxidizing-cualbondi/relation-broken.png)
 
 
 This comes packaged in a file (I used the pbf format) all mixed up, so you can have the records inside a file coming like this scrumbled soup of characters
@@ -59,7 +59,7 @@ relation (id=1, tags={route: bus, name: bus1}, members=[{type: way, id: 5}, {typ
 ```
 
 Or even worse, that looks like this when trying to debug raw pbf format
-![relation broken](./2019-08-12-oxidizing-cualbondi/raw-pbf.png)
+![relation broken](/public/images/2019-08-12-oxidizing-cualbondi/raw-pbf.png)
 
 
 so, the public transport data comes as a "relation". The format that cualbondi needs if a public transport is something like:
@@ -191,7 +191,7 @@ fix_ways([[(lon, lat), ...], ...]) -> [(lon, lat), ...]
 ```
 
 Problem: the data comes from openstreetmap unordered and also broken with gaps like this
-![relation broken](./2019-08-12-oxidizing-cualbondi/relation-broken.png)
+![relation broken](/public/images/2019-08-12-oxidizing-cualbondi/relation-broken.png)
 so, here we have a the next information
 ```
 relation:
@@ -210,7 +210,7 @@ relation:
 ```
 
 The fix_ways() algorithm tries to convert that information into a smooth polyline with it's nodes ordered and without gaps like this
-![relation fixed](./2019-08-12-oxidizing-cualbondi/relation-fixed.png)
+![relation fixed](/public/images/2019-08-12-oxidizing-cualbondi/relation-fixed.png)
 and we transform it to the next information
 ```
 polyline: [
@@ -921,10 +921,10 @@ pyo3-pack publish
 So in overall it got around 10x of performance improvement. I'll let you some measures I made:
 
 rust vs python, same algorithm
-![relation broken](./2019-08-12-oxidizing-cualbondi/rs-py.png)
+![relation broken](/public/images/2019-08-12-oxidizing-cualbondi/rs-py.png)
 
 only rust vs python using pyo3/rust package
-![relation broken](./2019-08-12-oxidizing-cualbondi/rs-pyo3.png)
+![relation broken](/public/images/2019-08-12-oxidizing-cualbondi/rs-pyo3.png)
 
 I have no idea why the python/pyo3 version seems to be faster than the only rust executable version, it seems odd. But then, it's not a great benchmark, I only tested it a couple of times and chose a result that seemed stable between multiple runs.
 
