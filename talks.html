@@ -1,0 +1,17 @@
+---
+layout: page
+title: Talks
+---
+
+<div class="archive">
+  {% for post in site.categories.talk %}
+    <div class="item">
+      <a href="{{ post.url }}">
+        <span class="date">
+          {{ post.date | date_to_string }}
+        </span>
+        <span>{{ post.title }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>

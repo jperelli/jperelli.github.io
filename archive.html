@@ -1,0 +1,17 @@
+---
+layout: page
+title: Posts
+---
+
+<div class="archive">
+  {% for post in site.categories.post %}
+    <div class="item">
+      <a href="{{ post.url }}">
+        <span class="date">
+          {{ post.date | date_to_string }}
+        </span>
+        <span>{{ post.title }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>

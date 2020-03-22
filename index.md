@@ -5,13 +5,7 @@ title: Home
 
 I am an Information System's Engineer graduated from National Technological University, La Plata, Argentina.
 
-I currently work as IT consultant, mainly in the areas of
-
- - Systems architecture design
- - Database architecture design
- - Programming
- - Migration and implantation
- - Infraestructure redesign
+I currently work as CTO of [celerative](https://www.celerative.com/)
 
 I am co-creator of [cualbondi.com.ar](https://cualbondi.com.ar/), some other projects I made are [listed here](/projects).
 
