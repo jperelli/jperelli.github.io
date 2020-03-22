@@ -20,7 +20,7 @@ We are using custom postgres+postgis image, but it's really simple, it's based o
 
 So step 1 is installing the new postgis version and step 2 is upgrading:
 
-```
+```bash
 jperelli@coffee~/cualbondi $ docker-compose up db -d
 jperelli@coffee~/cualbondi $ docker-compose exec db bash
 root@bc406779da75:/# apt update && apt install postgresql-10-postgis-2.5
@@ -34,7 +34,7 @@ Done.
 
 I'll use a docker image that helps in the process of upgrading a postgresql data cluster
 
-```
+```bash
 mkdir volume_dev_db_11
 mkdir upgradepg-10-11
 echo "FROM tianon/postgres-upgrade:10-to-11" > upgradepg-10-11/Dockerfile
@@ -42,7 +42,8 @@ echo "RUN apt update && apt install postgresql-10-postgis-2.5 postgresql-11-post
 docker build --tag temp upgradepg-10-11
 ```
 here stop all docker-compose using the pg10 volume
-```
+
+```bash
 docker run -v $(pwd)/volume_dev_db:/var/lib/postgresql/10/data -v $(pwd)/volume_dev_db_11:/var/lib/postgresql/11/data temp pg_upgrade
 sudo cp volume_dev_db/pg_hba.conf volume_dev_db_11/pg_hba.conf
 ```

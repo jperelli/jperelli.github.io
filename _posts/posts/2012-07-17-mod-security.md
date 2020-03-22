@@ -52,25 +52,35 @@ Los clientes y posibles atacantes deben pasar a través de mod_security para lle
 ### Proxy reverso apache
 El Proxy es un servidor Debian GNU/Linux 6.0. El mismo tiene en sus repositorios un paquete precompilado de mod_security cuyas versiones pueden verse aquí http://qa.debian.org/developer.php?login=agi@inittab.org
 
-    apt-get install libapache-mod-security
+```bash
+apt-get install libapache-mod-security
+```
 
 descargar reglas de owasp
 
-    wget
+```bash
+wget
+```
 
 instalar reglas
 
-    cp /reglas/* /etc/apache2/
-    ln –s /reglas/ /reglas-enabled/
+```bash
+cp /reglas/* /etc/apache2/
+ln –s /reglas/ /reglas-enabled/
+```
 
 configurar apache
 
-    a2enmod security #ya lo hace apt-conf
-    vi/nano crs_10
-    apache2ctl graceful
+```bash
+a2enmod security #ya lo hace apt-conf
+vi/nano crs_10
+apache2ctl graceful
+```
 
 ### Información adicional
 
 Comando para ver los ataques bloqueados
 
-    tail -f /var/log/apache2/*/mod_security_audit.log | grep --color -e "Exceeded\|correlation\|blocking\|HTTP/\|Z--"
+```bash
+tail -f /var/log/apache2/*/mod_security_audit.log | grep --color -e "Exceeded\|correlation\|blocking\|HTTP/\|Z--"
+```

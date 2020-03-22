@@ -7,7 +7,7 @@ category: post
 
 Custom command to delete all tables in a postgresql database in django, and then run all migrations. This leaves the database in a clean state.
 
-```
+```python
 """Delete all data in database management commands."""
 from django.core.management import call_command
 from django.core.management.base import BaseCommand

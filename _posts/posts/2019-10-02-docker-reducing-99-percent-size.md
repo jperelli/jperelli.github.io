@@ -7,7 +7,7 @@ category: post
 
 This applies if you have chown line like this
 
-```
+```dockerfile
 ...
 COPY . /app
 RUN chown -R django:django /app
@@ -17,7 +17,7 @@ RUN chown -R django:django /app
 When building, this always created a layer of like 250mb, then another of 250mb more (for the chown diff).
 If that is changed to only this command
 
-```
+```dockerfile
 ...
 COPY --chown=django:django . /app
 ...

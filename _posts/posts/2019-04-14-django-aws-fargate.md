@@ -11,7 +11,7 @@ This uses the following pypi modules:
  - [django-environ](https://github.com/joke2k/django-environ)
  - [requests](https://pypi.org/project/requests2/) (comes with [Django](https://pypi.org/project/Django/))
 
-```
+```python
 ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=[
     'localhost',
     'example.com',

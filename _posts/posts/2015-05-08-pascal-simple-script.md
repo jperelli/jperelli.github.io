@@ -15,24 +15,25 @@ Me puse manos a la obra y en un ratito armé un script en Pascal para leer la en
 
 {% highlight pascal linenos %}
 #!/usr/bin/env instantfpc
- 
+
 uses
   sysutils;
- 
+
 var
   entrada: String;
- 
+
 begin
- 
+
   repeat
     readln(entrada);
     writeln(uppercase(entrada));
   until eoln;
- 
+
 end.
 {% endhighlight %}
 
 Después le di permiso de ejecución con `chmod +x mayusculizar` y lo probé de la siguiente manera:
+
 {% highlight terminal linenos %}
 jperelli@jperelli-awesome:~ $ ls -l /var | ./mayusculizar
 TOTAL 3652
@@ -52,7 +53,7 @@ LRWXRWXRWX   1 ROOT     ROOT           4 FEB  4  2014 RUN -> /RUN
 DRWXR-XR-X  12 ROOT     ROOT        4096 ABR 21 12:35 SPOOL
 DRWXRWXRWT   5 ROOT     ROOT        4096 MAY  8 23:21 TMP
 DRWXR-XR-X   5 WWW-DATA WWW-DATA    4096 JUL  4  2014 WWW
-jperelli@jperelli-awesome:~ $  
+jperelli@jperelli-awesome:~ $
 {% endhighlight %}
 
 Este programa bastante simple, se puede utilizar para transformar cualquier comando en mayúsculas. Es una aplicación trivial, pero sirve para ejemplificar la potencia de lo que se puede realizar utilizando InstantFPC.

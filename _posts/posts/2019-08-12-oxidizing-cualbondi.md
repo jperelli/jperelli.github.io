@@ -212,7 +212,7 @@ relation:
 The fix_ways() algorithm tries to convert that information into a smooth polyline with it's nodes ordered and without gaps like this
 ![relation fixed](/public/images/2019-08-12-oxidizing-cualbondi/relation-fixed.png)
 and we transform it to the next information
-```
+```js
 polyline: [
     {lat: X, lng: Y},
     {lat: X, lng: Y},

@@ -6,13 +6,15 @@ category: post
 ---
 
 I'm having troubles with installing a newer ionic version using npm
-```
+
+```bash
 jperelli@coffee~ $ ionic -v
 3.20.0
 ```
 
 and if I install a newer version I keep getting the old one
-```
+
+```bash
 jperelli@coffee~ $ which ionic
 /usr/bin/ionic
 ```
@@ -20,14 +22,16 @@ jperelli@coffee~ $ which ionic
 It seems like npm installed an old version in `/usr/bin/ionic` and the new version is being installed in `/usr/local/bin/ionic`
 
 If I try to see which packages are installed globally, I see no ionic
-```
+
+```bash
 jperelli@coffee~ $ npm -g ls --depth=0
 /usr/local/lib
 └── npm@6.4.1
 ```
 
 The problem is that I have two different node_modules in the global path
-```
+
+```bash
 jperelli@coffee~ $ ls /usr/local/lib/node_modules/
 npm
 jperelli@coffee~ $ ls /usr/lib/node_modules/
@@ -39,18 +43,21 @@ graphql-cli       jq           prisma                        yarn
 ```
 
 This is controlled by npm `prefix`, it seems I changed it some time ago
-```
+
+```bash
 jperelli@coffee~ $ npm prefix -g
 /usr/local
 ```
 
 And can be set to the other path so that npm uses it, then I can control what's installed there
-```
+
+```bash
 jperelli@coffee~ $ sudo npm config set prefix /usr
 ```
 
 now I can see all things installed there and can uninstall those old packages accordingly
-```
+
+```bash
 jperelli@coffee~ $ npm -g ls --depth=0
 /usr/lib
 ├── @vue/cli@3.0.1
@@ -68,7 +75,7 @@ jperelli@coffee~ $ npm -g ls --depth=0
 ├── leaflet-editablecirclemarker@1.0.4 -> /home/jperelli/leaflet-editableCircleMarker
 ├── n@2.1.12
 ├── node-gyp@3.7.0
-├──  error: ENOENT: no such file or directory, open '/usr/lib/node_modules/npm/package.json
+├──  error: ENOENT: no such file or directory, open '/usr/lib/node_modules/npm/package.json'
 ├── prisma@1.9.0
 ├── rimraf@2.6.2
 ├── vue2-leaflet-editablecirclemarker@1.0.5 -> /home/jperelli/vue2-leaflet-editablecirclemarker

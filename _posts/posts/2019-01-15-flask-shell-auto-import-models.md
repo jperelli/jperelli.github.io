@@ -9,7 +9,7 @@ I'm working in a project made in flask and I was trying to achieve the same func
 
 Although is not exactly the same, I'm pretty happy with the results, now I can drop `flask shell` in the terminal and I get all the models autoloaded and I'm ready to roll thanks to the following small snippet.
 
-```
+```python
 import importlib
 
 ...

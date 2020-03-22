@@ -9,7 +9,7 @@ I wanted to build an [openstreetmap](https://www.openstreetmap.org/) tile cache 
 
 I have an [nginx server](https://www.nginx.com) with the following configuration in `nginx.conf`
 
-```
+```nginx
 proxy_cache_path  /tmp/cache levels=1:2 keys_zone=openstreetmap-backend-cache:8$
 proxy_temp_path   /tmp/cache/tmp;
 
@@ -24,7 +24,7 @@ Note that the directory `/tmp/cache` must exist and be writable by the nginx pro
 
 And the following configuration in the server block
 
-```
+```nginx
 location /osm_proxy/ {
   proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
   proxy_set_header X_FORWARDED_PROTO http;
@@ -43,6 +43,6 @@ location /osm_proxy/ {
 
 To use this server from leaflet, I configure leaflet tile layer [like this](https://github.com/cualbondi/old-mobile/blob/d4cc9cd27723c87dd68ac4ee38cf87ca938a14d6/www/js/app.ctrl.js#L88)
 
-```
+```javascript
 L.tileLayer('https://my.tile-cache-server.com/osm_proxy/{z}/{x}/{y}.png')
 ```
