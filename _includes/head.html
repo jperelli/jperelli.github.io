@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="google-site-verification" content="pa3_gf9-PdSRWuuF6hnPpHsuHqkbh6ml246fqRnctFk" />
 
+  {% if page.image %}
+    <meta property="og:image" content="{{ page.image }}" />
+  {% endif %}
+
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
