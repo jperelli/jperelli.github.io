@@ -13,7 +13,6 @@
  * https://github.com/poole/poole.
  */
 
-
 /*
  * Contents
  *
@@ -28,7 +27,6 @@
  * Themes
  */
 
-
 /*
  * Body resets
  *
@@ -37,8 +35,8 @@
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -56,13 +54,27 @@ html {
 body {
   color: #515151;
   background-color: #e5e5e5;
-  background:
-    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.03) 21%, rgba(255,255,255,.03) 34%, transparent 35%, transparent),
-    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.03) 21%, rgba(255,255,255,.03) 34%, transparent 35%, transparent) 0 -50px;
+  background: radial-gradient(
+      circle at 100% 50%,
+      transparent 20%,
+      rgba(255, 255, 255, 0.03) 21%,
+      rgba(255, 255, 255, 0.03) 34%,
+      transparent 35%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 0% 50%,
+        transparent 20%,
+        rgba(255, 255, 255, 0.03) 21%,
+        rgba(255, 255, 255, 0.03) 34%,
+        transparent 35%,
+        transparent
+      )
+      0 -50px;
   background-color: rgb(112, 128, 144, 0.8);
-  background-size:75px 100px;
+  background-size: 75px 100px;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -77,8 +89,13 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
@@ -95,7 +112,9 @@ h3 {
   margin-top: 2rem;
   font-size: 1.25rem;
 }
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   margin-top: 1.5rem;
   font-size: 1rem;
 }
@@ -110,9 +129,10 @@ strong {
   color: #303030;
 }
 
-
 /* Lists */
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -121,7 +141,7 @@ dt {
   font-weight: bold;
 }
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Misc */
@@ -150,7 +170,7 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   font-size: 85%;
   color: #bf616a;
   background-color: #f9f9f9;
@@ -161,7 +181,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
@@ -188,10 +208,10 @@ pre code {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: 0.25rem solid #e5e5e5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -219,14 +239,13 @@ table {
 }
 td,
 th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
-
 
 /*
  * Custom type
@@ -238,7 +257,6 @@ tbody tr:nth-child(odd) th {
   font-size: 1.25rem;
   font-weight: 300;
 }
-
 
 /*
  * Messages
@@ -254,7 +272,6 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-
 /*
  * Container
  *
@@ -263,9 +280,9 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 42rem;
-  padding-left:  2rem;
+  padding-left: 2rem;
   padding-right: 2rem;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -274,7 +291,6 @@ tbody tr:nth-child(odd) th {
   box-shadow: 0 0 10px 1px #ccc;
 }
 
-
 /*
  * Masthead
  *
@@ -282,10 +298,10 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    1rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid #999
+  border-bottom: 1px solid #999;
 }
 .masthead-title {
   margin-top: 0;
@@ -301,7 +317,6 @@ tbody tr:nth-child(odd) th {
   font-weight: 400;
   color: #c0c0c0;
 }
-
 
 /*
  * Posts and pages
@@ -329,7 +344,7 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-size: 0.8rem;
@@ -341,8 +356,9 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
-.related > h2, .related a {
-  font-size: 1rem
+.related > h2,
+.related a {
+  font-size: 1rem;
 }
 .related-posts {
   padding-left: 0;
@@ -350,7 +366,6 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts h3 {
   margin: 0;
-
 }
 .related-posts li small {
   font-size: 75%;
@@ -364,7 +379,6 @@ tbody tr:nth-child(odd) th {
 .related-posts li a:hover small {
   color: inherit;
 }
-
 
 /*
  * Pagination
@@ -407,12 +421,12 @@ a.pagination-item:hover {
   }
   .pagination-item:first-child {
     margin-bottom: 0;
-    border-top-left-radius:    4px;
+    border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   .pagination-item:last-child {
     margin-left: -1px;
-    border-top-right-radius:    4px;
+    border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
   }
 }
@@ -428,17 +442,17 @@ a.pagination-item:hover {
 }
 .archive .date {
   font-size: 0.8rem;
-  display:block;
+  display: block;
   color: #888;
 }
 
 code.highlighter-rouge {
   font-size: 75%;
   background-color: #f0f0e9e7;
-  border: 1px solid rgba(0,0,0,0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   color: #515151;
-  padding: .20em .3em .10em .3em;
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.05);
+  padding: 0.2em 0.3em 0.1em 0.3em;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
   /* background-color: #393c2e; */
   /* color: #dedede; */
 }
@@ -448,4 +462,40 @@ a:hover {
   background-color: #def;
   box-shadow: 0 1px 0 0px #268bd2, 0px 0px 1px 5px #def;
   box-sizing: border-box;
+}
+
+.hero-image {
+  height: 200px;
+  position: absolute;
+  left: -32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: -32px;
+}
+
+.hero-image + .page-title {
+  position: relative;
+  margin: -26px -32px 25px;
+  padding: 32px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-image + .page-title > h1 {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.98), 0px 0px 6px rgba(0, 0, 0, 0.98),
+    0px 0px 6px rgba(0, 0, 0, 0.98), 0px 0px 6px rgba(0, 0, 0, 0.98),
+    0px 0px 30px rgba(0, 0, 0, 0.99), 0px 0px 30px rgba(0, 0, 0, 0.99),
+    0px 0px 30px rgba(0, 0, 0, 0.99);
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.page,
+.post {
+  position: relative;
 }

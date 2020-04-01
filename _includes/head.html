@@ -9,33 +9,35 @@
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.title %}
     <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ page.title }}">
+    {% if page.description %}
+      <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+      <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 100 }}">
+    {% endif %}
+    {% if page.image %}
+      <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+    {% endif %}
+    {% if page.categories %}
+      {% for category in page.categories limit:1 %}
+      <meta content="{{ category }}" property="article:section">
+      {% endfor %}
+    {% endif %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}
+    {% endif %}
+    {% if page.url %}
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.date %}
+      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    {% endif %}
   {% else %}
     <meta property="og:type" content="website" />
-  {% endif %}
-  {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}">
-  {% else %}
-    <meta property="og:title" content="{{ site.title }} - {{ site.tagline }}">
-  {% endif %}
-
-  {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
-  {% endif %}
-  {% if page.categories %}
-    {% for category in page.categories limit:1 %}
-    <meta content="{{ category }}" property="article:section">
-    {% endfor %}
-  {% endif %}
-  {% if page.tags %}
-    {% for tag in page.tags %}
-    <meta content="{{ tag }}" property="article:tag">
-    {% endfor %}
-  {% endif %}
-  {% if page.url %}
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-  {% endif %}
-  {% if page.date %}
-    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.tagline }}">
   {% endif %}
 
   <title>
