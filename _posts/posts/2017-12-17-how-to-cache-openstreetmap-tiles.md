@@ -29,6 +29,8 @@ location /osm_proxy/ {
   proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
   proxy_set_header X_FORWARDED_PROTO http;
   proxy_set_header Host $http_host;
+  proxy_set_header Host "tile.openstreetmap.org";
+  proxy_set_header User-Agent "my-proxy.example.com/0.01";
   proxy_cache openstreetmap-backend-cache;
   proxy_cache_valid  200 302  365d;
   proxy_cache_valid  404      1m;
