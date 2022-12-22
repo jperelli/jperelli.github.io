@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-I am an Information System's Engineer graduated from National Technological University, La Plata, Argentina.
+I am an Information System's Engineer graduated from National Technological University, La Plata, Argentina. Working remotely, currently located in Castelldefels, Spain.
 
-I currently work as CTO of [celerative](https://www.celerative.com/)
+I work as CTO of [goAlto](https://goalto.io/)
 
 I am co-creator of [cualbondi.com.ar](https://cualbondi.com.ar/), some other projects I made are [listed here](/projects).
 
@@ -18,12 +18,9 @@ Or directly in [telegram](https://t.me/jperelli_ok)
 Contributions to open source in github
 
 <a href="https://github.com/jperelli">
-    <img src="https://ghchart.rshah.org/jperelli" alt="jperelli's Github chart" title="jperelli's Github chart" />
+    <img src="https://ghchart.rshah.org/568bd2/jperelli" alt="jperelli's Github chart" title="jperelli's Github chart" />
 </a>
 
-Coding stats in [sourcerer](https://sourcerer.io/jperelli)
-
-Contributions in Q&A @stackoverflow
-
-<div id="so-card-widget" data-userid="912450" data-theme="default"></div>
-<script type="text/javascript" src="//mudassir0909.github.io/stackoverflow-card/dist/1.0.0/so-card-widget.min.js"></script>
+<div style="width:100%;display:flex;justify-content:center">
+    <img height="137px" src="https://stackoverflow-card.vercel.app/?userID=912450&showAnimations=false" />
+</div>

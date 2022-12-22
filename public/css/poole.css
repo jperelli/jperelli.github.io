@@ -46,14 +46,14 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.4;
 }
 
 body {
   color: #515151;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5;
   background: radial-gradient(
       circle at 100% 50%,
       transparent 20%,
@@ -72,7 +72,7 @@ body {
       )
       0 -50px;
   background-color: rgb(112, 128, 144, 0.8);
-  background-size: 75px 100px;
+  background-size: 75px 100px; */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -167,7 +167,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Fira Code", Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: 0.25em 0.5em;
@@ -287,8 +287,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .container.content {
-  background-color: #fdfdfd;
-  box-shadow: 0 0 10px 1px #ccc;
+  background-color: #fff;
+  /* box-shadow: 0 0 10px 1px #ccc; */
 }
 
 /*
@@ -391,7 +391,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
   color: #ccc;
   text-align: center;
 }
