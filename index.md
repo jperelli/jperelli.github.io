@@ -5,7 +5,7 @@ title: Home
 
 I am an Information System's Engineer graduated from National Technological University, La Plata, Argentina. Working remotely, currently located in Castelldefels, Spain.
 
-I work as CTO of [goAlto](https://goalto.io/)
+I work as Principal Software Developer at [betonline](https://betonline.ag/)
 
 I am co-creator of [cualbondi.com.ar](https://cualbondi.com.ar/), some other projects I made are [listed here](/projects).
 
