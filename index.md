@@ -7,7 +7,7 @@ I am an Information System's Engineer graduated from National Technological Univ
 
 I work as Principal Software Developer at [betonline](https://betonline.ag/)
 
-I am co-creator of [cualbondi.com.ar](https://cualbondi.com.ar/), some other projects I made are [listed here](/projects).
+I am co-creator of [cualbondi.com](https://cualbondi.com/), some other projects I made are [listed here](/projects).
 
 You can [read my blog here](/archive) (mostly programming), and [see my talks here](/talks).
 
