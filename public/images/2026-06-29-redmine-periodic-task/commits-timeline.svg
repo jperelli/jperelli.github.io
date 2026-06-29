@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="0" y="0" width="720" height="320" fill="#ffffff"/>
+<text x="44" y="24" font-size="15" font-weight="600" fill="#2d3436">Commits per year</text>
+<rect x="44" y="31" width="11" height="11" rx="2" fill="#b0bec5"/>
+<text x="60" y="40" font-size="11" fill="#636e72">maintenance</text>
+<rect x="146.0" y="31" width="11" height="11" rx="2" fill="#3d6fd6"/>
+<text x="162.0" y="40" font-size="11" fill="#636e72">2026 · fixing years-old issues</text>
+<rect x="362.0" y="31" width="11" height="11" rx="2" fill="#f0932b"/>
+<text x="378.0" y="40" font-size="11" fill="#636e72">2026 · polish</text>
+<line x1="44" y1="274.0" x2="704" y2="274.0" stroke="#dfe6e9" stroke-width="1"/>
+<rect x="51.8" y="242.9" width="25.6" height="31.1" rx="2" fill="#b0bec5"/>
+<text x="64.6" y="238.9" font-size="9" fill="#95a5a6" text-anchor="middle">6</text>
+<text x="64.6" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2011</text>
+<rect x="93.1" y="263.6" width="25.6" height="10.4" rx="2" fill="#b0bec5"/>
+<text x="105.9" y="259.6" font-size="9" fill="#95a5a6" text-anchor="middle">2</text>
+<text x="105.9" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2012</text>
+<rect x="134.3" y="165.0" width="25.6" height="109.0" rx="2" fill="#b0bec5"/>
+<text x="147.1" y="161.0" font-size="9" fill="#95a5a6" text-anchor="middle">21</text>
+<text x="147.1" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2013</text>
+<rect x="175.6" y="237.7" width="25.6" height="36.3" rx="2" fill="#b0bec5"/>
+<text x="188.4" y="233.7" font-size="9" fill="#95a5a6" text-anchor="middle">7</text>
+<text x="188.4" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2014</text>
+<rect x="216.8" y="71.6" width="25.6" height="202.4" rx="2" fill="#b0bec5"/>
+<text x="229.6" y="67.6" font-size="9" fill="#95a5a6" text-anchor="middle">39</text>
+<text x="229.6" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2015</text>
+<rect x="258.1" y="232.5" width="25.6" height="41.5" rx="2" fill="#b0bec5"/>
+<text x="270.9" y="228.5" font-size="9" fill="#95a5a6" text-anchor="middle">8</text>
+<text x="270.9" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2016</text>
+<rect x="299.3" y="128.7" width="25.6" height="145.3" rx="2" fill="#b0bec5"/>
+<text x="312.1" y="124.7" font-size="9" fill="#95a5a6" text-anchor="middle">28</text>
+<text x="312.1" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2017</text>
+<rect x="340.6" y="191.0" width="25.6" height="83.0" rx="2" fill="#b0bec5"/>
+<text x="353.4" y="187.0" font-size="9" fill="#95a5a6" text-anchor="middle">16</text>
+<text x="353.4" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2018</text>
+<rect x="381.8" y="159.8" width="25.6" height="114.2" rx="2" fill="#b0bec5"/>
+<text x="394.6" y="155.8" font-size="9" fill="#95a5a6" text-anchor="middle">22</text>
+<text x="394.6" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2019</text>
+<rect x="423.1" y="263.6" width="25.6" height="10.4" rx="2" fill="#b0bec5"/>
+<text x="435.9" y="259.6" font-size="9" fill="#95a5a6" text-anchor="middle">2</text>
+<text x="435.9" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2020</text>
+<text x="477.1" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2021</text>
+<text x="518.4" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2022</text>
+<text x="559.6" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2023</text>
+<rect x="588.1" y="268.8" width="25.6" height="5.2" rx="2" fill="#b0bec5"/>
+<text x="600.9" y="264.8" font-size="9" fill="#95a5a6" text-anchor="middle">1</text>
+<text x="600.9" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2024</text>
+<rect x="629.3" y="268.8" width="25.6" height="5.2" rx="2" fill="#b0bec5"/>
+<text x="642.1" y="264.8" font-size="9" fill="#95a5a6" text-anchor="middle">1</text>
+<text x="642.1" y="290.0" font-size="9" fill="#95a5a6" text-anchor="middle">2025</text>
+<text x="518.4" y="268.0" font-size="9" fill="#b2bec3" text-anchor="middle" font-style="italic">dormant</text>
+<rect x="670.6" y="170.2" width="25.6" height="103.8" rx="2" fill="#3d6fd6"/>
+<text x="683.4" y="225.1" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">20</text>
+<rect x="670.6" y="56.0" width="25.6" height="114.2" rx="2" fill="#f0932b"/>
+<text x="683.4" y="116.1" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">22</text>
+<text x="683.4" y="290.0" font-size="9" fill="#2d3436" text-anchor="middle" font-weight="600">2026</text>
+<text x="683.4" y="51.0" font-size="9" fill="#636e72" text-anchor="middle">42</text>
+</svg>
