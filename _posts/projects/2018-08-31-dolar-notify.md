@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dolar Notify
+description: A bot that alerts people in Argentina the moment the ARS/USD exchange rate moves.
 comments: true
 category: project
 image: /public/images/2018-08-31-dolar-notify/main.png

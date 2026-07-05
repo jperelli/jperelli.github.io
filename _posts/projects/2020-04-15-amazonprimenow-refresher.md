@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Amazon Prime Now - Refresher
+description: A tool that automatically watches for free Amazon Prime Now delivery slots.
 comments: true
 category: project
 image: /public/images/2020-04-15-amazonprimenow-refresher/main.png

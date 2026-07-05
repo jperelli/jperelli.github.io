@@ -6,28 +6,53 @@
 
   <body>
 
-    <div class="container content">
-      <div class="masthead">
-        <h3 class="masthead-title">
-          <a href="/" title="Home">{{ site.title }}</a>
-
+    <header class="site-header">
+      <div class="container">
+        <a class="site-name" href="/" title="Home">{{ site.title }}</a>
+        <nav class="site-nav">
           {% for page in site.pages_list %}
-              &nbsp;&nbsp;&nbsp;<small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+            <a href="{{ page[1] }}">{{ page[0] }}</a>
           {% endfor %}
-
-        </h3>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" onclick="toggleTheme()">
+            <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+          </button>
+        </nav>
       </div>
+    </header>
 
-      {{ content }}
+    <main class="content">
+      <div class="container">
+        {{ content }}
 
-      {% include comments.html %}
-
-      <div class="footer">
-        <!--p>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p-->
+        {% include comments.html %}
       </div>
-    </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+        <span class="footer-links">
+          <a href="https://github.com/jperelli">GitHub</a>
+          <a href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
+          <a href="https://stackoverflow.com/users/912450/jperelli">Stack Overflow</a>
+          <a href="/atom.xml">RSS</a>
+        </span>
+      </div>
+    </footer>
+
+    <script>
+      function toggleTheme() {
+        var root = document.documentElement;
+        var dark = root.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          root.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+        } else {
+          root.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        }
+      }
+    </script>
 
   </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Redmine Periodic Task
+description: A Redmine plugin that creates issues automatically on a recurring schedule, maintained since 2011.
 comments: true
 category: project
 image: /public/images/2026-06-29-redmine-periodic-task/main.png

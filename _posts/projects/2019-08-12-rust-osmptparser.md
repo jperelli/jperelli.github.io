@@ -1,6 +1,7 @@
 ---
 layout: page
 title: osmptparser
+description: A fast Rust library that parses and auto-fixes public-transport data from OpenStreetMap.
 comments: true
 category: project
 image: /public/images/2019-08-12-oxidizing-cualbondi/relation-broken.png

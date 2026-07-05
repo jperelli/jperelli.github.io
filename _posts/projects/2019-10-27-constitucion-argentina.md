@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Constitucion Argentina en git
+description: The Argentine Constitution tracked in git, so every reform can be diffed and analyzed objectively.
 comments: true
 category: project
 image: /public/images/2019-10-27-constitucion-argentina/main.jpg

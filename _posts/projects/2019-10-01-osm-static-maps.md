@@ -1,6 +1,7 @@
 ---
 layout: page
 title: osm-static-maps
+description: Generate static images from dynamic maps, Node.js library, CLI and server. An open-source alternative to Google Static Maps.
 comments: true
 category: project
 image: /public/images/2019-10-01-osm-static-maps/main.jpg
@@ -11,10 +12,10 @@ This is a tool made to create static images from dynamic maps. It has multiple i
 ## Design
 
 The project started in 2013 as a simple express server that created a webpage with a leaflet map and send it to webshot (phantomjs) to take a screenshot of the map webpage. Then the express server returned that image.
-![flow 1](/public/images/2019-10-01-osm-static-maps/flow-1.jpg)
+![flow 1](/public/images/2019-10-01-osm-static-maps/flow-1.svg)
 
 Then in 2019 evolved by converting it to a library. This made it possible to create different interfaces around the same library: a CLI and a server. Also enables it to be used as a dependency for other packages, so I published it in npm. A few years have passed so phantomjs was replaced by puppeteer.
-![flow 2](/public/images/2019-10-01-osm-static-maps/flow-2.jpg)
+![flow 2](/public/images/2019-10-01-osm-static-maps/flow-2.svg)
 
 Also the interfaces are being shipped in the npm package when installing it with `sudo npm i -g osm-static-maps`
 

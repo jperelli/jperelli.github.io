@@ -1,6 +1,7 @@
 ---
 layout: page
 title: proteccionista.org 
+description: A platform to catalog and centralize lost, found and adoptable pets, replacing the chaos of scattered Facebook groups.
 comments: true 
 category: project
 ---

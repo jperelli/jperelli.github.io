@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" font-family="Inter, -apple-system, Segoe UI, sans-serif">
+  <style>
+    .box   { fill:#ffffff; stroke:#24292f; stroke-width:2; }
+    .lbl   { fill:#24292f; font-size:18px; font-weight:600; text-anchor:middle; }
+    .sub   { fill:#57606a; font-size:12px; font-weight:500; text-anchor:middle; }
+    .edge  { stroke:#57606a; stroke-width:2; fill:none; }
+    .elbl  { fill:#57606a; font-size:13px; font-weight:500; text-anchor:middle; }
+    .head  { fill:#57606a; }
+    @media (prefers-color-scheme: dark) {
+      .box  { fill:#161b22; stroke:#e6edf3; }
+      .lbl  { fill:#e6edf3; }
+      .sub  { fill:#9da7b3; }
+      .edge { stroke:#9da7b3; }
+      .elbl { fill:#9da7b3; }
+      .head { fill:#9da7b3; }
+    }
+  </style>
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="head"/>
+    </marker>
+  </defs>
+
+  <!-- boxes -->
+  <rect class="box" x="250" y="20"  width="150" height="48" rx="9"/>
+  <text class="lbl" x="325" y="50">Handlebars</text>
+
+  <rect class="box" x="95"  y="112" width="120" height="54" rx="9"/>
+  <text class="lbl" x="155" y="145">express</text>
+
+  <rect class="box" x="320" y="112" width="120" height="54" rx="9"/>
+  <text class="lbl" x="380" y="145">webshot</text>
+
+  <rect class="box" x="545" y="104" width="170" height="70" rx="9"/>
+  <text class="lbl" x="630" y="136">PhantomJS</text>
+  <text class="sub" x="630" y="156">WebKit</text>
+
+  <!-- HTTP in -->
+  <text class="lbl" x="42" y="145" text-anchor="start">HTTP</text>
+  <path class="edge" d="M70,155 L93,155" marker-end="url(#a1)"/>
+
+  <!-- express <-> webshot -->
+  <path class="edge" d="M217,131 L318,131" marker-end="url(#a1)"/>
+  <text class="elbl" x="267" y="123">html</text>
+  <path class="edge" d="M318,151 L217,151" marker-end="url(#a1)"/>
+  <text class="elbl" x="267" y="167">image</text>
+
+  <!-- webshot <-> phantomjs -->
+  <path class="edge" d="M442,131 L543,131" marker-end="url(#a1)"/>
+  <text class="elbl" x="492" y="123">html</text>
+  <path class="edge" d="M543,151 L442,151" marker-end="url(#a1)"/>
+  <text class="elbl" x="492" y="167">image</text>
+
+  <!-- express <-> handlebars -->
+  <path class="edge" d="M188,112 C205,88 235,74 288,68" marker-end="url(#a1)"/>
+  <text class="elbl" x="212" y="82">data</text>
+  <path class="edge" d="M362,68 C315,76 240,92 218,110" marker-end="url(#a1)"/>
+  <text class="elbl" x="330" y="104">html</text>
+
+  <!-- image out -->
+  <path class="edge" d="M130,166 C110,196 90,205 62,208" marker-end="url(#a1)"/>
+  <text class="elbl" x="40" y="228" text-anchor="start">image</text>
+</svg>

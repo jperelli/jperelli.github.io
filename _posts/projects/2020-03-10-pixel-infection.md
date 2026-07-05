@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pixel Infection
+description: A browser game simulating how an infection spreads, built from scratch in JavaScript.
 comments: true
 category: project
 image: https://i.imgur.com/DP0DS0X.gif

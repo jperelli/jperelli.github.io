@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 545" font-family="Inter, -apple-system, Segoe UI, sans-serif">
+  <style>
+    .box   { fill:#ffffff; stroke:#24292f; stroke-width:2; }
+    .lbl   { fill:#24292f; font-size:17px; font-weight:600; text-anchor:middle; }
+    .sub   { fill:#57606a; font-size:12px; font-weight:500; text-anchor:middle; }
+    .edge  { stroke:#57606a; stroke-width:2; fill:none; }
+    .elbl  { fill:#57606a; font-size:13px; font-weight:500; text-anchor:middle; }
+    .head  { fill:#57606a; }
+    .glue  { fill:#2563eb; stroke:#2563eb; }
+    .gg    { fill:#2ea043; }
+    .gb    { fill:#2563eb; }
+    .gp    { fill:#db2777; }
+    .grp   { fill-opacity:0.08; stroke-opacity:0.35; stroke-width:1.5; }
+    .glbl  { font-size:15px; font-weight:700; }
+    @media (prefers-color-scheme: dark) {
+      .box  { fill:#161b22; stroke:#e6edf3; }
+      .lbl  { fill:#e6edf3; }
+      .sub  { fill:#9da7b3; }
+      .edge { stroke:#9da7b3; }
+      .elbl { fill:#9da7b3; }
+      .head { fill:#9da7b3; }
+      .gg   { fill:#3fb950; }
+      .gp   { fill:#f778ba; }
+      .gb   { fill:#58a6ff; }
+    }
+  </style>
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="head"/>
+    </marker>
+  </defs>
+
+  <!-- group backgrounds -->
+  <rect class="grp gg" x="20"  y="60"  width="290" height="450" rx="14"/>
+  <text class="glbl gg" x="40" y="88">interfaces</text>
+
+  <rect class="grp gb" x="400" y="225" width="185" height="150" rx="14"/>
+  <text class="glbl gb" x="492" y="362" text-anchor="middle">osm-static-maps glue</text>
+
+  <rect class="grp gp" x="690" y="100" width="300" height="420" rx="14"/>
+  <text class="glbl gp" x="710" y="128">external libraries</text>
+
+  <!-- interface boxes -->
+  <rect class="box" x="60" y="120" width="170" height="56" rx="9"/>
+  <text class="lbl" x="145" y="144">npm package</text>
+  <text class="sub" x="145" y="162">js · buffer</text>
+
+  <rect class="box" x="60" y="270" width="170" height="56" rx="9"/>
+  <text class="lbl" x="145" y="294">express</text>
+  <text class="sub" x="145" y="312">HTTP</text>
+
+  <rect class="box" x="60" y="420" width="170" height="56" rx="9"/>
+  <text class="lbl" x="145" y="444">cli</text>
+  <text class="sub" x="145" y="462">bash</text>
+
+  <!-- library -->
+  <rect class="box" x="420" y="258" width="150" height="62" rx="9"/>
+  <text class="lbl" x="495" y="294">library</text>
+
+  <!-- external boxes -->
+  <rect class="box" x="730" y="140" width="170" height="50" rx="9"/>
+  <text class="lbl" x="815" y="171">Handlebars</text>
+
+  <rect class="box" x="730" y="230" width="170" height="50" rx="9"/>
+  <text class="lbl" x="815" y="261">Puppeteer</text>
+
+  <rect class="box" x="730" y="310" width="170" height="48" rx="9"/>
+  <text class="lbl" x="815" y="340">Chromium</text>
+
+  <rect class="box" x="730" y="384" width="170" height="46" rx="9"/>
+  <text class="lbl" x="815" y="413">Leaflet</text>
+
+  <rect class="box" x="720" y="456" width="195" height="50" rx="9"/>
+  <text class="lbl" x="817" y="487">OSM tile-server</text>
+
+  <!-- interfaces -> library -->
+  <path class="edge" d="M230,148 C320,160 350,240 418,268" marker-end="url(#a2)"/>
+  <text class="elbl" x="330" y="205">js</text>
+
+  <path class="edge" d="M230,283 L418,283" marker-end="url(#a2)"/>
+  <text class="elbl" x="324" y="276">js</text>
+  <path class="edge" d="M418,300 L230,300" marker-end="url(#a2)"/>
+  <text class="elbl" x="324" y="316">image</text>
+
+  <path class="edge" d="M230,448 C320,436 350,352 418,312" marker-end="url(#a2)"/>
+  <text class="elbl" x="330" y="392">js</text>
+
+  <!-- library <-> handlebars -->
+  <path class="edge" d="M560,262 C640,210 660,180 728,168" marker-end="url(#a2)"/>
+  <text class="elbl" x="628" y="205">data</text>
+  <path class="edge" d="M760,182 C690,205 620,255 572,272" marker-end="url(#a2)"/>
+  <text class="elbl" x="690" y="248">html</text>
+
+  <!-- library <-> puppeteer -->
+  <path class="edge" d="M570,290 L728,262" marker-end="url(#a2)"/>
+  <text class="elbl" x="648" y="270">html</text>
+  <path class="edge" d="M728,278 L572,306" marker-end="url(#a2)"/>
+  <text class="elbl" x="648" y="308">image</text>
+
+  <!-- external chain -->
+  <path class="edge" d="M815,280 L815,308" marker-end="url(#a2)"/>
+  <path class="edge" d="M815,358 L815,382" marker-end="url(#a2)"/>
+  <path class="edge" d="M815,430 L815,454" marker-end="url(#a2)"/>
+</svg>
