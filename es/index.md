@@ -18,7 +18,7 @@ description: Ayudo a empresas a integrar inteligencia artificial en sus procesos
 
 ## A quiénes ayudo
 
-Ayudo a empresas, tecnológicas o no, que funcionan bien sin inteligencia artificial pero notan que tendrían que estar usándola y no saben por dónde empezar. Empresas con trabajo que se repite y hoy depende de personas: pedidos, facturas, correos de clientes, informes, documentos. El sector da igual; lo que importa es que haya procesos que se puedan acelerar.
+Seguramente tu empresa funciona bien sin inteligencia artificial, pero notas que tendrías que estar usándola y no sabes por dónde empezar. Tienes trabajo que se repite y hoy depende de personas: pedidos, facturas, correos de clientes, informes, documentos. Da igual tu sector, y da igual si tu empresa es tecnológica o no; lo que importa es que haya procesos que se puedan acelerar.
 
 ## Qué significa integrar IA en procesos
 
@@ -65,7 +65,7 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
 
 ## Mi experiencia {#why-me}
 
-Para una empresa que nunca ha usado inteligencia artificial, soy un experto. Los motivos:
+Si en tu empresa nunca habéis usado inteligencia artificial, para vosotros soy un experto. Esto es lo que he hecho:
 
 - **Llevo más de 15 años construyendo programas**, para empresas de Argentina, Alemania, Estados Unidos y España. Hoy dirijo la tecnología de una empresa con alrededor de un millón de usuarios.
 - **Fui el responsable de tecnología (CTO) de una empresa de Estados Unidos** que lleva las nóminas y la contabilidad de otras empresas. Sé lo que es llevar un negocio, no solo escribir código.

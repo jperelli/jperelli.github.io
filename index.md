@@ -18,7 +18,7 @@ description: I help companies integrate artificial intelligence into their proce
 
 ## Who I help
 
-I help companies, tech or not, that run fine without artificial intelligence but feel they should be using it and do not know where to start. Companies with work that repeats and today depends on people: orders, invoices, customer emails, reports, documents. The industry does not matter; what matters is that there are processes that can be sped up.
+Your company probably runs fine without artificial intelligence, but you feel you should be using it and do not know where to start. You have work that repeats and today depends on people: orders, invoices, customer emails, reports, documents. Your industry does not matter, and it does not matter whether your company is a tech company or not; what matters is that there are processes that can be sped up.
 
 ## What integrating AI into processes means
 
@@ -65,7 +65,7 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
 
 ## My experience {#why-me}
 
-For a company that has never used artificial intelligence, I am an expert. The reasons:
+If your company has never used artificial intelligence, to you I am an expert. This is what I have done:
 
 - **I have built software for over 15 years**, for companies in Argentina, Germany, the United States and Spain. Today I lead technology at a company with around a million users.
 - **I was the head of technology (CTO) at a company in the United States** that handles payroll and accounting for other companies. I know what it means to run a business, not just to write code.

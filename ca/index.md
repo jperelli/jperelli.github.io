@@ -18,7 +18,7 @@ description: Ajudo empreses a integrar intel·ligència artificial als seus proc
 
 ## A qui ajudo
 
-Ajudo empreses, tecnològiques o no, que funcionen bé sense intel·ligència artificial però noten que l'haurien d'estar fent servir i no saben per on començar. Empreses amb feina que es repeteix i avui depèn de persones: comandes, factures, correus de clients, informes, documents. El sector tant és; el que importa és que hi hagi processos que es puguin accelerar.
+Segurament la teva empresa funciona bé sense intel·ligència artificial, però notes que l'hauries d'estar fent servir i no saps per on començar. Tens feina que es repeteix i avui depèn de persones: comandes, factures, correus de clients, informes, documents. Tant és el teu sector, i tant és si la teva empresa és tecnològica o no; el que importa és que hi hagi processos que es puguin accelerar.
 
 ## Què vol dir integrar IA en processos
 
@@ -65,7 +65,7 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
 
 ## La meva experiència {#why-me}
 
-Per a una empresa que mai ha fet servir intel·ligència artificial, soc un expert. Els motius:
+Si a la teva empresa mai heu fet servir intel·ligència artificial, per a vosaltres soc un expert. Això és el que he fet:
 
 - **Fa més de 15 anys que construeixo programes**, per a empreses de l'Argentina, Alemanya, els Estats Units i Espanya. Avui dirigeixo la tecnologia d'una empresa amb al voltant d'un milió d'usuaris.
 - **Vaig ser el responsable de tecnologia (CTO) d'una empresa dels Estats Units** que porta les nòmines i la comptabilitat d'altres empreses. Sé què és portar un negoci, no només escriure codi.
