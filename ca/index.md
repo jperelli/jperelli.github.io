@@ -9,7 +9,7 @@ description: Ajudo petites i mitjanes empreses a començar a fer servir la intel
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hola 👋, soc el Julián.</span></p>
   <h1>Ajudo empreses a integrar intel·ligència artificial als seus processos</h1>
-  <p class="hero-lead">Pas a pas, començant per alguna cosa petita i en llenguatge senzill. La teva empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Sense promeses màgiques.</p>
+  <p class="hero-lead">M'expliques els teus processos en 30 minuts i et lliuro una proposta concreta d'integració d'IA. La teva empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Sense promeses màgiques.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Parlem</a>
     <a class="btn btn-ghost" href="#why-me">Per què jo</a>

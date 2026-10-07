@@ -9,7 +9,7 @@ description: Ayudo a pequeñas y medianas empresas a empezar a usar la inteligen
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hola 👋, soy Julián.</span></p>
   <h1>Ayudo a empresas a integrar inteligencia artificial en sus procesos</h1>
-  <p class="hero-lead">Paso a paso, empezando por algo pequeño y en lenguaje sencillo. Tu empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Sin promesas mágicas.</p>
+  <p class="hero-lead">Me explicas tus procesos en 30 minutos y te entrego una propuesta de integración de IA concreta. Tu empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Sin promesas mágicas.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Hablemos</a>
     <a class="btn btn-ghost" href="#why-me">Por qué yo</a>
