@@ -3,26 +3,22 @@ layout: default
 lang: en
 i18n_key: home
 title: Home
-description: Everyone is talking about artificial intelligence. I help companies that are not tech companies start using it, step by step and in plain language.
+description: I help small and medium businesses start using artificial intelligence, step by step and in plain language.
 ---
 
 <section class="hero">
   <p class="hero-kicker">For companies that are not tech companies</p>
-  <h1>Everyone is talking about artificial intelligence. Does your business know what to do with it?</h1>
-  <p class="hero-lead">I help companies that have nothing to do with technology start using artificial intelligence, step by step, to save time and work better. In plain language. No magic promises.</p>
+  <h1>I help small and medium businesses start using artificial intelligence.</h1>
+  <p class="hero-lead">Step by step, starting with something small, in plain language. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No magic promises.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>
     <a class="btn btn-ghost" href="#why-me">Why me</a>
   </p>
 </section>
 
-## Does this sound familiar?
+## Who this is for
 
-- You read about artificial intelligence every day, but you have no idea what it has to do with your business.
-- Someone offered to "put AI in your company" and you did not understand a word.
-- You are afraid of being left behind. You are also afraid of wasting money on something that does not work.
-
-If you said yes to any of these, I am the person you want to talk to.
+This is for you if your company has nothing to do with technology, you read about artificial intelligence every day, and you still do not know what it has to do with your business. Maybe someone already offered to "put AI in your company" and you did not understand a word. Maybe you are afraid of being left behind, and just as afraid of wasting money on something that does not work.
 
 ## What I can do for you
 
@@ -63,10 +59,11 @@ If you said yes to any of these, I am the person you want to talk to.
 - **Sell you magic.** Artificial intelligence is very good at some things and bad at others. I will tell you which is which, before you spend a cent.
 - **Make you change everything.** We start small and build on the tools you already use.
 - **Leave you with something your team cannot use.** If your people cannot run it without me, it is not finished.
+- **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before. You keep talking to one person: me.
 
 ## Why me {#why-me}
 
-For someone who has never touched artificial intelligence, I am the expert friend you wish you had. Here is why:
+For a company that has never used artificial intelligence, I am an expert. The reasons:
 
 - **I have built software for over 15 years**, for companies in Argentina, Germany, the United States and Spain. Today I lead technology at a company with around a million users.
 - **I was the head of technology (CTO) at a company in the United States** that handles payroll and accounting for other companies. I know what it means to run a business, not just to write code.
@@ -81,8 +78,28 @@ For someone who has never touched artificial intelligence, I am the expert frien
 
 Want the full story, with all the technical words? [Read about me](/about/).
 
+## What other people say about my work {#proof}
+
+<div class="proof">
+  <div class="proof-item">
+    <span class="proof-num">4.7 out of 5</span>
+    <h3>Rated by its users for ten years</h3>
+    <p>My Periodic Task add-on for Redmine, a project-management tool used by many companies, has been in the official directory since 2015. Twelve of its fourteen ratings are five stars. <a href="https://www.redmine.org/plugins/redmine_periodic_task#ratings">See the ratings</a>.</p>
+  </div>
+  <div class="proof-item">
+    <span class="proof-num">400+ stars</span>
+    <h3>Free tools other programmers rely on</h3>
+    <p>On GitHub, programmers give a star to tools they find useful. Three of mine have more than 400 together: <a href="https://github.com/jperelli/osm-static-maps">osm-static-maps</a> (180), <a href="https://github.com/jperelli/vue2-leaflet-markercluster">vue2-leaflet-markercluster</a> (132) and <a href="https://github.com/jperelli/Redmine-Periodic-Task">Periodic Task</a> (97).</p>
+  </div>
+  <div class="proof-item">
+    <span class="proof-num">LinkedIn</span>
+    <h3>Recommendations from people I have worked with</h3>
+    <p>Former bosses and colleagues have written about what it is like to work with me. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Read them on LinkedIn</a>.</p>
+  </div>
+</div>
+
 <section class="cta" id="contact">
-  <h2>Shall we talk?</h2>
+  <h2>Let's talk</h2>
   <p>Write me two lines about what your company does. I read and answer every message myself, usually within a day. The first conversation is free and there is no commitment.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}

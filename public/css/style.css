@@ -360,6 +360,37 @@ tbody tr:nth-child(odd) td { background-color: var(--bg-soft); }
   background: var(--accent-soft);
   border-radius: 999px;
 }
+
+.proof {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+}
+.proof-item {
+  padding: 1.2rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.proof-num {
+  display: block;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+}
+.proof-item h3 {
+  font-size: 1.05rem;
+  margin: 0.3rem 0 0.5rem;
+}
+.proof-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-soft);
+}
+
 .step h3 { margin: 0.8rem 0 0.4rem; font-size: 1.05rem; }
 .step p { margin: 0; font-size: 0.95rem; color: var(--text-soft); }
 
