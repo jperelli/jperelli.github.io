@@ -16,9 +16,9 @@ description: I help small and medium businesses start using artificial intellige
   </p>
 </section>
 
-## Who I work with
+## Who I help
 
-I work with companies that have nothing to do with technology, read about artificial intelligence every day, and still do not know what it has to do with their business. Maybe someone already offered to "put AI in your company" and you did not understand a word. Maybe you are afraid of being left behind, and just as afraid of wasting money on something that does not work.
+I help companies that have nothing to do with technology, read about artificial intelligence every day, and still do not know what it has to do with their business. Maybe someone already offered to "put AI in your company" and you did not understand a word. Maybe you are afraid of being left behind, and just as afraid of wasting money on something that does not work.
 
 ## What integrating AI into processes means
 

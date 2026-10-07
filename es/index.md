@@ -16,9 +16,9 @@ description: Ayudo a pequeñas y medianas empresas a empezar a usar la inteligen
   </p>
 </section>
 
-## Con quiénes trabajo
+## A quiénes ayudo
 
-Trabajo con empresas que no tienen nada que ver con la tecnología, que leen sobre inteligencia artificial todos los días y siguen sin saber qué tiene que ver con su negocio. Quizá alguien ya te ofreció "meter IA en tu empresa" y no entendiste ni una palabra. Quizá te da miedo quedarte atrás, y el mismo miedo tirar dinero en algo que no funcione.
+Ayudo a empresas que no tienen nada que ver con la tecnología, que leen sobre inteligencia artificial todos los días y siguen sin saber qué tiene que ver con su negocio. Quizá alguien ya te ofreció "meter IA en tu empresa" y no entendiste ni una palabra. Quizá te da miedo quedarte atrás, y el mismo miedo tirar dinero en algo que no funcione.
 
 ## Qué significa integrar IA en procesos
 
