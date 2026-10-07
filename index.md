@@ -7,8 +7,7 @@ description: I help small and medium businesses start using artificial intellige
 ---
 
 <section class="hero">
-  <p class="hero-kicker">For companies that are not tech companies</p>
-  <h1>I help small and medium businesses start using artificial intelligence.</h1>
+  <h1>Hi 👋, I'm Julián. I help small and medium businesses start using artificial intelligence.</h1>
   <p class="hero-lead">Step by step, starting with something small, in plain language. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No magic promises.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>

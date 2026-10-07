@@ -7,8 +7,7 @@ description: Ayudo a pequeñas y medianas empresas a empezar a usar la inteligen
 ---
 
 <section class="hero">
-  <p class="hero-kicker">Para empresas que no son tecnológicas</p>
-  <h1>Ayudo a pequeñas y medianas empresas a empezar a usar la inteligencia artificial.</h1>
+  <h1>Hola 👋, soy Julián. Ayudo a pequeñas y medianas empresas a empezar a usar la inteligencia artificial.</h1>
   <p class="hero-lead">Paso a paso, empezando por algo pequeño y en lenguaje sencillo. Tu empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Sin promesas mágicas.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Hablemos</a>
