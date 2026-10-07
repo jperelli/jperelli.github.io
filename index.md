@@ -12,7 +12,7 @@ description: I help companies integrate artificial intelligence into their proce
   <p class="hero-lead">You explain your processes to me in 30 minutes and I send you a concrete proposal for integrating AI. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>
-    <a class="btn btn-ghost" href="#why-me">Why me</a>
+    <a class="btn btn-ghost" href="#why-me">My experience</a>
   </p>
 </section>
 
@@ -63,7 +63,7 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
 - **Leave you with something your team cannot use.** If your people cannot run it without me, it is not finished.
 - **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before. You keep talking to one person: me.
 
-## Why me {#why-me}
+## My experience {#why-me}
 
 For a company that has never used artificial intelligence, I am an expert. The reasons:
 

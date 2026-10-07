@@ -12,7 +12,7 @@ description: Ajudo empreses a integrar intel·ligència artificial als seus proc
   <p class="hero-lead">M'expliques els teus processos en 30 minuts i t'envio una proposta concreta d'integració d'IA. La teva empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Gens de fum.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Parlem</a>
-    <a class="btn btn-ghost" href="#why-me">Per què jo</a>
+    <a class="btn btn-ghost" href="#why-me">La meva experiència</a>
   </p>
 </section>
 
@@ -63,7 +63,7 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
 - **Deixar-te alguna cosa que el teu equip no pugui fer servir.** Si la teva gent no ho pot fer anar sense mi, no està acabat.
 - **Fer veure que puc amb tot jo sol.** Si el teu problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat. Tu segueixes parlant amb una sola persona: jo.
 
-## Per què jo {#why-me}
+## La meva experiència {#why-me}
 
 Per a una empresa que mai ha fet servir intel·ligència artificial, soc un expert. Els motius:
 
