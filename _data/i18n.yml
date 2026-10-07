@@ -3,8 +3,8 @@
 en:
   name: English
   title: Julián Perelli
-  tagline: "Helping companies take their first steps with artificial intelligence"
-  description: "Julián Perelli helps small and medium businesses start using artificial intelligence, in plain language and step by step."
+  tagline: "Helping companies integrate artificial intelligence into their processes"
+  description: "Julián Perelli helps companies integrate artificial intelligence into their processes: a 30-minute conversation, then a concrete proposal."
   nav:
     about: About me
     projects: Projects
@@ -17,8 +17,8 @@ en:
 es:
   name: Español
   title: Julián Perelli
-  tagline: "Ayudo a empresas a dar sus primeros pasos con la inteligencia artificial"
-  description: "Julián Perelli ayuda a pequeñas y medianas empresas a empezar a usar la inteligencia artificial, en lenguaje sencillo y paso a paso."
+  tagline: "Ayudo a empresas a integrar inteligencia artificial en sus procesos"
+  description: "Julián Perelli ayuda a empresas a integrar inteligencia artificial en sus procesos: una conversación de 30 minutos y después una propuesta concreta."
   nav:
     about: Sobre mí
     projects: Proyectos
@@ -31,8 +31,8 @@ es:
 ca:
   name: Català
   title: Julián Perelli
-  tagline: "Ajudo empreses a fer els primers passos amb la intel·ligència artificial"
-  description: "Julián Perelli ajuda petites i mitjanes empreses a començar a fer servir la intel·ligència artificial, en llenguatge senzill i pas a pas."
+  tagline: "Ajudo empreses a integrar intel·ligència artificial als seus processos"
+  description: "Julián Perelli ajuda empreses a integrar intel·ligència artificial als seus processos: una conversa de 30 minuts i després una proposta concreta."
   nav:
     about: Sobre mi
     projects: Projectes

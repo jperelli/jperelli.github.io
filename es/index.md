@@ -3,13 +3,13 @@ layout: default
 lang: es
 i18n_key: home
 title: Inicio
-description: Ayudo a pequeñas y medianas empresas a empezar a usar la inteligencia artificial, paso a paso y en lenguaje sencillo.
+description: Ayudo a empresas a integrar inteligencia artificial en sus procesos. Una conversación de 30 minutos y después una propuesta concreta. Nada de humo.
 ---
 
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hola 👋, soy Julián.</span></p>
   <h1>Ayudo a empresas a integrar inteligencia artificial en sus procesos</h1>
-  <p class="hero-lead">Me explicas tus procesos en 30 minutos y te entrego una propuesta de integración de IA concreta. Tu empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Nada de humo.</p>
+  <p class="hero-lead">Me explicas tus procesos en 30 minutos y te envío una propuesta de integración de IA concreta. Tu empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Nada de humo.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Hablemos</a>
     <a class="btn btn-ghost" href="#why-me">Por qué yo</a>
@@ -40,23 +40,23 @@ Ayudo a empresas que no tienen nada que ver con la tecnología, que leen sobre i
   <div class="step">
     <span class="step-num">1</span>
     <h3>Hablamos</h3>
-    <p>Una conversación gratis de una media hora. Me cuentas a qué se dedica tu empresa y qué os quita tiempo. Yo escucho. Sin palabras técnicas.</p>
+    <p>Una conversación gratis de una media hora. Me explicas a qué se dedica tu empresa, cómo trabajáis y qué os quita tiempo. Yo escucho. Sin palabras técnicas.</p>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <h3>Elijo algo pequeño</h3>
-    <p>Te enseño uno o dos sitios donde la inteligencia artificial os puede ayudar ya, con un precio claro y qué recibes a cambio.</p>
+    <h3>Te envío una propuesta</h3>
+    <p>Analizo lo que me contaste y, normalmente al día siguiente, te envío una propuesta concreta: dónde integrar la inteligencia artificial en tus procesos, por dónde empezar y qué ganas con cada cosa.</p>
   </div>
   <div class="step">
     <span class="step-num">3</span>
     <h3>Lo construimos y lo probamos</h3>
-    <p>En pocas semanas tienes algo funcionando, en tu negocio real. Si funciona, lo hacemos crecer. Si no, paras ahí y no has perdido nada.</p>
+    <p>Si la propuesta te encaja, en pocas semanas tienes algo funcionando, en tu negocio real. Si funciona, lo hacemos crecer. Si no, paras ahí y no has perdido nada.</p>
   </div>
 </div>
 
 ## Lo que no voy a hacer
 
-- **Venderte magia.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Te diré cuáles son cuáles antes de que gastes un céntimo.
+- **Venderte humo.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Te diré cuáles son cuáles antes de que gastes un céntimo.
 - **Hacerte cambiar todo.** Empezamos por algo pequeño y sobre las herramientas que ya usáis.
 - **Dejarte algo que tu equipo no pueda usar.** Si tu gente no puede manejarlo sin mí, no está terminado.
 - **Hacer como que puedo con todo yo solo.** Si tu problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado. Tú sigues hablando con una sola persona: yo.

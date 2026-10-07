@@ -3,13 +3,13 @@ layout: default
 lang: en
 i18n_key: home
 title: Home
-description: I help small and medium businesses start using artificial intelligence, step by step and in plain language.
+description: I help companies integrate artificial intelligence into their processes. A 30-minute conversation, then a concrete proposal. No hot air.
 ---
 
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hi 👋, I'm Julián.</span></p>
   <h1>I help companies integrate artificial intelligence into their processes</h1>
-  <p class="hero-lead">You explain your processes to me in 30 minutes and I hand you a concrete proposal for integrating AI. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
+  <p class="hero-lead">You explain your processes to me in 30 minutes and I send you a concrete proposal for integrating AI. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>
     <a class="btn btn-ghost" href="#why-me">Why me</a>
@@ -40,23 +40,23 @@ I help companies that have nothing to do with technology, read about artificial 
   <div class="step">
     <span class="step-num">1</span>
     <h3>We talk</h3>
-    <p>One free conversation of about 30 minutes. You tell me what your company does and what takes up your time. I listen. No technical words.</p>
+    <p>One free conversation of about 30 minutes. You explain what your company does, how you work and what takes up your time. I listen. No technical words.</p>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <h3>I pick something small</h3>
-    <p>I show you one or two places where artificial intelligence can help you right away, with a clear price and what you get for it.</p>
+    <h3>I send you a proposal</h3>
+    <p>I go through what you told me and, usually the next day, send you a concrete proposal: where to integrate artificial intelligence into your processes, where to start, and what you gain from each piece.</p>
   </div>
   <div class="step">
     <span class="step-num">3</span>
     <h3>We build it and try it</h3>
-    <p>In a few weeks you have something working, in your real business. If it works, we grow it. If it does not, you stop there and nothing is lost.</p>
+    <p>If the proposal works for you, in a few weeks you have something working, in your real business. If it works, we grow it. If it does not, you stop there and nothing is lost.</p>
   </div>
 </div>
 
 ## What I will not do
 
-- **Sell you magic.** Artificial intelligence is very good at some things and bad at others. I will tell you which is which, before you spend a cent.
+- **Sell you hot air.** Artificial intelligence is very good at some things and bad at others. I will tell you which is which, before you spend a cent.
 - **Make you change everything.** We start small and build on the tools you already use.
 - **Leave you with something your team cannot use.** If your people cannot run it without me, it is not finished.
 - **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before. You keep talking to one person: me.

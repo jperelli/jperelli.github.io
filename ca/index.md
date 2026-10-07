@@ -3,13 +3,13 @@ layout: default
 lang: ca
 i18n_key: home
 title: Inici
-description: Ajudo petites i mitjanes empreses a començar a fer servir la intel·ligència artificial, pas a pas i en llenguatge senzill.
+description: Ajudo empreses a integrar intel·ligència artificial als seus processos. Una conversa de 30 minuts i després una proposta concreta. Gens de fum.
 ---
 
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hola 👋, soc el Julián.</span></p>
   <h1>Ajudo empreses a integrar intel·ligència artificial als seus processos</h1>
-  <p class="hero-lead">M'expliques els teus processos en 30 minuts i et lliuro una proposta concreta d'integració d'IA. La teva empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Gens de fum.</p>
+  <p class="hero-lead">M'expliques els teus processos en 30 minuts i t'envio una proposta concreta d'integració d'IA. La teva empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Gens de fum.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Parlem</a>
     <a class="btn btn-ghost" href="#why-me">Per què jo</a>
@@ -40,23 +40,23 @@ Ajudo empreses que no tenen res a veure amb la tecnologia, que llegeixen sobre i
   <div class="step">
     <span class="step-num">1</span>
     <h3>Parlem</h3>
-    <p>Una conversa gratuïta de mitja hora. M'expliques a què es dedica la teva empresa i què us pren temps. Jo escolto. Sense paraules tècniques.</p>
+    <p>Una conversa gratuïta de mitja hora. M'expliques a què es dedica la teva empresa, com treballeu i què us pren temps. Jo escolto. Sense paraules tècniques.</p>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <h3>Trio alguna cosa petita</h3>
-    <p>T'ensenyo un o dos llocs on la intel·ligència artificial us pot ajudar ja, amb un preu clar i què reps a canvi.</p>
+    <h3>T'envio una proposta</h3>
+    <p>Analitzo el que m'has explicat i, normalment l'endemà, t'envio una proposta concreta: on integrar la intel·ligència artificial als teus processos, per on començar i què hi guanyes amb cada cosa.</p>
   </div>
   <div class="step">
     <span class="step-num">3</span>
     <h3>Ho construïm i ho provem</h3>
-    <p>En poques setmanes tens alguna cosa funcionant, al teu negoci real. Si funciona, la fem créixer. Si no, pares aquí i no has perdut res.</p>
+    <p>Si la proposta t'encaixa, en poques setmanes tens alguna cosa funcionant, al teu negoci real. Si funciona, la fem créixer. Si no, pares aquí i no has perdut res.</p>
   </div>
 </div>
 
 ## El que no faré
 
-- **Vendre't màgia.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Et diré quines són quines abans que gastis un cèntim.
+- **Vendre't fum.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Et diré quines són quines abans que gastis un cèntim.
 - **Fer-te canviar-ho tot.** Comencem per alguna cosa petita i sobre les eines que ja feu servir.
 - **Deixar-te alguna cosa que el teu equip no pugui fer servir.** Si la teva gent no ho pot fer anar sense mi, no està acabat.
 - **Fer veure que puc amb tot jo sol.** Si el teu problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat. Tu segueixes parlant amb una sola persona: jo.
