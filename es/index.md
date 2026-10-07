@@ -61,7 +61,7 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
 - **Venderte humo.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Te diré cuáles son cuáles antes de que gastes un céntimo.
 - **Meter IA en todos lados porque sí.** La inteligencia artificial no lo resuelve todo. Solo tiene sentido en algunas partes de tus procesos, donde acelera el trabajo sin perder calidad. Ahí la ponemos, y sobre las herramientas que ya usáis.
 - **Dejarte algo que tu equipo no pueda usar.** Si tu gente no puede manejarlo sin mí, no está terminado.
-- **Hacer como que puedo con todo yo solo.** Si tu problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado. Tú sigues hablando con una sola persona: yo.
+- **Hacer como que puedo con todo yo solo.** Si tu problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado.
 
 ## Mi experiencia {#why-me}
 

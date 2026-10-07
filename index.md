@@ -61,7 +61,7 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
 - **Sell you hot air.** Artificial intelligence is very good at some things and bad at others. I will tell you which is which, before you spend a cent.
 - **Put AI everywhere just because.** Artificial intelligence does not solve everything. It only makes sense in some parts of your processes, where it speeds up the work without losing quality. That is where we put it, on top of the tools you already use.
 - **Leave you with something your team cannot use.** If your people cannot run it without me, it is not finished.
-- **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before. You keep talking to one person: me.
+- **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before.
 
 ## My experience {#why-me}
 

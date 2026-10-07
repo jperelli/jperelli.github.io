@@ -61,7 +61,7 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
 - **Vendre't fum.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Et diré quines són quines abans que gastis un cèntim.
 - **Posar IA a tot arreu perquè sí.** La intel·ligència artificial no ho resol tot. Només té sentit en algunes parts dels teus processos, on accelera la feina sense perdre qualitat. Allà és on la posem, sobre les eines que ja feu servir.
 - **Deixar-te alguna cosa que el teu equip no pugui fer servir.** Si la teva gent no ho pot fer anar sense mi, no està acabat.
-- **Fer veure que puc amb tot jo sol.** Si el teu problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat. Tu segueixes parlant amb una sola persona: jo.
+- **Fer veure que puc amb tot jo sol.** Si el teu problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat.
 
 ## La meva experiència {#why-me}
 
