@@ -287,13 +287,22 @@ tbody tr:nth-child(odd) td { background-color: var(--bg-soft); }
 
 /* ---------- Sales home ---------- */
 .hero { margin: 0 0 2.5rem; }
-.hero-kicker {
-  margin: 0 0 0.8rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--accent);
+.hero-greeting {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 1.1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-soft);
+}
+.hero-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow);
 }
 .hero h1 {
   font-size: 2.3rem;
