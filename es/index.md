@@ -9,7 +9,7 @@ description: Ayudo a empresas a integrar inteligencia artificial en sus procesos
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hola 👋, soy Julián.</span></p>
   <h1>Ayudo a empresas a integrar inteligencia artificial en sus procesos</h1>
-  <p class="hero-lead">Me explicas tus procesos en 30 minutos y te envío una propuesta de integración de IA concreta. Tu empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Nada de humo.</p>
+  <p class="hero-lead">Una conversación de 30 minutos sobre los procesos de la empresa y, al día siguiente, una propuesta concreta de integración de IA. La empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Nada de humo.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Hablemos</a>
     <a class="btn btn-ghost" href="#why-me">Mi experiencia</a>
@@ -18,54 +18,54 @@ description: Ayudo a empresas a integrar inteligencia artificial en sus procesos
 
 ## A quiénes ayudo
 
-Seguramente tu empresa funciona bien sin inteligencia artificial, pero notas que tendrías que estar usándola y no sabes por dónde empezar. Tienes trabajo que se repite y hoy depende de personas: pedidos, facturas, correos de clientes, informes, documentos. Da igual tu sector, y da igual si tu empresa es tecnológica o no; lo que importa es que haya procesos que se puedan acelerar.
+Empresas, tecnológicas o no, que funcionan bien sin inteligencia artificial pero notan que tendrían que estar usándola y no saben por dónde empezar. Empresas con trabajo que se repite y hoy depende de personas: pedidos, facturas, correos de clientes, informes, documentos. El sector da igual; lo que importa es que haya procesos que se puedan acelerar.
 
 ## Qué significa integrar IA en procesos
 
-No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: tiene sentido en algunas partes de tus procesos, donde acelera el trabajo sin perder calidad. Ahí es donde la ponemos. Por ejemplo:
+No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: tiene sentido en algunas partes de los procesos, donde acelera el trabajo sin perder calidad. Ahí es donde la pongo. Por ejemplo:
 
-**Quitarte trabajo repetitivo.** Responder los mismos correos, copiar datos de un sitio a otro, hacer el mismo informe cada semana. Muchas de estas tareas hoy se pueden hacer solas.
+**Quitar trabajo repetitivo.** Responder los mismos correos, copiar datos de un sitio a otro, hacer el mismo informe cada semana. Muchas de estas tareas hoy se pueden hacer solas.
 
-**Responder antes a tus clientes.** Un ayudante que contesta las preguntas de siempre, de día y de noche, con tus propias palabras, y te pasa a ti las difíciles.
+**Responder antes a los clientes.** Un ayudante que contesta las preguntas de siempre, de día y de noche, con las palabras de la empresa, y pasa a una persona las difíciles.
 
-**Sacar respuestas de tu propia información.** Preguntas con palabras normales ("¿cuánto vendimos en marzo en Girona?") y tienes la respuesta, sin esperar a que alguien prepare una hoja de cálculo.
+**Sacar respuestas de la información de la empresa.** Una pregunta con palabras normales ("¿cuánto vendimos en marzo en Girona?") y la respuesta al momento, sin esperar a que alguien prepare una hoja de cálculo.
 
-**Que te encuentren en internet.** Artículos, fichas de producto y páginas que se escriben y publican solas, para que clientes nuevos te encuentren en Google.
+**Que la empresa aparezca en internet.** Artículos, fichas de producto y páginas que se escriben y publican solas, para que clientes nuevos la encuentren en Google.
 
-**Añadirla a tu propio producto.** Si vendes un programa o un servicio por internet, te ayudo a añadir las funciones que tus clientes empiezan a pedir.
+**Añadirla al producto propio.** Para empresas que venden un programa o un servicio por internet: añadir las funciones que sus clientes empiezan a pedir.
 
-**Que tu equipo empiece a usar la inteligencia artificial de forma ordenada y útil.** Sesiones cortas y prácticas para que tu gente aprenda a usar estas herramientas en su día a día, sin miedo.
+**Que el equipo empiece a usar la inteligencia artificial de forma ordenada y útil.** Sesiones cortas y prácticas para aprender a usar estas herramientas en el día a día, sin miedo.
 
-## Cómo trabajamos
+## Cómo trabajo
 
 <div class="steps">
   <div class="step">
     <span class="step-num">1</span>
     <h3>Hablamos</h3>
-    <p>Una conversación gratis de una media hora. Me explicas a qué se dedica tu empresa, cómo trabajáis y qué os quita tiempo. Yo escucho. Sin palabras técnicas.</p>
+    <p>Una conversación gratis de una media hora: a qué se dedica la empresa, cómo trabaja y qué le quita tiempo. Yo escucho. Sin palabras técnicas.</p>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <h3>Te envío una propuesta</h3>
-    <p>Analizo lo que me contaste y, normalmente al día siguiente, te envío una propuesta concreta: dónde integrar la inteligencia artificial en tus procesos, por dónde empezar y qué ganas con cada cosa.</p>
+    <h3>Envío una propuesta</h3>
+    <p>Analizo lo que me han contado y, normalmente al día siguiente, envío una propuesta concreta: dónde integrar la inteligencia artificial en los procesos, por dónde empezar y qué se gana con cada cosa.</p>
   </div>
   <div class="step">
     <span class="step-num">3</span>
     <h3>Lo construimos y lo probamos</h3>
-    <p>Si la propuesta te encaja, en pocas semanas tienes algo funcionando, en tu negocio real. Si funciona, lo hacemos crecer. Si no, paras ahí y no has perdido nada.</p>
+    <p>Si la propuesta encaja, en pocas semanas hay algo funcionando en el negocio real. Si funciona, lo hacemos crecer. Si no, se para ahí y no se ha perdido nada.</p>
   </div>
 </div>
 
-## Lo que no voy a hacer
+## Lo que no hago
 
-- **Venderte humo.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Te diré cuáles son cuáles antes de que gastes un céntimo.
-- **Meter IA en todos lados porque sí.** La inteligencia artificial no lo resuelve todo. Solo tiene sentido en algunas partes de tus procesos, donde acelera el trabajo sin perder calidad. Ahí la ponemos, y sobre las herramientas que ya usáis.
-- **Dejarte algo que tu equipo no pueda usar.** Si tu gente no puede manejarlo sin mí, no está terminado.
-- **Hacer como que puedo con todo yo solo.** Si tu problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado.
+- **Vender humo.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Digo cuáles son cuáles antes de que se gaste un céntimo.
+- **Meter IA en todos lados porque sí.** La inteligencia artificial no lo resuelve todo. Solo tiene sentido en algunas partes de los procesos, donde acelera el trabajo sin perder calidad. Ahí la pongo, y sobre las herramientas que la empresa ya usa.
+- **Dejar algo que el equipo no pueda usar.** Si la gente de la empresa no puede manejarlo sin mí, no está terminado.
+- **Hacer como que puedo con todo yo solo.** Si el problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado.
 
 ## Mi experiencia {#why-me}
 
-Si en tu empresa nunca habéis usado inteligencia artificial, para vosotros soy un experto. Esto es lo que he hecho:
+Para una empresa que nunca ha usado inteligencia artificial, soy un experto. Esto es lo que he hecho:
 
 - **Llevo más de 15 años construyendo programas**, para empresas de Argentina, Alemania, Estados Unidos y España. Hoy dirijo la tecnología de una empresa con alrededor de un millón de usuarios.
 - **Fui el responsable de tecnología (CTO) de una empresa de Estados Unidos** que lleva las nóminas y la contabilidad de otras empresas. Sé lo que es llevar un negocio, no solo escribir código.
@@ -78,7 +78,7 @@ Si en tu empresa nunca habéis usado inteligencia artificial, para vosotros soy 
 - **Fui profesor en la universidad durante cuatro años.** Sé explicar cosas difíciles con palabras sencillas, y me gusta.
 - **Soy cocreador de [Cualbondi](https://cualbondi.com/)**, una aplicación de transporte público que usan miles de personas en Argentina, y he dado [muchas charlas públicas](/talks/).
 
-Si quieres la historia completa, con todas las palabras técnicas: [sobre mí](/es/about/).
+La historia completa, con todas las palabras técnicas: [sobre mí](/es/about/).
 
 ## Lo que dicen otros de mi trabajo {#proof}
 
@@ -96,13 +96,13 @@ Si quieres la historia completa, con todas las palabras técnicas: [sobre mí](/
   <div class="proof-item">
     <span class="proof-num">LinkedIn</span>
     <h3>Recomendaciones de gente con la que he trabajado</h3>
-    <p>Antiguos jefes y compañeros han escrito cómo es trabajar conmigo. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Léelas en LinkedIn</a>.</p>
+    <p>Antiguos jefes y compañeros han escrito cómo es trabajar conmigo. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Verlas en LinkedIn</a>.</p>
   </div>
 </div>
 
 <section class="cta" id="contact">
   <h2>Hablemos</h2>
-  <p>Escríbeme dos líneas sobre a qué se dedica tu empresa. Leo y respondo yo mismo todos los mensajes, normalmente en menos de un día. La primera conversación (30 minutos) es gratis y sin compromiso.</p>
+  <p>Dos líneas sobre a qué se dedica la empresa son suficientes. Leo y respondo yo mismo todos los mensajes, normalmente en menos de un día. La primera conversación (30 minutos) es gratis y sin compromiso.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hola%20Juli%C3%A1n%2C%20tengo%20una%20empresa%20y%20quiero%20saber%20c%C3%B3mo%20usar%20la%20inteligencia%20artificial.">WhatsApp</a>

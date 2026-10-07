@@ -9,7 +9,7 @@ description: I help companies integrate artificial intelligence into their proce
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hi 👋, I'm Julián.</span></p>
   <h1>I help companies integrate artificial intelligence into their processes</h1>
-  <p class="hero-lead">You explain your processes to me in 30 minutes and I send you a concrete proposal for integrating AI. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
+  <p class="hero-lead">A 30-minute conversation about the company's processes and, the next day, a concrete proposal for integrating AI. The business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>
     <a class="btn btn-ghost" href="#why-me">My experience</a>
@@ -18,54 +18,54 @@ description: I help companies integrate artificial intelligence into their proce
 
 ## Who I help
 
-Your company probably runs fine without artificial intelligence, but you feel you should be using it and do not know where to start. You have work that repeats and today depends on people: orders, invoices, customer emails, reports, documents. Your industry does not matter, and it does not matter whether your company is a tech company or not; what matters is that there are processes that can be sped up.
+Companies, tech or not, that run fine without artificial intelligence but feel they should be using it and do not know where to start. Companies with work that repeats and today depends on people: orders, invoices, customer emails, reports, documents. The industry does not matter; what matters is that there are processes that can be sped up.
 
 ## What integrating AI into processes means
 
-It is not about putting AI everywhere. Artificial intelligence does not solve everything: it makes sense in some parts of your processes, where it speeds up the work without losing quality. That is where we put it. For example:
+It is not about putting AI everywhere. Artificial intelligence does not solve everything: it makes sense in some parts of a company's processes, where it speeds up the work without losing quality. That is where I put it. For example:
 
-**Take repetitive work off your plate.** Answering the same emails, copying data from one place to another, writing the same report every week. Many of these tasks can now be done for you.
+**Removing repetitive work.** Answering the same emails, copying data from one place to another, writing the same report every week. Many of these tasks can now run on their own.
 
-**Answer your customers faster.** A helper that replies to common questions, day and night, in your own words, and passes the hard ones to you.
+**Answering customers faster.** A helper that replies to common questions, day and night, in the company's own words, and passes the hard ones to a person.
 
-**Get answers from your own information.** Ask a question in plain words ("how much did we sell in March in Girona?") and get the answer, without waiting for someone to prepare a spreadsheet.
+**Getting answers from the company's own information.** A question in plain words ("how much did we sell in March in Girona?") and the answer right away, without waiting for someone to prepare a spreadsheet.
 
-**Get found on the internet.** Articles, product descriptions and pages that are written and published for you, so new customers find you on Google.
+**Getting the company found on the internet.** Articles, product descriptions and pages that are written and published on their own, so new customers find it on Google.
 
-**Add it to your own product.** If you sell software or an online service, I help you add the features your customers are starting to ask for.
+**Adding it to the company's own product.** For companies that sell software or an online service: adding the features their customers are starting to ask for.
 
-**Get your team using artificial intelligence in an orderly, useful way.** Short, practical sessions so your people learn to use these tools in their everyday work, with no fear.
+**Getting the team using artificial intelligence in an orderly, useful way.** Short, practical sessions to learn to use these tools in everyday work, with no fear.
 
-## How we work together
+## How I work
 
 <div class="steps">
   <div class="step">
     <span class="step-num">1</span>
     <h3>We talk</h3>
-    <p>One free conversation of about 30 minutes. You explain what your company does, how you work and what takes up your time. I listen. No technical words.</p>
+    <p>One free conversation of about 30 minutes: what the company does, how it works and what takes up its time. I listen. No technical words.</p>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <h3>I send you a proposal</h3>
-    <p>I go through what you told me and, usually the next day, send you a concrete proposal: where to integrate artificial intelligence into your processes, where to start, and what you gain from each piece.</p>
+    <h3>I send a proposal</h3>
+    <p>I go through what I was told and, usually the next day, send a concrete proposal: where to integrate artificial intelligence into the processes, where to start, and what each piece brings.</p>
   </div>
   <div class="step">
     <span class="step-num">3</span>
     <h3>We build it and try it</h3>
-    <p>If the proposal works for you, in a few weeks you have something working, in your real business. If it works, we grow it. If it does not, you stop there and nothing is lost.</p>
+    <p>If the proposal fits, in a few weeks there is something working in the real business. If it works, we grow it. If it does not, it stops there and nothing is lost.</p>
   </div>
 </div>
 
-## What I will not do
+## What I do not do
 
-- **Sell you hot air.** Artificial intelligence is very good at some things and bad at others. I will tell you which is which, before you spend a cent.
-- **Put AI everywhere just because.** Artificial intelligence does not solve everything. It only makes sense in some parts of your processes, where it speeds up the work without losing quality. That is where we put it, on top of the tools you already use.
-- **Leave you with something your team cannot use.** If your people cannot run it without me, it is not finished.
-- **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before.
+- **Sell hot air.** Artificial intelligence is very good at some things and bad at others. I say which is which before a cent is spent.
+- **Put AI everywhere just because.** Artificial intelligence does not solve everything. It only makes sense in some parts of the processes, where it speeds up the work without losing quality. That is where I put it, on top of the tools the company already uses.
+- **Leave behind something the team cannot use.** If the company's people cannot run it without me, it is not finished.
+- **Pretend I can do everything alone.** If the problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before.
 
 ## My experience {#why-me}
 
-If your company has never used artificial intelligence, to you I am an expert. This is what I have done:
+For a company that has never used artificial intelligence, I am an expert. This is what I have done:
 
 - **I have built software for over 15 years**, for companies in Argentina, Germany, the United States and Spain. Today I lead technology at a company with around a million users.
 - **I was the head of technology (CTO) at a company in the United States** that handles payroll and accounting for other companies. I know what it means to run a business, not just to write code.
@@ -78,7 +78,7 @@ If your company has never used artificial intelligence, to you I am an expert. T
 - **I taught at university for four years.** I know how to explain difficult things in simple words, and I enjoy it.
 - **I co-created [Cualbondi](https://cualbondi.com/)**, a public-transport app used by thousands of people in Argentina, and I have given [many public talks](/talks/).
 
-Want the full story, with all the technical words? [Read about me](/about/).
+The full story, with all the technical words: [about me](/about/).
 
 ## What other people say about my work {#proof}
 
@@ -96,13 +96,13 @@ Want the full story, with all the technical words? [Read about me](/about/).
   <div class="proof-item">
     <span class="proof-num">LinkedIn</span>
     <h3>Recommendations from people I have worked with</h3>
-    <p>Former bosses and colleagues have written about what it is like to work with me. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Read them on LinkedIn</a>.</p>
+    <p>Former bosses and colleagues have written about what it is like to work with me. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">See them on LinkedIn</a>.</p>
   </div>
 </div>
 
 <section class="cta" id="contact">
   <h2>Let's talk</h2>
-  <p>Write me two lines about what your company does. I read and answer every message myself, usually within a day. The first conversation (30 minutes) is free and there is no commitment.</p>
+  <p>Two lines about what the company does are enough. I read and answer every message myself, usually within a day. The first conversation (30 minutes) is free and there is no commitment.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hello%20Juli%C3%A1n%2C%20I%20have%20a%20company%20and%20I%20would%20like%20to%20know%20how%20to%20use%20artificial%20intelligence.">WhatsApp</a>

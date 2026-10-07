@@ -9,7 +9,7 @@ description: Ajudo empreses a integrar intel·ligència artificial als seus proc
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hola 👋, soc el Julián.</span></p>
   <h1>Ajudo empreses a integrar intel·ligència artificial als seus processos</h1>
-  <p class="hero-lead">M'expliques els teus processos en 30 minuts i t'envio una proposta concreta d'integració d'IA. La teva empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Gens de fum.</p>
+  <p class="hero-lead">Una conversa de 30 minuts sobre els processos de l'empresa i, l'endemà, una proposta concreta d'integració d'IA. L'empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Gens de fum.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Parlem</a>
     <a class="btn btn-ghost" href="#why-me">La meva experiència</a>
@@ -18,54 +18,54 @@ description: Ajudo empreses a integrar intel·ligència artificial als seus proc
 
 ## A qui ajudo
 
-Segurament la teva empresa funciona bé sense intel·ligència artificial, però notes que l'hauries d'estar fent servir i no saps per on començar. Tens feina que es repeteix i avui depèn de persones: comandes, factures, correus de clients, informes, documents. Tant és el teu sector, i tant és si la teva empresa és tecnològica o no; el que importa és que hi hagi processos que es puguin accelerar.
+Empreses, tecnològiques o no, que funcionen bé sense intel·ligència artificial però noten que l'haurien d'estar fent servir i no saben per on començar. Empreses amb feina que es repeteix i avui depèn de persones: comandes, factures, correus de clients, informes, documents. El sector tant és; el que importa és que hi hagi processos que es puguin accelerar.
 
 ## Què vol dir integrar IA en processos
 
-No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té sentit en algunes parts dels teus processos, on accelera la feina sense perdre qualitat. Allà és on la posem. Per exemple:
+No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té sentit en algunes parts dels processos, on accelera la feina sense perdre qualitat. Allà és on la poso. Per exemple:
 
-**Treure't feina repetitiva.** Respondre els mateixos correus, copiar dades d'un lloc a un altre, fer el mateix informe cada setmana. Moltes d'aquestes feines avui es poden fer soles.
+**Treure feina repetitiva.** Respondre els mateixos correus, copiar dades d'un lloc a un altre, fer el mateix informe cada setmana. Moltes d'aquestes feines avui es poden fer soles.
 
-**Respondre abans als teus clients.** Un ajudant que contesta les preguntes de sempre, de dia i de nit, amb les teves paraules, i et passa a tu les difícils.
+**Respondre abans als clients.** Un ajudant que contesta les preguntes de sempre, de dia i de nit, amb les paraules de l'empresa, i passa a una persona les difícils.
 
-**Treure respostes de la teva pròpia informació.** Preguntes amb paraules normals ("quant vam vendre al març a Girona?") i tens la resposta, sense esperar que algú prepari un full de càlcul.
+**Treure respostes de la informació de l'empresa.** Una pregunta amb paraules normals ("quant vam vendre al març a Girona?") i la resposta a l'instant, sense esperar que algú prepari un full de càlcul.
 
-**Que et trobin a internet.** Articles, fitxes de producte i pàgines que s'escriuen i es publiquen soles, perquè clients nous et trobin a Google.
+**Que l'empresa aparegui a internet.** Articles, fitxes de producte i pàgines que s'escriuen i es publiquen soles, perquè clients nous la trobin a Google.
 
-**Afegir-la al teu propi producte.** Si vens un programa o un servei per internet, t'ajudo a afegir les funcions que els teus clients comencen a demanar.
+**Afegir-la al producte propi.** Per a empreses que venen un programa o un servei per internet: afegir les funcions que els seus clients comencen a demanar.
 
-**Que el teu equip comenci a fer servir la intel·ligència artificial de manera ordenada i útil.** Sessions curtes i pràctiques perquè la teva gent aprengui a fer servir aquestes eines en el seu dia a dia, sense por.
+**Que l'equip comenci a fer servir la intel·ligència artificial de manera ordenada i útil.** Sessions curtes i pràctiques per aprendre a fer servir aquestes eines en el dia a dia, sense por.
 
-## Com treballem
+## Com treballo
 
 <div class="steps">
   <div class="step">
     <span class="step-num">1</span>
     <h3>Parlem</h3>
-    <p>Una conversa gratuïta de mitja hora. M'expliques a què es dedica la teva empresa, com treballeu i què us pren temps. Jo escolto. Sense paraules tècniques.</p>
+    <p>Una conversa gratuïta de mitja hora: a què es dedica l'empresa, com treballa i què li pren temps. Jo escolto. Sense paraules tècniques.</p>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <h3>T'envio una proposta</h3>
-    <p>Analitzo el que m'has explicat i, normalment l'endemà, t'envio una proposta concreta: on integrar la intel·ligència artificial als teus processos, per on començar i què hi guanyes amb cada cosa.</p>
+    <h3>Envio una proposta</h3>
+    <p>Analitzo el que m'han explicat i, normalment l'endemà, envio una proposta concreta: on integrar la intel·ligència artificial als processos, per on començar i què s'hi guanya amb cada cosa.</p>
   </div>
   <div class="step">
     <span class="step-num">3</span>
     <h3>Ho construïm i ho provem</h3>
-    <p>Si la proposta t'encaixa, en poques setmanes tens alguna cosa funcionant, al teu negoci real. Si funciona, la fem créixer. Si no, pares aquí i no has perdut res.</p>
+    <p>Si la proposta encaixa, en poques setmanes hi ha alguna cosa funcionant al negoci real. Si funciona, la fem créixer. Si no, s'atura aquí i no s'ha perdut res.</p>
   </div>
 </div>
 
-## El que no faré
+## El que no faig
 
-- **Vendre't fum.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Et diré quines són quines abans que gastis un cèntim.
-- **Posar IA a tot arreu perquè sí.** La intel·ligència artificial no ho resol tot. Només té sentit en algunes parts dels teus processos, on accelera la feina sense perdre qualitat. Allà és on la posem, sobre les eines que ja feu servir.
-- **Deixar-te alguna cosa que el teu equip no pugui fer servir.** Si la teva gent no ho pot fer anar sense mi, no està acabat.
-- **Fer veure que puc amb tot jo sol.** Si el teu problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat.
+- **Vendre fum.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Dic quines són quines abans que es gasti un cèntim.
+- **Posar IA a tot arreu perquè sí.** La intel·ligència artificial no ho resol tot. Només té sentit en algunes parts dels processos, on accelera la feina sense perdre qualitat. Allà és on la poso, sobre les eines que l'empresa ja fa servir.
+- **Deixar alguna cosa que l'equip no pugui fer servir.** Si la gent de l'empresa no ho pot fer anar sense mi, no està acabat.
+- **Fer veure que puc amb tot jo sol.** Si el problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat.
 
 ## La meva experiència {#why-me}
 
-Si a la teva empresa mai heu fet servir intel·ligència artificial, per a vosaltres soc un expert. Això és el que he fet:
+Per a una empresa que mai ha fet servir intel·ligència artificial, soc un expert. Això és el que he fet:
 
 - **Fa més de 15 anys que construeixo programes**, per a empreses de l'Argentina, Alemanya, els Estats Units i Espanya. Avui dirigeixo la tecnologia d'una empresa amb al voltant d'un milió d'usuaris.
 - **Vaig ser el responsable de tecnologia (CTO) d'una empresa dels Estats Units** que porta les nòmines i la comptabilitat d'altres empreses. Sé què és portar un negoci, no només escriure codi.
@@ -78,7 +78,7 @@ Si a la teva empresa mai heu fet servir intel·ligència artificial, per a vosal
 - **Vaig ser professor a la universitat durant quatre anys.** Sé explicar coses difícils amb paraules senzilles, i m'agrada.
 - **Soc cocreador de [Cualbondi](https://cualbondi.com/)**, una aplicació de transport públic que fan servir milers de persones a l'Argentina, i he fet [moltes xerrades públiques](/talks/).
 
-Si vols la història completa, amb totes les paraules tècniques: [sobre mi](/ca/about/).
+La història completa, amb totes les paraules tècniques: [sobre mi](/ca/about/).
 
 ## El que diuen altres de la meva feina {#proof}
 
@@ -96,13 +96,13 @@ Si vols la història completa, amb totes les paraules tècniques: [sobre mi](/ca
   <div class="proof-item">
     <span class="proof-num">LinkedIn</span>
     <h3>Recomanacions de gent amb qui he treballat</h3>
-    <p>Antics caps i companys han escrit com és treballar amb mi. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Llegeix-les a LinkedIn</a>.</p>
+    <p>Antics caps i companys han escrit com és treballar amb mi. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Veure-les a LinkedIn</a>.</p>
   </div>
 </div>
 
 <section class="cta" id="contact">
   <h2>Parlem</h2>
-  <p>Escriu-me dues línies sobre a què es dedica la teva empresa. Llegeixo i responc jo mateix tots els missatges, normalment en menys d'un dia. La primera conversa (30 minuts) és gratuïta i sense compromís.</p>
+  <p>Dues línies sobre a què es dedica l'empresa són suficients. Llegeixo i responc jo mateix tots els missatges, normalment en menys d'un dia. La primera conversa (30 minuts) és gratuïta i sense compromís.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hola%20Juli%C3%A1n%2C%20tinc%20una%20empresa%20i%20vull%20saber%20com%20fer%20servir%20la%20intel%C2%B7lig%C3%A8ncia%20artificial.">WhatsApp</a>
