@@ -9,7 +9,7 @@ description: I help small and medium businesses start using artificial intellige
 <section class="hero">
   <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hi 👋, I'm Julián.</span></p>
   <h1>I help companies integrate artificial intelligence into their processes</h1>
-  <p class="hero-lead">You explain your processes to me in 30 minutes and I hand you a concrete proposal for integrating AI. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No magic promises.</p>
+  <p class="hero-lead">You explain your processes to me in 30 minutes and I hand you a concrete proposal for integrating AI. Your business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>
     <a class="btn btn-ghost" href="#why-me">Why me</a>
