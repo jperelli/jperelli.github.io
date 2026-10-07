@@ -7,20 +7,53 @@
   <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
   <meta name="google-site-verification" content="pa3_gf9-PdSRWuuF6hnPpHsuHqkbh6ml246fqRnctFk" />
 
-  <!-- Apply saved/system theme before paint to avoid flash -->
+  <!-- Language: redirect translated pages to the visitor's language (explicit choice wins, then browser) -->
   <script>
     (function () {
-      try {
-        var saved = localStorage.getItem('theme');
-        var dark = saved ? saved === 'dark'
-          : window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (dark) document.documentElement.setAttribute('data-theme', 'dark');
-      } catch (e) {}
+      var supported = ['en', 'es', 'ca'];
+      var root = document.documentElement;
+      var pageLang = root.getAttribute('data-page-lang');
+      var key = root.getAttribute('data-i18n-key');
+      var paths = {{ site.data.i18n | jsonify }};
+      var chosen = null;
+      try { chosen = localStorage.getItem('lang'); } catch (e) {}
+      if (supported.indexOf(chosen) < 0) chosen = null;
+      var detected = 'en';
+      var langs = navigator.languages || [navigator.language || navigator.userLanguage || 'en'];
+      for (var i = 0; i < langs.length; i++) {
+        var c = String(langs[i]).toLowerCase().slice(0, 2);
+        if (supported.indexOf(c) >= 0) { detected = c; break; }
+      }
+      var want = chosen || detected;
+      window.__siteLang = want;
+      // Only leave a translated page when the visitor chose a language explicitly,
+      // or when they landed on the default (English) page and their browser is es/ca.
+      // Shared /es/ and /ca/ links, and crawlers, are never bounced.
+      var shouldRedirect = chosen ? want !== pageLang : (pageLang === 'en' && want !== 'en');
+      if (key && pageLang && shouldRedirect && paths[want] && paths[want].paths[key]) {
+        location.replace(paths[want].paths[key] + location.search + location.hash);
+      }
     })();
   </script>
 
+  {% assign lang = page.lang | default: 'en' %}
+  {% assign t = site.data.i18n[lang] %}
+  {% if page.i18n_key %}
+    {% for l in site.data.i18n %}
+    <link rel="alternate" hreflang="{{ l[0] }}" href="{{ site.url }}{{ l[1].paths[page.i18n_key] | remove_first: '/' }}">
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.data.i18n.en.paths[page.i18n_key] | remove_first: '/' }}">
+    <link rel="canonical" href="{{ site.url }}{{ t.paths[page.i18n_key] | remove_first: '/' }}">
+    <meta name="description" content="{{ page.description | default: t.description }}">
+  {% endif %}
   <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.title %}
+  {% if page.i18n_key == 'home' %}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.title }} · {{ t.tagline }}">
+    <meta property="og:description" content="{{ page.description | default: t.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ t.paths.home | remove_first: '/' }}">
+    <meta property="og:locale" content="{{ lang }}">
+  {% elsif page.title %}
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ page.title }}">
     {% if page.description %}
@@ -54,8 +87,8 @@
   {% endif %}
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+    {% if page.i18n_key == 'home' %}
+      {{ site.title }} &middot; {{ t.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}

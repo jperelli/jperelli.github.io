@@ -1,5 +1,7 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.i18n[lang] %}
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="{{ lang }}" data-page-lang="{{ page.lang }}" data-i18n-key="{{ page.i18n_key }}">
 
   {% include head.html %}
   {% include google_analytics.html %}
@@ -8,14 +10,24 @@
 
     <header class="site-header">
       <div class="container">
-        <a class="site-name" href="/" title="Home">{{ site.title }}</a>
+        <a class="site-name" href="{{ t.paths.home }}" data-i18n-href="home" title="{{ site.title }}">{{ site.title }}</a>
         <nav class="site-nav">
-          {% for page in site.pages_list %}
-            <a href="{{ page[1] }}">{{ page[0] }}</a>
-          {% endfor %}
-          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" onclick="toggleTheme()">
-            <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
-          </button>
+          <a href="{{ t.paths.about }}" data-i18n="nav.about" data-i18n-href="about">{{ t.nav.about }}</a>
+          <a href="/projects/" data-i18n="nav.projects">{{ t.nav.projects }}</a>
+          <a href="/archive/" data-i18n="nav.blog">{{ t.nav.blog }}</a>
+          <a href="/talks/" data-i18n="nav.talks">{{ t.nav.talks }}</a>
+          <span class="lang-switch" aria-label="Language">
+            {% for l in site.data.i18n %}
+              {% assign code = l[0] %}
+              {% assign strings = l[1] %}
+              {% if page.i18n_key %}
+                {% assign href = strings.paths[page.i18n_key] %}
+              {% else %}
+                {% assign href = page.url %}
+              {% endif %}
+              <a href="{{ href }}" lang="{{ code }}" hreflang="{{ code }}" data-lang="{{ code }}" title="{{ strings.name }}"{% if code == lang %} class="active" aria-current="true"{% endif %}>{{ code | upcase }}</a>
+            {% endfor %}
+          </span>
         </nav>
       </div>
     </header>
@@ -41,17 +53,47 @@
     </footer>
 
     <script>
-      function toggleTheme() {
+      (function () {
+        var i18n = {{ site.data.i18n | jsonify }};
         var root = document.documentElement;
-        var dark = root.getAttribute('data-theme') === 'dark';
-        if (dark) {
-          root.removeAttribute('data-theme');
-          localStorage.setItem('theme', 'light');
-        } else {
-          root.setAttribute('data-theme', 'dark');
-          localStorage.setItem('theme', 'dark');
+        var pageLang = root.getAttribute('data-page-lang');
+        var links = document.querySelectorAll('.lang-switch a');
+
+        function applyChrome(code) {
+          var t = i18n[code];
+          if (!t) return;
+          root.setAttribute('lang', code);
+          document.querySelectorAll('[data-i18n]').forEach(function (el) {
+            var parts = el.getAttribute('data-i18n').split('.');
+            var v = t;
+            parts.forEach(function (p) { v = v && v[p]; });
+            if (v) el.textContent = v;
+          });
+          document.querySelectorAll('[data-i18n-href]').forEach(function (el) {
+            var k = el.getAttribute('data-i18n-href');
+            if (t.paths[k]) el.setAttribute('href', t.paths[k]);
+          });
+          links.forEach(function (a) {
+            var on = a.getAttribute('data-lang') === code;
+            a.classList.toggle('active', on);
+            if (on) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
+          });
         }
-      }
+
+        links.forEach(function (a) {
+          a.addEventListener('click', function (e) {
+            var code = a.getAttribute('data-lang');
+            try { localStorage.setItem('lang', code); } catch (err) {}
+            if (!pageLang) {
+              // Untranslated page (blog, talks, projects): keep the content, switch the chrome.
+              e.preventDefault();
+              applyChrome(code);
+            }
+          });
+        });
+
+        if (!pageLang) applyChrome(window.__siteLang || 'en');
+      })();
     </script>
 
   </body>

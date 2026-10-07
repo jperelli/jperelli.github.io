@@ -5,7 +5,7 @@ permalink:        pretty
 
 # Setup
 title:            Julián Perelli
-tagline:          "Principal Software Engineer / notes on building production systems"
+tagline:          "Helping companies take their first steps with artificial intelligence"
 description:      'The personal website of Julián Perelli'
 url:              https://jperelli.com/
 
@@ -23,6 +23,9 @@ version:          1.0.0
 github:
   repo:           github.com/jperelli/jperelli.github.io
 
-# This is the list of pages to incldue in the header of the website.
-pages_list:       {'Projects':'/projects', 'Blog':'/archive', 'Talks':'/talks'}
+# Contact buttons on the home page. Set whatsapp_link to the WhatsApp Business
+# short link (https://wa.me/message/XXXX) to show a WhatsApp button; empty hides it.
+whatsapp_link:    ""
+
+# Header navigation and UI strings per language live in _data/i18n.yml.
 

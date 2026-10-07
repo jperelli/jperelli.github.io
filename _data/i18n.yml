@@ -1,0 +1,44 @@
+# UI strings per language. Home and About pages live in index.md, about.md,
+# es/index.md, es/about.md, ca/index.md, ca/about.md.
+en:
+  name: English
+  title: Julián Perelli
+  tagline: "Helping companies take their first steps with artificial intelligence"
+  description: "Julián Perelli helps small and medium businesses start using artificial intelligence, in plain language and step by step."
+  nav:
+    about: About me
+    projects: Projects
+    blog: Blog
+    talks: Talks
+  paths:
+    home: /
+    about: /about/
+  footer_rss: RSS
+es:
+  name: Español
+  title: Julián Perelli
+  tagline: "Ayudo a empresas a dar sus primeros pasos con la inteligencia artificial"
+  description: "Julián Perelli ayuda a pequeñas y medianas empresas a empezar a usar la inteligencia artificial, en lenguaje sencillo y paso a paso."
+  nav:
+    about: Sobre mí
+    projects: Proyectos
+    blog: Blog
+    talks: Charlas
+  paths:
+    home: /es/
+    about: /es/about/
+  footer_rss: RSS
+ca:
+  name: Català
+  title: Julián Perelli
+  tagline: "Ajudo empreses a fer els primers passos amb la intel·ligència artificial"
+  description: "Julián Perelli ajuda petites i mitjanes empreses a començar a fer servir la intel·ligència artificial, en llenguatge senzill i pas a pas."
+  nav:
+    about: Sobre mi
+    projects: Projectes
+    blog: Blog
+    talks: Xerrades
+  paths:
+    home: /ca/
+    about: /ca/about/
+  footer_rss: RSS
