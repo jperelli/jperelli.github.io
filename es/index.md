@@ -20,7 +20,7 @@ description: Ayudo a pequeñas y medianas empresas a empezar a usar la inteligen
 
 Esto es para ti si tu empresa no tiene nada que ver con la tecnología, lees sobre inteligencia artificial todos los días y sigues sin saber qué tiene que ver con tu negocio. Quizá alguien ya te ofreció "meter IA en tu empresa" y no entendiste ni una palabra. Quizá te da miedo quedarte atrás, y el mismo miedo tirar dinero en algo que no funcione.
 
-## Qué puedo hacer por ti
+## Qué significa integrar IA en procesos
 
 **Quitarte trabajo repetitivo.** Responder los mismos correos, copiar datos de un sitio a otro, hacer el mismo informe cada semana. Muchas de estas tareas hoy se pueden hacer solas.
 

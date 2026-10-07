@@ -20,7 +20,7 @@ description: I help small and medium businesses start using artificial intellige
 
 This is for you if your company has nothing to do with technology, you read about artificial intelligence every day, and you still do not know what it has to do with your business. Maybe someone already offered to "put AI in your company" and you did not understand a word. Maybe you are afraid of being left behind, and just as afraid of wasting money on something that does not work.
 
-## What I can do for you
+## What integrating AI into processes means
 
 **Take repetitive work off your plate.** Answering the same emails, copying data from one place to another, writing the same report every week. Many of these tasks can now be done for you.
 

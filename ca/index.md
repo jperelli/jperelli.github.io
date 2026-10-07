@@ -20,7 +20,7 @@ description: Ajudo petites i mitjanes empreses a començar a fer servir la intel
 
 Això és per a tu si la teva empresa no té res a veure amb la tecnologia, llegeixes sobre intel·ligència artificial cada dia i encara no saps què té a veure amb el teu negoci. Potser algú ja t'ha ofert "posar IA a l'empresa" i no vas entendre ni una paraula. Potser et fa por quedar-te enrere, i la mateixa por llençar diners en alguna cosa que no funcioni.
 
-## Què puc fer per tu
+## Què vol dir integrar IA en processos
 
 **Treure't feina repetitiva.** Respondre els mateixos correus, copiar dades d'un lloc a un altre, fer el mateix informe cada setmana. Moltes d'aquestes feines avui es poden fer soles.
 
