@@ -7,7 +7,7 @@ category: project
 image: https://i.imgur.com/DP0DS0X.gif
 ---
 
-I made a game about covid-19 spread in javascript. In this article I will explain the mechanics and how it was programmed. [You can see it working here](https://jperelli.com.ar/pixel-infection/)
+I made a game about covid-19 spread in javascript. In this article I will explain the mechanics and how it was programmed. [You can see it working here](https://jperelli.com/pixel-infection/)
 
 ## Idea
 
@@ -56,7 +56,7 @@ The disease is increasingly difficult to defeat, It can
 
 ## Programming
 
-I'm using [Pixi.js](https://www.pixijs.com/) as a game library and publishing as a static html+js files in [the repository](https://jperelli.com.ar/pixel-infection/)
+I'm using [Pixi.js](https://www.pixijs.com/) as a game library and publishing as a static html+js files in [the repository](https://jperelli.com/pixel-infection/)
 
 ### Initial prototype
 

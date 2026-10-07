@@ -93,4 +93,4 @@ That, I think, is the thing that stays in the hands of the engineer: the taste, 
 
 The code is on github: [Redmine-Periodic-Task](https://github.com/jperelli/Redmine-Periodic-Task)
 
-If you use Redmine and you have these "I have to remember to do this every month" kind of tasks, give it a try. And if you need it ported to an old Redmine version or some custom behavior, you can [contact me](https://jperelli.com.ar/).
+If you use Redmine and you have these "I have to remember to do this every month" kind of tasks, give it a try. And if you need it ported to an old Redmine version or some custom behavior, you can [contact me](https://jperelli.com/).

@@ -13,4 +13,4 @@ All the information about this project is actually [in this post here](/post/201
 
 The library is published in a [rust crate here](https://crates.io/crates/osmptparser)
 
-Also I made a python package to use it in the backend of cualbondi (that uses django). The python package was made [using pyo3](https://jperelli.com.ar/post/2019/08/12/oxidizing-cualbondi/#python-rust). The [source code is here](https://github.com/cualbondi/pyosmptparser), and it's [published in pypi here](https://pypi.org/project/pyosmptparser/).
+Also I made a python package to use it in the backend of cualbondi (that uses django). The python package was made [using pyo3](https://jperelli.com/post/2019/08/12/oxidizing-cualbondi/#python-rust). The [source code is here](https://github.com/cualbondi/pyosmptparser), and it's [published in pypi here](https://pypi.org/project/pyosmptparser/).

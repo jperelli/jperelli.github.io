@@ -7,11 +7,11 @@ permalink:        pretty
 title:            Julián Perelli
 tagline:          "Principal Software Engineer / notes on building production systems"
 description:      'The personal website of Julián Perelli'
-url:              https://jperelli.com.ar/
+url:              https://jperelli.com/
 
 author:
   name:           'Julián Perelli'
-  url:            https://jperelli.com.ar/
+  url:            https://jperelli.com/
 
 paginate:         1
 
