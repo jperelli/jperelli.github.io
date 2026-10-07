@@ -18,9 +18,11 @@ description: Ajudo empreses a integrar intel·ligència artificial als seus proc
 
 ## A qui ajudo
 
-Ajudo empreses que no tenen res a veure amb la tecnologia, que llegeixen sobre intel·ligència artificial cada dia i encara no saben què té a veure amb el seu negoci. Potser algú ja t'ha ofert "posar IA a l'empresa" i no vas entendre ni una paraula. Potser et fa por quedar-te enrere, i la mateixa por llençar diners en alguna cosa que no funcioni.
+Ajudo empreses, tecnològiques o no, que funcionen bé sense intel·ligència artificial però noten que l'haurien d'estar fent servir i no saben per on començar. Empreses amb feina que es repeteix i avui depèn de persones: comandes, factures, correus de clients, informes, documents. El sector tant és; el que importa és que hi hagi processos que es puguin accelerar.
 
 ## Què vol dir integrar IA en processos
+
+No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té sentit en algunes parts dels teus processos, on accelera la feina sense perdre qualitat. Allà és on la posem. Per exemple:
 
 **Treure't feina repetitiva.** Respondre els mateixos correus, copiar dades d'un lloc a un altre, fer el mateix informe cada setmana. Moltes d'aquestes feines avui es poden fer soles.
 
@@ -32,7 +34,7 @@ Ajudo empreses que no tenen res a veure amb la tecnologia, que llegeixen sobre i
 
 **Afegir-la al teu propi producte.** Si vens un programa o un servei per internet, t'ajudo a afegir les funcions que els teus clients comencen a demanar.
 
-**Que el teu equip comenci.** Sessions curtes i pràctiques perquè la teva gent aprengui a fer servir aquestes eines en el seu dia a dia, sense por.
+**Que el teu equip comenci a fer servir la intel·ligència artificial de manera ordenada i útil.** Sessions curtes i pràctiques perquè la teva gent aprengui a fer servir aquestes eines en el seu dia a dia, sense por.
 
 ## Com treballem
 
@@ -57,7 +59,7 @@ Ajudo empreses que no tenen res a veure amb la tecnologia, que llegeixen sobre i
 ## El que no faré
 
 - **Vendre't fum.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Et diré quines són quines abans que gastis un cèntim.
-- **Fer-te canviar-ho tot.** Comencem per alguna cosa petita i sobre les eines que ja feu servir.
+- **Posar IA a tot arreu perquè sí.** La intel·ligència artificial no ho resol tot. Només té sentit en algunes parts dels teus processos, on accelera la feina sense perdre qualitat. Allà és on la posem, sobre les eines que ja feu servir.
 - **Deixar-te alguna cosa que el teu equip no pugui fer servir.** Si la teva gent no ho pot fer anar sense mi, no està acabat.
 - **Fer veure que puc amb tot jo sol.** Si el teu problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat. Tu segueixes parlant amb una sola persona: jo.
 
@@ -100,7 +102,7 @@ Si vols la història completa, amb totes les paraules tècniques: [sobre mi](/ca
 
 <section class="cta" id="contact">
   <h2>Parlem</h2>
-  <p>Escriu-me dues línies sobre a què es dedica la teva empresa. Llegeixo i responc jo mateix tots els missatges, normalment en menys d'un dia. La primera conversa és gratuïta i sense compromís.</p>
+  <p>Escriu-me dues línies sobre a què es dedica la teva empresa. Llegeixo i responc jo mateix tots els missatges, normalment en menys d'un dia. La primera conversa (30 minuts) és gratuïta i sense compromís.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hola%20Juli%C3%A1n%2C%20tinc%20una%20empresa%20i%20vull%20saber%20com%20fer%20servir%20la%20intel%C2%B7lig%C3%A8ncia%20artificial.">WhatsApp</a>

@@ -18,9 +18,11 @@ description: Ayudo a empresas a integrar inteligencia artificial en sus procesos
 
 ## A quiénes ayudo
 
-Ayudo a empresas que no tienen nada que ver con la tecnología, que leen sobre inteligencia artificial todos los días y siguen sin saber qué tiene que ver con su negocio. Quizá alguien ya te ofreció "meter IA en tu empresa" y no entendiste ni una palabra. Quizá te da miedo quedarte atrás, y el mismo miedo tirar dinero en algo que no funcione.
+Ayudo a empresas, tecnológicas o no, que funcionan bien sin inteligencia artificial pero notan que tendrían que estar usándola y no saben por dónde empezar. Empresas con trabajo que se repite y hoy depende de personas: pedidos, facturas, correos de clientes, informes, documentos. El sector da igual; lo que importa es que haya procesos que se puedan acelerar.
 
 ## Qué significa integrar IA en procesos
+
+No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: tiene sentido en algunas partes de tus procesos, donde acelera el trabajo sin perder calidad. Ahí es donde la ponemos. Por ejemplo:
 
 **Quitarte trabajo repetitivo.** Responder los mismos correos, copiar datos de un sitio a otro, hacer el mismo informe cada semana. Muchas de estas tareas hoy se pueden hacer solas.
 
@@ -32,7 +34,7 @@ Ayudo a empresas que no tienen nada que ver con la tecnología, que leen sobre i
 
 **Añadirla a tu propio producto.** Si vendes un programa o un servicio por internet, te ayudo a añadir las funciones que tus clientes empiezan a pedir.
 
-**Que tu equipo empiece.** Sesiones cortas y prácticas para que tu gente aprenda a usar estas herramientas en su día a día, sin miedo.
+**Que tu equipo empiece a usar la inteligencia artificial de forma ordenada y útil.** Sesiones cortas y prácticas para que tu gente aprenda a usar estas herramientas en su día a día, sin miedo.
 
 ## Cómo trabajamos
 
@@ -57,7 +59,7 @@ Ayudo a empresas que no tienen nada que ver con la tecnología, que leen sobre i
 ## Lo que no voy a hacer
 
 - **Venderte humo.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Te diré cuáles son cuáles antes de que gastes un céntimo.
-- **Hacerte cambiar todo.** Empezamos por algo pequeño y sobre las herramientas que ya usáis.
+- **Meter IA en todos lados porque sí.** La inteligencia artificial no lo resuelve todo. Solo tiene sentido en algunas partes de tus procesos, donde acelera el trabajo sin perder calidad. Ahí la ponemos, y sobre las herramientas que ya usáis.
 - **Dejarte algo que tu equipo no pueda usar.** Si tu gente no puede manejarlo sin mí, no está terminado.
 - **Hacer como que puedo con todo yo solo.** Si tu problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado. Tú sigues hablando con una sola persona: yo.
 
@@ -100,7 +102,7 @@ Si quieres la historia completa, con todas las palabras técnicas: [sobre mí](/
 
 <section class="cta" id="contact">
   <h2>Hablemos</h2>
-  <p>Escríbeme dos líneas sobre a qué se dedica tu empresa. Leo y respondo yo mismo todos los mensajes, normalmente en menos de un día. La primera conversación es gratis y sin compromiso.</p>
+  <p>Escríbeme dos líneas sobre a qué se dedica tu empresa. Leo y respondo yo mismo todos los mensajes, normalmente en menos de un día. La primera conversación (30 minutos) es gratis y sin compromiso.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hola%20Juli%C3%A1n%2C%20tengo%20una%20empresa%20y%20quiero%20saber%20c%C3%B3mo%20usar%20la%20inteligencia%20artificial.">WhatsApp</a>

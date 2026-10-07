@@ -18,9 +18,11 @@ description: I help companies integrate artificial intelligence into their proce
 
 ## Who I help
 
-I help companies that have nothing to do with technology, read about artificial intelligence every day, and still do not know what it has to do with their business. Maybe someone already offered to "put AI in your company" and you did not understand a word. Maybe you are afraid of being left behind, and just as afraid of wasting money on something that does not work.
+I help companies, tech or not, that run fine without artificial intelligence but feel they should be using it and do not know where to start. Companies with work that repeats and today depends on people: orders, invoices, customer emails, reports, documents. The industry does not matter; what matters is that there are processes that can be sped up.
 
 ## What integrating AI into processes means
+
+It is not about putting AI everywhere. Artificial intelligence does not solve everything: it makes sense in some parts of your processes, where it speeds up the work without losing quality. That is where we put it. For example:
 
 **Take repetitive work off your plate.** Answering the same emails, copying data from one place to another, writing the same report every week. Many of these tasks can now be done for you.
 
@@ -32,7 +34,7 @@ I help companies that have nothing to do with technology, read about artificial 
 
 **Add it to your own product.** If you sell software or an online service, I help you add the features your customers are starting to ask for.
 
-**Get your team started.** Short, practical sessions so your people learn to use these tools in their everyday work, with no fear.
+**Get your team using artificial intelligence in an orderly, useful way.** Short, practical sessions so your people learn to use these tools in their everyday work, with no fear.
 
 ## How we work together
 
@@ -57,7 +59,7 @@ I help companies that have nothing to do with technology, read about artificial 
 ## What I will not do
 
 - **Sell you hot air.** Artificial intelligence is very good at some things and bad at others. I will tell you which is which, before you spend a cent.
-- **Make you change everything.** We start small and build on the tools you already use.
+- **Put AI everywhere just because.** Artificial intelligence does not solve everything. It only makes sense in some parts of your processes, where it speeds up the work without losing quality. That is where we put it, on top of the tools you already use.
 - **Leave you with something your team cannot use.** If your people cannot run it without me, it is not finished.
 - **Pretend I can do everything alone.** If your problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before. You keep talking to one person: me.
 
@@ -100,7 +102,7 @@ Want the full story, with all the technical words? [Read about me](/about/).
 
 <section class="cta" id="contact">
   <h2>Let's talk</h2>
-  <p>Write me two lines about what your company does. I read and answer every message myself, usually within a day. The first conversation is free and there is no commitment.</p>
+  <p>Write me two lines about what your company does. I read and answer every message myself, usually within a day. The first conversation (30 minutes) is free and there is no commitment.</p>
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hello%20Juli%C3%A1n%2C%20I%20have%20a%20company%20and%20I%20would%20like%20to%20know%20how%20to%20use%20artificial%20intelligence.">WhatsApp</a>
