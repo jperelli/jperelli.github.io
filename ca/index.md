@@ -16,9 +16,9 @@ description: Ajudo petites i mitjanes empreses a començar a fer servir la intel
   </p>
 </section>
 
-## Per a qui és això
+## Amb qui treballo
 
-Això és per a tu si la teva empresa no té res a veure amb la tecnologia, llegeixes sobre intel·ligència artificial cada dia i encara no saps què té a veure amb el teu negoci. Potser algú ja t'ha ofert "posar IA a l'empresa" i no vas entendre ni una paraula. Potser et fa por quedar-te enrere, i la mateixa por llençar diners en alguna cosa que no funcioni.
+Treballo amb empreses que no tenen res a veure amb la tecnologia, que llegeixen sobre intel·ligència artificial cada dia i encara no saben què té a veure amb el seu negoci. Potser algú ja t'ha ofert "posar IA a l'empresa" i no vas entendre ni una paraula. Potser et fa por quedar-te enrere, i la mateixa por llençar diners en alguna cosa que no funcioni.
 
 ## Què vol dir integrar IA en processos
 
