@@ -12,7 +12,7 @@ description: Ayudo a empresas a integrar inteligencia artificial en sus procesos
   <p class="hero-lead">Una conversación de 30 minutos sobre los procesos de la empresa y, al día siguiente, una propuesta concreta de integración de IA. La empresa sigue funcionando como hoy, con menos tareas repetitivas y respuestas más rápidas. Nada de humo.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Hablemos</a>
-    <a class="btn btn-ghost" href="#why-me">Mi experiencia</a>
+    <a class="btn btn-ghost" href="#why-me">Mis credenciales</a>
   </p>
 </section>
 
@@ -63,9 +63,7 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
 - **Dejar algo que el equipo no pueda usar.** Si la gente de la empresa no puede manejarlo sin mí, no está terminado.
 - **Hacer como que puedo con todo yo solo.** Si el problema es más grande que una persona, traigo a colegas y proveedores de confianza con los que ya he trabajado.
 
-## Mi experiencia {#why-me}
-
-Para una empresa que nunca ha usado inteligencia artificial, soy un experto. Esto es lo que he hecho:
+## Mis credenciales {#why-me}
 
 - **Llevo más de 15 años construyendo programas**, para empresas de Argentina, Alemania, Estados Unidos y España. Hoy dirijo la tecnología de una empresa con alrededor de un millón de usuarios.
 - **Fui el responsable de tecnología (CTO) de una empresa de Estados Unidos** que lleva las nóminas y la contabilidad de otras empresas. Sé lo que es llevar un negocio, no solo escribir código.

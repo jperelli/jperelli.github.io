@@ -12,7 +12,7 @@ description: Ajudo empreses a integrar intel·ligència artificial als seus proc
   <p class="hero-lead">Una conversa de 30 minuts sobre els processos de l'empresa i, l'endemà, una proposta concreta d'integració d'IA. L'empresa segueix funcionant com avui, amb menys feines repetitives i respostes més ràpides. Gens de fum.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Parlem</a>
-    <a class="btn btn-ghost" href="#why-me">La meva experiència</a>
+    <a class="btn btn-ghost" href="#why-me">Les meves credencials</a>
   </p>
 </section>
 
@@ -63,9 +63,7 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
 - **Deixar alguna cosa que l'equip no pugui fer servir.** Si la gent de l'empresa no ho pot fer anar sense mi, no està acabat.
 - **Fer veure que puc amb tot jo sol.** Si el problema és més gran que una persona, porto col·legues i proveïdors de confiança amb qui ja he treballat.
 
-## La meva experiència {#why-me}
-
-Per a una empresa que mai ha fet servir intel·ligència artificial, soc un expert. Això és el que he fet:
+## Les meves credencials {#why-me}
 
 - **Fa més de 15 anys que construeixo programes**, per a empreses de l'Argentina, Alemanya, els Estats Units i Espanya. Avui dirigeixo la tecnologia d'una empresa amb al voltant d'un milió d'usuaris.
 - **Vaig ser el responsable de tecnologia (CTO) d'una empresa dels Estats Units** que porta les nòmines i la comptabilitat d'altres empreses. Sé què és portar un negoci, no només escriure codi.

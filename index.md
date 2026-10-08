@@ -12,7 +12,7 @@ description: I help companies integrate artificial intelligence into their proce
   <p class="hero-lead">A 30-minute conversation about the company's processes and, the next day, a concrete proposal for integrating AI. The business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
   <p class="hero-actions">
     <a class="btn btn-primary" href="#contact">Let's talk</a>
-    <a class="btn btn-ghost" href="#why-me">My experience</a>
+    <a class="btn btn-ghost" href="#why-me">My credentials</a>
   </p>
 </section>
 
@@ -63,9 +63,7 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
 - **Leave behind something the team cannot use.** If the company's people cannot run it without me, it is not finished.
 - **Pretend I can do everything alone.** If the problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before.
 
-## My experience {#why-me}
-
-For a company that has never used artificial intelligence, I am an expert. This is what I have done:
+## My credentials {#why-me}
 
 - **I have built software for over 15 years**, for companies in Argentina, Germany, the United States and Spain. Today I lead technology at a company with around a million users.
 - **I was the head of technology (CTO) at a company in the United States** that handles payroll and accounting for other companies. I know what it means to run a business, not just to write code.
