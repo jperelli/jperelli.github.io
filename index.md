@@ -56,6 +56,21 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
   </div>
 </div>
 
+## A real case {#case}
+
+<div class="case-card">
+  <div class="case-card-body">
+    <span class="case-card-kicker">Medical supplies · online sales · 2026</span>
+    <h3><a class="case-card-title" href="/cases/stock-tracker/">From a spreadsheet to a system that says when to reorder</a></h3>
+    <p>A small company ran its stock on a spreadsheet. In two weeks we delivered a system that joins its accounting and Amazon data and, with artificial intelligence, says what to reorder and when. The founder now improves it himself.</p>
+    <span class="case-card-link" aria-hidden="true">Read the case &rarr;</span>
+  </div>
+  <div class="case-card-media" aria-hidden="true">
+    <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
+    <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
+  </div>
+</div>
+
 ## What I do not do
 
 - **Sell hot air.** Artificial intelligence is very good at some things and bad at others. I say which is which before a cent is spent.
@@ -96,6 +111,20 @@ The full story, with all the technical words: [about me](/about/).
     <h3>Recommendations from people I have worked with</h3>
     <p>Former bosses and colleagues have written about what it is like to work with me. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">See them on LinkedIn</a>.</p>
   </div>
+</div>
+
+## Who I work with {#partners}
+
+For projects bigger than one person, I work with people I have worked with for years. The client always knows who is doing what.
+
+<div class="partners">
+  <a class="partner" href="https://exentric.tech/">
+    <span class="partner-logo">eX</span>
+    <div>
+      <h3>eXentric</h3>
+      <p>Backend and artificial-intelligence engineering studio. We built the stock system above together, and we work together on projects that need more hands than mine.</p>
+    </div>
+  </a>
 </div>
 
 <section class="cta" id="contact">

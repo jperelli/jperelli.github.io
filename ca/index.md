@@ -56,6 +56,21 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
   </div>
 </div>
 
+## Un cas real {#case}
+
+<div class="case-card">
+  <div class="case-card-body">
+    <span class="case-card-kicker">Material mèdic · venda online · 2026</span>
+    <h3><a class="case-card-title" href="/ca/casos/stock-tracker/">D'un full de càlcul a un sistema que diu quan demanar</a></h3>
+    <p>Una petita empresa portava l'estoc en un full de càlcul. En dues setmanes li vam lliurar un sistema que ajunta les dades de la seva comptabilitat i d'Amazon i, amb intel·ligència artificial, diu què demanar i quan. Avui el fundador el millora pel seu compte.</p>
+    <span class="case-card-link" aria-hidden="true">Llegir el cas &rarr;</span>
+  </div>
+  <div class="case-card-media" aria-hidden="true">
+    <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
+    <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
+  </div>
+</div>
+
 ## El que no faig
 
 - **Vendre fum.** La intel·ligència artificial és molt bona en algunes coses i dolenta en d'altres. Dic quines són quines abans que es gasti un cèntim.
@@ -96,6 +111,20 @@ La història completa, amb totes les paraules tècniques: [sobre mi](/ca/about/)
     <h3>Recomanacions de gent amb qui he treballat</h3>
     <p>Antics caps i companys han escrit com és treballar amb mi. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Veure-les a LinkedIn</a>.</p>
   </div>
+</div>
+
+## Amb qui treballo {#partners}
+
+Per a projectes que superen una persona, treballo amb gent amb qui fa anys que treballo. El client sempre sap qui fa què.
+
+<div class="partners">
+  <a class="partner" href="https://exentric.tech/">
+    <span class="partner-logo">eX</span>
+    <div>
+      <h3>eXentric</h3>
+      <p>Estudi d'enginyeria de backend i intel·ligència artificial. El sistema d'estoc de dalt el vam fer junts, i treballem junts en els projectes que necessiten més mans que les meves.</p>
+    </div>
+  </a>
 </div>
 
 <section class="cta" id="contact">

@@ -56,6 +56,21 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
   </div>
 </div>
 
+## Un caso real {#case}
+
+<div class="case-card">
+  <div class="case-card-body">
+    <span class="case-card-kicker">Material médico · venta online · 2026</span>
+    <h3><a class="case-card-title" href="/es/casos/stock-tracker/">De una hoja de cálculo a un sistema que dice cuándo pedir</a></h3>
+    <p>Una pequeña empresa llevaba el stock en una hoja de cálculo. En dos semanas le entregamos un sistema que junta los datos de su contabilidad y de Amazon y, con inteligencia artificial, dice qué pedir y cuándo. Hoy el fundador lo mejora por su cuenta.</p>
+    <span class="case-card-link" aria-hidden="true">Leer el caso &rarr;</span>
+  </div>
+  <div class="case-card-media" aria-hidden="true">
+    <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
+    <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
+  </div>
+</div>
+
 ## Lo que no hago
 
 - **Vender humo.** La inteligencia artificial es muy buena en algunas cosas y mala en otras. Digo cuáles son cuáles antes de que se gaste un céntimo.
@@ -96,6 +111,20 @@ La historia completa, con todas las palabras técnicas: [sobre mí](/es/about/).
     <h3>Recomendaciones de gente con la que he trabajado</h3>
     <p>Antiguos jefes y compañeros han escrito cómo es trabajar conmigo. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">Verlas en LinkedIn</a>.</p>
   </div>
+</div>
+
+## Con quién trabajo {#partners}
+
+Para proyectos que superan a una persona, trabajo con gente con la que llevo años trabajando. El cliente siempre sabe quién hace qué.
+
+<div class="partners">
+  <a class="partner" href="https://exentric.tech/">
+    <span class="partner-logo">eX</span>
+    <div>
+      <h3>eXentric</h3>
+      <p>Estudio de ingeniería de backend e inteligencia artificial. El sistema de stock de arriba lo hicimos juntos, y trabajamos juntos en los proyectos que necesitan más manos que las mías.</p>
+    </div>
+  </a>
 </div>
 
 <section class="cta" id="contact">

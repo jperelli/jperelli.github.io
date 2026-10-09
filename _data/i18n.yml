@@ -13,6 +13,7 @@ en:
   paths:
     home: /
     about: /about/
+    case_stock_tracker: /cases/stock-tracker/
   footer_rss: RSS
 es:
   name: Español
@@ -27,6 +28,7 @@ es:
   paths:
     home: /es/
     about: /es/about/
+    case_stock_tracker: /es/casos/stock-tracker/
   footer_rss: RSS
 ca:
   name: Català
@@ -41,4 +43,5 @@ ca:
   paths:
     home: /ca/
     about: /ca/about/
+    case_stock_tracker: /ca/casos/stock-tracker/
   footer_rss: RSS
