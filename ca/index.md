@@ -56,11 +56,13 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
   </div>
 </div>
 
-## Un cas real {#case}
+## Casos {#case}
+
+<p class="case-intro">Un és feina lliurada a un client; l'altre és un exemple inventat que qualsevol pot seguir. Cadascun diu quin és.</p>
 
 <div class="case-card">
   <div class="case-card-body">
-    <span class="case-card-kicker">Material mèdic · venda online · 2026</span>
+    <span class="case-card-kicker"><span class="case-badge case-badge-real">Feina per a un client</span> Material mèdic · venda online · 2026</span>
     <h3><a class="case-card-title" href="/ca/casos/stock-tracker/">D'un full de càlcul a un sistema que diu quan demanar</a></h3>
     <p>Una petita empresa portava l'estoc en un full de càlcul. En dues setmanes li vam lliurar un sistema que ajunta les dades de la seva comptabilitat i d'Amazon i, amb intel·ligència artificial, diu què demanar i quan. Avui el fundador el millora pel seu compte.</p>
     <span class="case-card-link" aria-hidden="true">Llegir el cas &rarr;</span>
@@ -68,6 +70,18 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
   <div class="case-card-media" aria-hidden="true">
     <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
     <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
+  </div>
+</div>
+
+<div class="case-card">
+  <div class="case-card-body">
+    <span class="case-card-kicker"><span class="case-badge case-badge-example">Exemple</span> Immobiliària · seguiment de compradors · 2026</span>
+    <h3><a class="case-card-title" href="/ca/casos/claude-tracker/">D'un full de compradors a un seguiment a Claude que recorda, i quan treure'l d'allà</a></h3>
+    <p>Una petita immobiliària porta els seus compradors en un full de càlcul i en una eina que li va fer Claude, i actualitza totes dues. L'exemple el refà com una sola eina amb dades desades, amb el prompt per copiar i una demo de què sobreviu en tancar la pestanya, i marca el punt en què hauria de sortir de Claude.</p>
+    <span class="case-card-link" aria-hidden="true">Llegir l'exemple &rarr;</span>
+  </div>
+  <div class="case-card-media" aria-hidden="true">
+    <img class="single" src="/public/images/2026-10-15-claude-crm/card.png" alt="" loading="lazy">
   </div>
 </div>
 

@@ -487,6 +487,23 @@ tbody tr:nth-child(odd) td { background-color: var(--bg-soft); }
   .case-card-media { min-height: 200px; border-left: 0; border-top: 1px solid var(--border); }
 }
 
+.case-badge {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  margin-right: 0.45rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.case-badge-real { color: var(--accent); }
+.case-badge-example { color: var(--text-soft); }
+.case-intro { color: var(--text-soft); margin: -0.4rem 0 0.4rem; }
+.case-card-media img.single { object-fit: cover; object-position: center; }
+
 .case-kicker {
   margin: 0 0 0.8rem;
   font-size: 0.85rem;

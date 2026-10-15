@@ -8,7 +8,7 @@ image: /public/images/2026-10-09-stock-tracker/after-dashboard.png
 ---
 
 <article class="case" markdown="1">
-<p class="case-kicker">Un cas real · 2026 · amb <a href="https://exentric.tech/">eXentric</a></p>
+<p class="case-kicker"><span class="case-badge case-badge-real">Feina per a un client</span> Un cas real · 2026 · amb <a href="https://exentric.tech/">eXentric</a></p>
 
 <h1 class="case-title">D'un full de càlcul a un sistema que diu quan demanar</h1>
 

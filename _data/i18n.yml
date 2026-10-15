@@ -14,6 +14,7 @@ en:
     home: /
     about: /about/
     case_stock_tracker: /cases/stock-tracker/
+    case_claude_tracker: /cases/claude-tracker/
   footer_rss: RSS
 es:
   name: Español
@@ -29,6 +30,7 @@ es:
     home: /es/
     about: /es/about/
     case_stock_tracker: /es/casos/stock-tracker/
+    case_claude_tracker: /es/casos/claude-tracker/
   footer_rss: RSS
 ca:
   name: Català
@@ -44,4 +46,5 @@ ca:
     home: /ca/
     about: /ca/about/
     case_stock_tracker: /ca/casos/stock-tracker/
+    case_claude_tracker: /ca/casos/claude-tracker/
   footer_rss: RSS

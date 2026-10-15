@@ -56,11 +56,13 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
   </div>
 </div>
 
-## Un caso real {#case}
+## Casos {#case}
+
+<p class="case-intro">Uno es trabajo entregado a un cliente; el otro es un ejemplo inventado que cualquiera puede seguir. Cada uno dice cuál es.</p>
 
 <div class="case-card">
   <div class="case-card-body">
-    <span class="case-card-kicker">Material médico · venta online · 2026</span>
+    <span class="case-card-kicker"><span class="case-badge case-badge-real">Trabajo para un cliente</span> Material médico · venta online · 2026</span>
     <h3><a class="case-card-title" href="/es/casos/stock-tracker/">De una hoja de cálculo a un sistema que dice cuándo pedir</a></h3>
     <p>Una pequeña empresa llevaba el stock en una hoja de cálculo. En dos semanas le entregamos un sistema que junta los datos de su contabilidad y de Amazon y, con inteligencia artificial, dice qué pedir y cuándo. Hoy el fundador lo mejora por su cuenta.</p>
     <span class="case-card-link" aria-hidden="true">Leer el caso &rarr;</span>
@@ -68,6 +70,18 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
   <div class="case-card-media" aria-hidden="true">
     <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
     <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
+  </div>
+</div>
+
+<div class="case-card">
+  <div class="case-card-body">
+    <span class="case-card-kicker"><span class="case-badge case-badge-example">Ejemplo</span> Inmobiliaria · seguimiento de compradores · 2026</span>
+    <h3><a class="case-card-title" href="/es/casos/claude-tracker/">De una hoja de compradores a un seguimiento en Claude que recuerda, y cuándo sacarlo de ahí</a></h3>
+    <p>Una pequeña inmobiliaria lleva a sus compradores en una hoja de cálculo y en una herramienta que le hizo Claude, y actualiza las dos. El ejemplo lo rehace como una sola herramienta con datos guardados, con el prompt para copiar y una demo de qué sobrevive al cerrar la pestaña, y marca el punto en que debería salir de Claude.</p>
+    <span class="case-card-link" aria-hidden="true">Leer el ejemplo &rarr;</span>
+  </div>
+  <div class="case-card-media" aria-hidden="true">
+    <img class="single" src="/public/images/2026-10-15-claude-crm/card.png" alt="" loading="lazy">
   </div>
 </div>
 

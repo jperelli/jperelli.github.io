@@ -56,11 +56,13 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
   </div>
 </div>
 
-## A real case {#case}
+## Cases {#case}
+
+<p class="case-intro">One is work delivered to a client; the other is an invented example that anyone can follow. Each one says which it is.</p>
 
 <div class="case-card">
   <div class="case-card-body">
-    <span class="case-card-kicker">Medical supplies · online sales · 2026</span>
+    <span class="case-card-kicker"><span class="case-badge case-badge-real">Client work</span> Medical supplies · online sales · 2026</span>
     <h3><a class="case-card-title" href="/cases/stock-tracker/">From a spreadsheet to a system that says when to reorder</a></h3>
     <p>A small company ran its stock on a spreadsheet. In two weeks we delivered a system that joins its accounting and Amazon data and, with artificial intelligence, says what to reorder and when. The founder now improves it himself.</p>
     <span class="case-card-link" aria-hidden="true">Read the case &rarr;</span>
@@ -68,6 +70,18 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
   <div class="case-card-media" aria-hidden="true">
     <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
     <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
+  </div>
+</div>
+
+<div class="case-card">
+  <div class="case-card-body">
+    <span class="case-card-kicker"><span class="case-badge case-badge-example">Example</span> Property agency · buyer follow-up · 2026</span>
+    <h3><a class="case-card-title" href="/cases/claude-tracker/">From a buyer spreadsheet to a Claude tracker that remembers, and when to move it out</a></h3>
+    <p>A small agency keeps its buyers in a spreadsheet and in a tool Claude built, and updates both. The example rebuilds it as one tool with saved data, with the prompt to copy and a live demo of what survives closing the tab, and marks the point where it should leave Claude.</p>
+    <span class="case-card-link" aria-hidden="true">Read the example &rarr;</span>
+  </div>
+  <div class="case-card-media" aria-hidden="true">
+    <img class="single" src="/public/images/2026-10-15-claude-crm/card.png" alt="" loading="lazy">
   </div>
 </div>
 
