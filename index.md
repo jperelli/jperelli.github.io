@@ -73,6 +73,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
           <span class="tl-sub-when">2019 · 2023</span>
           <div>
             <h4>Chief Technology Officer <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
+            <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/es.svg" alt="Spain" width="20" height="15"> remote from Spain</p>
             <p>Product architecture and hands-on development with a small team. AWS, then Vercel. PostgreSQL.</p>
           </div>
         </li>
@@ -80,6 +81,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
           <span class="tl-sub-when">2018 · 2019</span>
           <div>
             <h4>Software Architect, for Mosaique <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
+            <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/es.svg" alt="Spain" width="20" height="15"> remote from Spain</p>
             <p>Fintech start-up in Chicago. Django, Celery and React platform built from scratch on AWS Fargate.</p>
           </div>
         </li>
@@ -87,6 +89,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
           <span class="tl-sub-when">2017 · 2018</span>
           <div>
             <h4>Frontend Engineer, for Matterport <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
+            <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"> remote from Argentina</p>
             <p>3D spatial mapping, Sunnyvale. AngularJS and Django; migrated a 1000+ file frontend from grunt to webpack.</p>
           </div>
         </li>
@@ -104,7 +107,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
     <span class="tl-when">2015 · 2017</span>
     <div class="tl-body">
       <h3>Fullstack Engineer · mainstorconcept <img class="flag" src="/public/img/flags/de.svg" alt="Germany" width="20" height="15"></h3>
-      <p class="tl-meta">Mainframe services · remote, part time, team in Ettlingen, Germany</p>
+      <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"> remote from Argentina, part time · Mainframe services · team in Ettlingen, Germany</p>
       <p>Web application for a mainframe tape-emulation system. Django REST API, AngularJS.</p>
     </div>
   </li>

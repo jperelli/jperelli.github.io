@@ -73,6 +73,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
           <span class="tl-sub-when">2019 · 2023</span>
           <div>
             <h4>Chief Technology Officer <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
+            <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/es.svg" alt="España" width="20" height="15"> remoto desde España</p>
             <p>Arquitectura del producto y desarrollo con las manos en el código, con un equipo chico. AWS, después Vercel. PostgreSQL.</p>
           </div>
         </li>
@@ -80,6 +81,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
           <span class="tl-sub-when">2018 · 2019</span>
           <div>
             <h4>Software Architect, para Mosaique <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
+            <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/es.svg" alt="España" width="20" height="15"> remoto desde España</p>
             <p>Start-up fintech en Chicago. Plataforma en Django, Celery y React construida desde cero sobre AWS Fargate.</p>
           </div>
         </li>
@@ -87,6 +89,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
           <span class="tl-sub-when">2017 · 2018</span>
           <div>
             <h4>Frontend Engineer, para Matterport <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
+            <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"> remoto desde Argentina</p>
             <p>Mapeo espacial 3D, Sunnyvale. AngularJS y Django; migré un frontend de más de 1000 archivos de grunt a webpack.</p>
           </div>
         </li>
@@ -104,7 +107,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
     <span class="tl-when">2015 · 2017</span>
     <div class="tl-body">
       <h3>Fullstack Engineer · mainstorconcept <img class="flag" src="/public/img/flags/de.svg" alt="Germany" width="20" height="15"></h3>
-      <p class="tl-meta">Servicios de mainframe · remoto, medio tiempo, equipo en Ettlingen, Alemania</p>
+      <p class="tl-meta"><img class="flag flag-sm" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"> remoto desde Argentina, medio tiempo · Servicios de mainframe · equipo en Ettlingen, Alemania</p>
       <p>Aplicación web para un sistema de emulación de cintas de mainframe. API REST en Django, AngularJS.</p>
     </div>
   </li>
