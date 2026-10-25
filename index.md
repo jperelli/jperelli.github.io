@@ -240,7 +240,7 @@ I taught Programming Paradigms, Operating Systems and Intro to Databases at UTN 
   <h2>Get in touch</h2>
   <p>I live in Castelldefels, next to Barcelona. Spanish is my first language, I work in English every day, and I get by in German and Catalan. Italian and Argentinian citizen, resident in Spain.</p>
   <p class="hero-actions">
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com">Email me</a>
+    {% include email.html class="btn btn-primary" text="Email me" %}
     <a class="btn btn-ghost" href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
     <a class="btn btn-ghost" href="https://github.com/jperelli">GitHub</a>
     <a class="btn btn-ghost" href="https://stackoverflow.com/users/912450/jperelli">Stack Overflow</a>

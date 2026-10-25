@@ -140,7 +140,7 @@ Això ho vaig fer de debò amb un venedor de material mèdic que portava l'estoc
 <h2>Parlem</h2>
 <p>Si a la teva empresa un full de càlcul i una eina de Claude descriuen els mateixos clients, ho miro amb gust. La primera conversa (30 minuts) és gratuïta i sense compromís; dues línies sobre a què es dedica l'empresa són suficients.</p>
 <p class="hero-actions">
-<a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Full%20de%20c%C3%A0lcul%20i%20eina%20de%20Claude">Escriu-me un correu</a>
+{% include email.html class="btn btn-primary" text="Escriu-me un correu" subject="Full%20de%20c%C3%A0lcul%20i%20eina%20de%20Claude" %}
 <a class="btn btn-ghost" href="/ca/">Tornar a l'inici</a>
 </p>
 </section>

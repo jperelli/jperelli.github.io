@@ -98,7 +98,7 @@ That is the outcome I look for: not a system that depends on me, but one the com
   <h2>Let's talk</h2>
   <p>Most companies have a spreadsheet like this one. Two lines about what the company does are enough; the first conversation (30 minutes) is free and there is no commitment.</p>
   <p class="hero-actions">
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Artificial%20intelligence%20in%20my%20company">Email me</a>
+    {% include email.html class="btn btn-primary" text="Email me" subject="Artificial%20intelligence%20in%20my%20company" %}
     <a class="btn btn-ghost" href="/">Back to the home page</a>
   </p>
 </section>

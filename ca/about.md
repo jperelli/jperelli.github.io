@@ -19,7 +19,7 @@ Escric sobre programació al meu [blog](/archive/) (en anglès) i he fet diverse
   <a href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
   <a href="https://stackoverflow.com/users/912450/jperelli">Stack Overflow</a>
   <a href="https://t.me/jperelli_ok">Telegram</a>
-  <a href="mailto:jperelli@gmail.com">Email</a>
+  {% include email.html text="Email" %}
 </div>
 
 ## Programari lliure

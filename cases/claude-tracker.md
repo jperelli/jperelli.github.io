@@ -141,7 +141,7 @@ I did this for real with a medical-supplies seller whose stock lived in a spread
 <h2>Let's talk</h2>
 <p>If a spreadsheet and a Claude tool in your company are describing the same customers, I am happy to look at it. The first conversation (30 minutes) is free and there is no commitment; two lines about what the company does are enough.</p>
 <p class="hero-actions">
-<a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Spreadsheet%20and%20Claude%20tracker">Email me</a>
+{% include email.html class="btn btn-primary" text="Email me" subject="Spreadsheet%20and%20Claude%20tracker" %}
 <a class="btn btn-ghost" href="/">Back to the home page</a>
 </p>
 </section>

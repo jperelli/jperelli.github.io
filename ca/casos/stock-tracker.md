@@ -98,7 +98,7 @@ Aquest és el resultat que busco: no un sistema que depengui de mi, sinó un que
   <h2>Parlem</h2>
   <p>La majoria de les empreses tenen un full de càlcul com aquest. Dues línies sobre a què es dedica l'empresa són suficients; la primera conversa (30 minuts) és gratuïta i sense compromís.</p>
   <p class="hero-actions">
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Intel%C2%B7lig%C3%A8ncia%20artificial%20a%20la%20meva%20empresa">Escriu-me un correu</a>
+    {% include email.html class="btn btn-primary" text="Escriu-me un correu" subject="Intel%C2%B7lig%C3%A8ncia%20artificial%20a%20la%20meva%20empresa" %}
     <a class="btn btn-ghost" href="/ca/">Tornar a l'inici</a>
   </p>
 </section>

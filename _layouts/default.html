@@ -53,6 +53,11 @@
     </footer>
 
     <script>
+      document.querySelectorAll('a[data-m-u]').forEach(function (a) {
+        var addr = a.getAttribute('data-m-u') + '@' + a.getAttribute('data-m-d') + '.' + a.getAttribute('data-m-t');
+        var subject = a.getAttribute('data-m-s');
+        a.setAttribute('href', 'mailto:' + addr + (subject ? '?subject=' + subject : ''));
+      });
       (function () {
         var i18n = {{ site.data.i18n | jsonify }};
         var root = document.documentElement;

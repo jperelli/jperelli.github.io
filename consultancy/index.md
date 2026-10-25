@@ -148,9 +148,9 @@ For projects bigger than one person, I work with people I have worked with for y
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hello%20Juli%C3%A1n%2C%20I%20have%20a%20company%20and%20I%20would%20like%20to%20know%20how%20to%20use%20artificial%20intelligence.">WhatsApp</a>
-    <a class="btn btn-ghost" href="mailto:jperelli@gmail.com?subject=Artificial%20intelligence%20in%20my%20company">Email me</a>
+    {% include email.html class="btn btn-ghost" text="Email me" subject="Artificial%20intelligence%20in%20my%20company" %}
 {% else %}
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Artificial%20intelligence%20in%20my%20company">Email me</a>
+    {% include email.html class="btn btn-primary" text="Email me" subject="Artificial%20intelligence%20in%20my%20company" %}
 {% endif %}
     <a class="btn btn-ghost" href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
     <a class="btn btn-ghost" href="https://t.me/jperelli_ok">Telegram</a>

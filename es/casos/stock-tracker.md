@@ -98,7 +98,7 @@ Ese es el resultado que busco: no un sistema que dependa de mí, sino uno que la
   <h2>Hablemos</h2>
   <p>La mayoría de las empresas tienen una hoja de cálculo como esta. Dos líneas sobre a qué se dedica la empresa son suficientes; la primera conversación (30 minutos) es gratis y sin compromiso.</p>
   <p class="hero-actions">
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Inteligencia%20artificial%20en%20mi%20empresa">Escríbeme un correo</a>
+    {% include email.html class="btn btn-primary" text="Escríbeme un correo" subject="Inteligencia%20artificial%20en%20mi%20empresa" %}
     <a class="btn btn-ghost" href="/es/">Volver al inicio</a>
   </p>
 </section>

@@ -148,9 +148,9 @@ Per a projectes que superen una persona, treballo amb gent amb qui fa anys que t
   <p class="hero-actions">
 {% if site.whatsapp_link != "" %}
     <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hola%20Juli%C3%A1n%2C%20tinc%20una%20empresa%20i%20vull%20saber%20com%20fer%20servir%20la%20intel%C2%B7lig%C3%A8ncia%20artificial.">WhatsApp</a>
-    <a class="btn btn-ghost" href="mailto:jperelli@gmail.com?subject=Intel%C2%B7lig%C3%A8ncia%20artificial%20a%20la%20meva%20empresa">Escriu-me un correu</a>
+    {% include email.html class="btn btn-ghost" text="Escriu-me un correu" subject="Intel%C2%B7lig%C3%A8ncia%20artificial%20a%20la%20meva%20empresa" %}
 {% else %}
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Intel%C2%B7lig%C3%A8ncia%20artificial%20a%20la%20meva%20empresa">Escriu-me un correu</a>
+    {% include email.html class="btn btn-primary" text="Escriu-me un correu" subject="Intel%C2%B7lig%C3%A8ncia%20artificial%20a%20la%20meva%20empresa" %}
 {% endif %}
     <a class="btn btn-ghost" href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
     <a class="btn btn-ghost" href="https://t.me/jperelli_ok">Telegram</a>

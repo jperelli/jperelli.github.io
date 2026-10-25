@@ -140,7 +140,7 @@ Esto lo hice de verdad con un vendedor de material médico que llevaba el stock 
 <h2>Hablemos</h2>
 <p>Si en tu empresa una hoja de cálculo y una herramienta de Claude describen a los mismos clientes, lo miro con gusto. La primera conversación (30 minutos) es gratis y sin compromiso; dos líneas sobre a qué se dedica la empresa son suficientes.</p>
 <p class="hero-actions">
-<a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Hoja%20de%20c%C3%A1lculo%20y%20herramienta%20de%20Claude">Escríbeme un correo</a>
+{% include email.html class="btn btn-primary" text="Escríbeme un correo" subject="Hoja%20de%20c%C3%A1lculo%20y%20herramienta%20de%20Claude" %}
 <a class="btn btn-ghost" href="/es/">Volver al inicio</a>
 </p>
 </section>
