@@ -1,8 +1,9 @@
 ---
 layout: default
 lang: ca
-i18n_key: home
-title: Inici
+i18n_key: consultancy
+noindex: true
+title: Consultoria d'intel·ligència artificial per a empreses
 description: Ajudo empreses a integrar intel·ligència artificial als seus processos. Una conversa de 30 minuts i després una proposta concreta. Gens de fum.
 ---
 

@@ -1,158 +1,242 @@
 ---
 layout: default
-lang: en
-i18n_key: home
-title: Home
-description: I help companies integrate artificial intelligence into their processes. A 30-minute conversation, then a concrete proposal. No hot air.
+title: Software engineer
+description: Julián Perelli, software engineer. 16 years building and running web systems, individual contributor, open-source author, co-creator of cualbondi.com. Blog since 2012.
 ---
 
-<section class="hero">
-  <p class="hero-greeting"><img class="hero-avatar" src="/public/img/julian.jpg" alt="" width="56" height="56"><span>Hi 👋, I'm Julián.</span></p>
-  <h1>I help companies integrate artificial intelligence into their processes</h1>
-  <p class="hero-lead">A 30-minute conversation about the company's processes and, the next day, a concrete proposal for integrating AI. The business keeps working the way it does today, with fewer repetitive tasks and faster answers. No hot air.</p>
-  <p class="hero-actions">
-    <a class="btn btn-primary" href="#contact">Let's talk</a>
-    <a class="btn btn-ghost" href="#why-me">My credentials</a>
-  </p>
+<section class="hero hero-engineer">
+  <img class="hero-portrait" src="/public/img/julian.jpg" alt="Julián Perelli" width="112" height="112">
+  <div>
+    <p class="hero-greeting"><span>Hi 👋, I'm Julián Perelli.</span></p>
+    <h1>I build and run web systems. Sixteen years in, I still write the code.</h1>
+    <p class="hero-lead">Principal Software Engineer at <a href="https://betonline.ag/">BetOnline</a>, on a team of eight that runs a platform matching millions of events per hour for about a million users. I am an individual contributor by choice: I find the bottleneck, fix it, and leave the code simpler than I found it.</p>
+    <p class="hero-lead">The rest of this page is the evidence: numbers from work, a side project with 16 years of uptime, open source other people depend on, and a blog I have kept since 2012.</p>
+    <p class="hero-actions">
+      <a class="btn btn-primary" href="/archive/">Read the blog</a>
+      <a class="btn btn-ghost" href="#projects">Hobby projects</a>
+      <a class="btn btn-ghost" href="https://github.com/jperelli">GitHub</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
+    </p>
+  </div>
 </section>
 
-## Who I help
-
-Companies, tech or not, that run fine without artificial intelligence but feel they should be using it and do not know where to start. Companies with work that repeats and today depends on people: orders, invoices, customer emails, reports, documents. The industry does not matter; what matters is that there are processes that can be sped up.
-
-## What integrating AI into processes means
-
-It is not about putting AI everywhere. Artificial intelligence does not solve everything: it makes sense in some parts of a company's processes, where it speeds up the work without losing quality. That is where I put it. For example:
-
-**Removing repetitive work.** Answering the same emails, copying data from one place to another, writing the same report every week. Many of these tasks can now run on their own.
-
-**Answering customers faster.** A helper that replies to common questions, day and night, in the company's own words, and passes the hard ones to a person.
-
-**Getting answers from the company's own information.** A question in plain words ("how much did we sell in March in Girona?") and the answer right away, without waiting for someone to prepare a spreadsheet.
-
-**Getting the company found on the internet.** Articles, product descriptions and pages that are written and published on their own, so new customers find it on Google.
-
-**Adding it to the company's own product.** For companies that sell software or an online service: adding the features their customers are starting to ask for.
-
-**Getting the team using artificial intelligence in an orderly, useful way.** Short, practical sessions to learn to use these tools in everyday work, with no fear.
+<div class="stats" aria-label="At a glance">
+  <div class="stat"><span class="stat-num">16 years</span><span class="stat-label">building web, frontend, backend, databases and mobile</span></div>
+  <div class="stat"><span class="stat-num">12 years</span><span class="stat-label">working remotely with teams in the US, Germany and Spain</span></div>
+  <div class="stat"><span class="stat-num">~1M users</span><span class="stat-label">on the platform I work on today, millions of events per hour</span></div>
+  <div class="stat"><span class="stat-num">~5,000 / day</span><span class="stat-label">people using cualbondi, my side project, since 2009</span></div>
+  <div class="stat"><span class="stat-num">400+ stars</span><span class="stat-label">on GitHub across three open-source tools I maintain</span></div>
+  <div class="stat"><span class="stat-num">4 years</span><span class="stat-label">teaching Programming Paradigms and Operating Systems at university</span></div>
+</div>
 
 ## How I work
 
-<div class="steps">
+<div class="steps principles">
   <div class="step">
-    <span class="step-num">1</span>
-    <h3>We talk</h3>
-    <p>One free conversation of about 30 minutes: what the company does, how it works and what takes up its time. I listen. No technical words.</p>
-  </div>
-  <div class="step">
-    <span class="step-num">2</span>
-    <h3>I send a proposal</h3>
-    <p>I go through what I was told and, usually the next day, send a concrete proposal: where to integrate artificial intelligence into the processes, where to start, and what each piece brings.</p>
+    <h3>I fix the problem in front of me</h3>
+    <p>Backend builds took 15 minutes; now they take 5. The local feedback loop took 10 minutes; with hot reload and CSS precompilation it takes 10 seconds. Neither needed a new framework, only looking at where the time went.</p>
   </div>
   <div class="step">
-    <span class="step-num">3</span>
-    <h3>We build it and try it</h3>
-    <p>If the proposal fits, in a few weeks there is something working in the real business. If it works, we grow it. If it does not, it stops there and nothing is lost.</p>
+    <h3>I measure before I change</h3>
+    <p>At BetOnline I found and removed bottlenecks in the frontend, the backend, MongoDB and Kubernetes. The platform now handles millions of events per hour with zero downtime. Each fix was measured before and after.</p>
+  </div>
+  <div class="step">
+    <h3>Boring technology, typed code</h3>
+    <p>I took TypeScript coverage from 20% to 80% on the backend and from 0% to 40% on the frontend, gradually, while the team kept shipping. Fewer bugs, code that explains itself. I reach for Rust or Go only when the numbers say so.</p>
+  </div>
+  <div class="step">
+    <h3>I translate between people</h3>
+    <p>I sit between the architects, the product owner and the developers, and turn plans into tasks with the technical detail filled in. I mentor in hands-on 1:1 sessions. I say what I think, and I like being proven wrong, because then I learn something.</p>
   </div>
 </div>
 
-## Cases {#case}
+## Where I have worked
 
-<p class="case-intro">One is work delivered to a client; the other is an invented example that anyone can follow. Each one says which it is.</p>
-
-<div class="case-card">
-  <div class="case-card-body">
-    <span class="case-card-kicker"><span class="case-badge case-badge-real">Client work</span> Medical supplies · online sales · 2026</span>
-    <h3><a class="case-card-title" href="/cases/stock-tracker/">From a spreadsheet to a system that says when to reorder</a></h3>
-    <p>A small company ran its stock on a spreadsheet. In two weeks we delivered a system that joins its accounting and Amazon data and, with artificial intelligence, says what to reorder and when. The founder now improves it himself.</p>
-    <span class="case-card-link" aria-hidden="true">Read the case &rarr;</span>
-  </div>
-  <div class="case-card-media" aria-hidden="true">
-    <img class="before" src="/public/images/2026-10-09-stock-tracker/before-spreadsheet.png" alt="" loading="lazy">
-    <img class="after" src="/public/images/2026-10-09-stock-tracker/after-dashboard.png" alt="" loading="lazy">
-  </div>
-</div>
-
-<div class="case-card">
-  <div class="case-card-body">
-    <span class="case-card-kicker"><span class="case-badge case-badge-example">Example</span> Property agency · buyer follow-up · 2026</span>
-    <h3><a class="case-card-title" href="/cases/claude-tracker/">From a buyer spreadsheet to a Claude tracker that remembers, and when to move it out</a></h3>
-    <p>A small agency keeps its buyers in a spreadsheet and in a tool Claude built, and updates both. The example rebuilds it as one tool with saved data, with the prompt to copy and a live demo of what survives closing the tab, and marks the point where it should leave Claude.</p>
-    <span class="case-card-link" aria-hidden="true">Read the example &rarr;</span>
-  </div>
-  <div class="case-card-media" aria-hidden="true">
-    <img class="single" src="/public/images/2026-10-15-claude-crm/card.png" alt="" loading="lazy">
-  </div>
-</div>
-
-## What I do not do
-
-- **Sell hot air.** Artificial intelligence is very good at some things and bad at others. I say which is which before a cent is spent.
-- **Put AI everywhere just because.** Artificial intelligence does not solve everything. It only makes sense in some parts of the processes, where it speeds up the work without losing quality. That is where I put it, on top of the tools the company already uses.
-- **Leave behind something the team cannot use.** If the company's people cannot run it without me, it is not finished.
-- **Pretend I can do everything alone.** If the problem is bigger than one person, I bring in colleagues and providers I trust and have worked with before.
-
-## My credentials {#why-me}
-
-- **I have built software for over 15 years**, for companies in Argentina, Germany, the United States and Spain. Today I lead technology at a company with around a million users.
-- **I was the head of technology (CTO) at a company in the United States** that handles payroll and accounting for other companies. I know what it means to run a business, not just to write code.
-- **I learned how artificial intelligence works on the inside long before it was fashionable.** At university I studied it and built it from scratch, and I spent a year in a master's programme on machine learning.
-- **I use it every day in my own work.** At my current job I built tools with artificial intelligence that let my team develop faster and find failures much sooner.
-- **I have built real things with it**, not just slides:
-  - [Sessionboxer](https://sessionboxer.talayolabs.com/), a tool that keeps artificial-intelligence assistants in a safe space while they work.
-  - Five apps for online shops, sold around the world, built with the help of artificial-intelligence assistants.
-  - [A system that writes and publishes articles every day](https://beaconwavestudio.com/blog/), so that customers find those apps on Google.
-- **I taught at university for four years.** I know how to explain difficult things in simple words, and I enjoy it.
-- **I co-created [Cualbondi](https://cualbondi.com/)**, a public-transport app used by thousands of people in Argentina, and I have given [many public talks](/talks/).
-
-The full story, with all the technical words: [about me](/about/).
-
-## What other people say about my work {#proof}
-
-<div class="proof">
-  <div class="proof-item">
-    <span class="proof-num">4.7 out of 5</span>
-    <h3>Rated by its users for ten years</h3>
-    <p>My Periodic Task add-on for Redmine, a project-management tool used by many companies, has been in the official directory since 2015. Twelve of its fourteen ratings are five stars. <a href="https://www.redmine.org/plugins/redmine_periodic_task#ratings">See the ratings</a>.</p>
-  </div>
-  <div class="proof-item">
-    <span class="proof-num">400+ stars</span>
-    <h3>Free tools other programmers rely on</h3>
-    <p>On GitHub, programmers give a star to tools they find useful. Three of mine have more than 400 together: <a href="https://github.com/jperelli/osm-static-maps">osm-static-maps</a> (180), <a href="https://github.com/jperelli/vue2-leaflet-markercluster">vue2-leaflet-markercluster</a> (132) and <a href="https://github.com/jperelli/Redmine-Periodic-Task">Periodic Task</a> (97).</p>
-  </div>
-  <div class="proof-item">
-    <span class="proof-num">LinkedIn</span>
-    <h3>Recommendations from people I have worked with</h3>
-    <p>Former bosses and colleagues have written about what it is like to work with me. <a href="https://www.linkedin.com/in/jperelli/details/recommendations/">See them on LinkedIn</a>.</p>
-  </div>
-</div>
-
-## Who I work with {#partners}
-
-For projects bigger than one person, I work with people I have worked with for years. The client always knows who is doing what.
-
-<div class="partners">
-  <a class="partner" href="https://exentric.tech/">
-    <span class="partner-logo">eX</span>
-    <div>
-      <h3>eXentric</h3>
-      <p>Backend and artificial-intelligence engineering studio. We built the stock system above together, and we work together on projects that need more hands than mine.</p>
+<ol class="timeline">
+  <li>
+    <span class="tl-when">2023 · now</span>
+    <div class="tl-body">
+      <h3>Principal Software Engineer · <a href="https://betonline.ag/">BetOnline</a></h3>
+      <p class="tl-meta">Online gaming · FoshTech subsidiary · remote, distributed team</p>
+      <p>Link between the architects, the product owner and a team of 8+ engineers. Microservices that match millions of bet, deposit and click events per hour and trigger customer bonuses, integrated with many internal and external services. I also help the team adopt AI tools and take the hardest technical problems.</p>
+      <p class="tl-tech">TypeScript · Node.js · NestJS · MongoDB · Next.js · Svelte · Web Components · Vite · Jest · k6 · Kubernetes · ArgoCD · Jenkins</p>
     </div>
+  </li>
+  <li>
+    <span class="tl-when">2019 · 2023</span>
+    <div class="tl-body">
+      <h3>Chief Technology Officer · GoAlto</h3>
+      <p class="tl-meta">Payroll, accounting and HR scale-up · remote, team in San Mateo, CA</p>
+      <p>Core product architecture and hands-on development, plus a small team of engineers iterating fast on client demands. Async management over Jira, GitHub and Slack. Started on AWS, moved to Vercel. PostgreSQL and queues. Three years of running the technology of a business taught me what code is for.</p>
+    </div>
+  </li>
+  <li>
+    <span class="tl-when">2018 · 2019</span>
+    <div class="tl-body">
+      <h3>Software Architect · Mosaique</h3>
+      <p class="tl-meta">Fintech start-up · remote, team in Chicago, IL</p>
+      <p>A Django, Celery and React platform designed and built from scratch on AWS Fargate and CloudFront, including the queues, the cron jobs and a private blockchain with smart contracts.</p>
+    </div>
+  </li>
+  <li>
+    <span class="tl-when">2017 · 2018</span>
+    <div class="tl-body">
+      <h3>Frontend Engineer · Matterport</h3>
+      <p class="tl-meta">3D spatial mapping · remote, team in Sunnyvale, CA</p>
+      <p>Full-stack work on an AngularJS and Django application: a Leaflet location and bearing selector, Google Places click-on-map selection, and migrating a 1000+ file frontend from grunt to webpack.</p>
+    </div>
+  </li>
+  <li>
+    <span class="tl-when">2015 · 2017</span>
+    <div class="tl-body">
+      <h3>Senior Lead Engineer · Celerative &nbsp;/&nbsp; Fullstack Engineer · mainstorconcept</h3>
+      <p class="tl-meta">La Plata, Argentina · Ettlingen, Germany (remote)</p>
+      <p>Polyglot consultancy work (AWS, React, React Native, Vue, Angular, MySQL, MongoDB, PostgreSQL) and, in parallel, a Django REST API and AngularJS interface for a mainframe tape-emulation system, with automated testing and deployment.</p>
+    </div>
+  </li>
+  <li>
+    <span class="tl-when">2012 · 2015</span>
+    <div class="tl-body">
+      <h3>Assistant Professor · UTN &nbsp;/&nbsp; Software &amp; Security Engineer · Ministry of Health</h3>
+      <p class="tl-meta">La Plata, Argentina · part time, in parallel with consultancy at Incodex</p>
+      <p>Taught Programming Paradigms (Smalltalk, Haskell, Prolog), Operating Systems and Intro to Databases. At the Ministry of Health of the Province of Buenos Aires: pentesting, security policies and training, and the architecture of a centralized patient-information service used by all the ministry's systems.</p>
+    </div>
+  </li>
+  <li>
+    <span class="tl-when">2005 · 2011</span>
+    <div class="tl-body">
+      <h3>Information Systems Engineer · National Technological University (UTN)</h3>
+      <p class="tl-meta">La Plata, Argentina · GPA 9.2 / 10 · six-month HPC research scholarship at KIT, Karlsruhe</p>
+      <p>Research projects and course tutoring during the degree. My first paid software, a complete campsite management system in Delphi and MySQL, was built in these years too.</p>
+    </div>
+  </li>
+</ol>
+
+## Things I built on my own time {#projects}
+
+<p class="section-intro">Side projects are where I try ideas without a deadline. Some became tools other people rely on.</p>
+
+<div class="card-grid">
+  <a class="card" href="https://cualbondi.com/">
+    <span class="card-year">2009 · now · ~5,000 users a day</span>
+    <span class="card-title">Cualbondi</span>
+    <p class="card-desc">Public-transport routing with my own algorithms, started for La Plata and now used in several countries. Python, Django, PostGIS, Rust and Vue, on a server I run myself. <span class="card-more">I wrote about the Rust part below.</span></p>
+  </a>
+  <a class="card" href="/project/2019/10/01/osm-static-maps/">
+    <span class="card-year">2013 · now · 180 stars</span>
+    <span class="card-title">osm-static-maps</span>
+    <p class="card-desc">Node.js library, CLI and server that renders static map images from OpenStreetMap. An open alternative to Google Static Maps.</p>
+  </a>
+  <a class="card" href="/project/2026/06/29/redmine-periodic-task/">
+    <span class="card-year">2011 · now · 97 stars · 4.7 / 5</span>
+    <span class="card-title">Redmine Periodic Task</span>
+    <p class="card-desc">Redmine plugin that creates issues on a schedule. In the official plugin directory since 2015, maintained for fourteen years.</p>
+  </a>
+  <a class="card" href="https://github.com/jperelli/vue2-leaflet-markercluster">
+    <span class="card-year">2017 · 132 stars · ~15k downloads a month</span>
+    <span class="card-title">vue2-leaflet-markercluster</span>
+    <p class="card-desc">Marker clustering for vue2-leaflet. Small, finished, still downloaded every day.</p>
+  </a>
+  <a class="card" href="/project/2019/08/12/rust-osmptparser/">
+    <span class="card-year">2019 · now · Rust</span>
+    <span class="card-title">osmptparser</span>
+    <p class="card-desc">Rust parser that reads whole OpenStreetMap PBF files and auto-fixes public-transport relations. Its Python bindings power cualbondi's import.</p>
+  </a>
+  <a class="card" href="https://sessionboxer.talayolabs.com/">
+    <span class="card-year">2026 · coding agents</span>
+    <span class="card-title">Sessionboxer</span>
+    <p class="card-desc">Local session manager for coding agents: one Docker sandbox with a desktop per session, so the agent can break things without breaking my machine.</p>
+  </a>
+  <a class="card" href="/project/2026/10/14/argocd-logs-prettifier/">
+    <span class="card-year">2026 · Chrome extension</span>
+    <span class="card-title">Argo CD Logs Prettifier</span>
+    <p class="card-desc">Turns JSON and logfmt lines in the Argo CD Logs tab into structured, filterable rows. Built because I read those logs every day.</p>
+  </a>
+  <a class="card" href="/project/2020/03/10/pixel-infection/">
+    <span class="card-year">2020 · browser game</span>
+    <span class="card-title">Pixel Infection</span>
+    <p class="card-desc">A simulation of how an infection spreads, written from scratch in JavaScript during the first lockdown weekend.</p>
   </a>
 </div>
 
+<p class="hw"><strong>Hardware, too.</strong> A quadcopter built from scratch with three friends (2014 to 2016): I designed the controller shield for an Arduino Mega 2560 with nRF24L01 radio. It flew, a little erratically. Before that, the algorithms for a 7-segment marquee sign, in Pascal over a serial port.</p>
+
+<p><a class="more-link" href="/projects/">All projects &rarr;</a></p>
+
+## Writing {#writing}
+
+<p class="section-intro">I write when I have solved something that cost me time, so the next person pays less. Posts since 2012, in English and Spanish.</p>
+
+<ul class="writing">
+  <li>
+    <span class="w-year">2024</span>
+    <div>
+      <a href="/post/2024/03/14/millions-of-relations/">Millions of relations in MongoDB not solvable by AI</a>
+      <p>Records related to 300,000+ users hit the 16 MB document limit. The designs we tested, why they were slow, and the one that worked.</p>
+    </div>
+  </li>
+  <li>
+    <span class="w-year">2021</span>
+    <div>
+      <a href="/post/2021/12/17/how-to-not-use-reduce/">How to not use <code>reduce</code> in JavaScript functional programming</a>
+      <p>The two anti-patterns I keep finding in code review, and the pure-function habit that avoids both.</p>
+    </div>
+  </li>
+  <li>
+    <span class="w-year">2019</span>
+    <div>
+      <a href="/post/2019/10/02/docker-reducing-99-percent-size/">Reducing 99.5% docker push size</a>
+      <p>One <code>COPY --chown</code> line took each deploy from 500 MB of layers to 2.5 MB. The lesson is about noticing, not about Docker.</p>
+    </div>
+  </li>
+  <li>
+    <span class="w-year">2019</span>
+    <div>
+      <a href="/post/2019/08/12/oxidizing-cualbondi/">Oxidizing cualbondi: 10x performance gain using Rust in Python</a>
+      <p>Profiling a Python routing algorithm, moving the hot loop to Rust, and the Python-Rust interface, with benchmarks.</p>
+    </div>
+  </li>
+  <li>
+    <span class="w-year">2020</span>
+    <div>
+      <a href="/post/2020/03/27/generator-query-paginated-api/">JavaScript generator to seamlessly query a paginated API</a>
+      <p>Hiding pagination behind an async generator so the caller just iterates.</p>
+    </div>
+  </li>
+  <li>
+    <span class="w-year">2018</span>
+    <div>
+      <a href="/post/2018/11/21/how-to-upgrade-postgresql-cluster-the-easy-way/">How to upgrade a PostgreSQL cluster the easy way</a>
+      <p>PostgreSQL 10 to 11 and PostGIS 2.4 to 2.5 inside docker-compose, on cualbondi's production server.</p>
+    </div>
+  </li>
+</ul>
+
+<p><a class="more-link" href="/archive/">All posts &rarr;</a></p>
+
+## Tools I reach for
+
+<div class="stack">
+  <div class="stack-row"><span class="stack-label">Languages</span><span>TypeScript / JavaScript · Python · SQL · Rust · Bash · CSS / SCSS</span></div>
+  <div class="stack-row"><span class="stack-label">Backend</span><span>Node.js · NestJS · Django · Celery · REST APIs · queues · microservices</span></div>
+  <div class="stack-row"><span class="stack-label">Data</span><span>PostgreSQL / PostGIS · MongoDB · MySQL</span></div>
+  <div class="stack-row"><span class="stack-label">Infra</span><span>Docker · Kubernetes · ArgoCD · Jenkins · AWS (EC2, ECS, Lambda, RDS, S3, CloudFront) · k6</span></div>
+  <div class="stack-row"><span class="stack-label">Frontend</span><span>Vue · React · Svelte · Next.js · Web Components · Vite · Leaflet</span></div>
+</div>
+
+## Teaching and talks
+
+I taught Programming Paradigms, Operating Systems and Intro to Databases at UTN for four years, and gave [sixteen public talks](/talks/) between 2012 and 2018 on cualbondi, drones, Python, Docker and GDPR. Explaining something in simple words is how I check that I understand it, and it is the part of mentoring I enjoy most.
+
 <section class="cta" id="contact">
-  <h2>Let's talk</h2>
-  <p>Two lines about what the company does are enough. I read and answer every message myself, usually within a day. The first conversation (30 minutes) is free and there is no commitment.</p>
+  <h2>Get in touch</h2>
+  <p>I live in Castelldefels, next to Barcelona. Spanish is my first language, I work in English every day, and I get by in German and Catalan. Italian and Argentinian citizen, resident in Spain.</p>
   <p class="hero-actions">
-{% if site.whatsapp_link != "" %}
-    <a class="btn btn-primary" href="{{ site.whatsapp_link }}?text=Hello%20Juli%C3%A1n%2C%20I%20have%20a%20company%20and%20I%20would%20like%20to%20know%20how%20to%20use%20artificial%20intelligence.">WhatsApp</a>
-    <a class="btn btn-ghost" href="mailto:jperelli@gmail.com?subject=Artificial%20intelligence%20in%20my%20company">Email me</a>
-{% else %}
-    <a class="btn btn-primary" href="mailto:jperelli@gmail.com?subject=Artificial%20intelligence%20in%20my%20company">Email me</a>
-{% endif %}
+    <a class="btn btn-primary" href="mailto:jperelli@gmail.com">Email me</a>
     <a class="btn btn-ghost" href="https://www.linkedin.com/in/jperelli/">LinkedIn</a>
+    <a class="btn btn-ghost" href="https://github.com/jperelli">GitHub</a>
+    <a class="btn btn-ghost" href="https://stackoverflow.com/users/912450/jperelli">Stack Overflow</a>
     <a class="btn btn-ghost" href="https://t.me/jperelli_ok">Telegram</a>
   </p>
-  <p class="cta-note">I am in Castelldefels, near Barcelona. I work with companies anywhere, in person or online, in Spanish and English.</p>
+  <p class="cta-note">I read and answer every message myself.</p>
 </section>

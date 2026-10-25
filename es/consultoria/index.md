@@ -1,8 +1,9 @@
 ---
 layout: default
 lang: es
-i18n_key: home
-title: Inicio
+i18n_key: consultancy
+noindex: true
+title: Consultoría de inteligencia artificial para empresas
 description: Ayudo a empresas a integrar inteligencia artificial en sus procesos. Una conversación de 30 minutos y después una propuesta concreta. Nada de humo.
 ---
 

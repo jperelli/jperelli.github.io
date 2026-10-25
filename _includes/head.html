@@ -30,8 +30,9 @@
       // or when they landed on the default (English) page and their browser is es/ca.
       // Shared /es/ and /ca/ links, and crawlers, are never bounced.
       var shouldRedirect = chosen ? want !== pageLang : (pageLang === 'en' && want !== 'en');
-      if (key && pageLang && shouldRedirect && paths[want] && paths[want].paths[key]) {
-        location.replace(paths[want].paths[key] + location.search + location.hash);
+      var target = key && pageLang && shouldRedirect && paths[want] && paths[want].paths[key];
+      if (target && target !== location.pathname) {
+        location.replace(target + location.search + location.hash);
       }
     })();
   </script>
@@ -45,13 +46,28 @@
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.data.i18n.en.paths[page.i18n_key] | remove_first: '/' }}">
     <link rel="canonical" href="{{ site.url }}{{ t.paths[page.i18n_key] | remove_first: '/' }}">
     <meta name="description" content="{{ page.description | default: t.description }}">
+  {% elsif page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% endif %}
+  {% if page.url == '/' %}
+    <link rel="canonical" href="{{ site.url }}">
+  {% endif %}
+  {% if page.noindex %}
+    <meta name="robots" content="noindex">
   {% endif %}
   <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.i18n_key == 'home' %}
+  {% if page.url == '/' %}
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.title }} · {{ t.tagline }}">
-    <meta property="og:description" content="{{ page.description | default: t.description }}">
-    <meta property="og:url" content="{{ site.url }}{{ t.paths.home | remove_first: '/' }}">
+    <meta property="og:title" content="{{ site.title }} · {{ site.tagline }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:image" content="{{ site.url }}public/img/julian.jpg">
+    <meta property="og:locale" content="en">
+  {% elsif page.i18n_key == 'consultancy' %}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.title }} · {{ t.consultancy_tagline }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ t.paths.consultancy | remove_first: '/' }}">
     <meta property="og:locale" content="{{ lang }}">
   {% elsif page.title %}
     <meta property="og:type" content="article" />
@@ -87,8 +103,10 @@
   {% endif %}
 
   <title>
-    {% if page.i18n_key == 'home' %}
-      {{ site.title }} &middot; {{ t.tagline }}
+    {% if page.url == '/' %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% elsif page.i18n_key == 'consultancy' %}
+      {{ site.title }} &middot; {{ t.consultancy_tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
