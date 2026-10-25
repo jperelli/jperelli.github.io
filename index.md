@@ -35,19 +35,19 @@ description: Julián Perelli, software engineer. 16 years building and running w
 <div class="steps principles">
   <div class="step">
     <h3>Integration, with AI where it helps</h3>
-    <p>The platform talks to dozens of internal and external services. I connect them, and add AI, security checks or incident automations where someone does the work by hand.</p>
+    <p>The platform talks to dozens of internal and external services. I connect them; some of that is AI steps, security checks and incident automations that replaced manual work.</p>
   </div>
   <div class="step">
     <h3>Unblocking</h3>
-    <p>An access nobody grants, a vendor that does not answer, a process with no owner. I find the person or the workaround.</p>
+    <p>An access nobody grants, a vendor that does not answer, a process with no owner. Often my job is finding the person or the workaround.</p>
   </div>
   <div class="step">
     <h3>Explaining systems</h3>
     <p>When something is a black box I draw it or trace one request end to end, then lay out the options so management can decide.</p>
   </div>
   <div class="step">
-    <h3>Measuring</h3>
-    <p>Builds 15 to 5 minutes. Feedback loop 10 minutes to 10 seconds. TypeScript coverage 20% to 80%. Every change measured before and after.</p>
+    <h3>Some results</h3>
+    <p>Builds 15 to 5 minutes. Feedback loop 10 minutes to 10 seconds. TypeScript coverage 20% to 80%. All at BetOnline, with the team.</p>
   </div>
 </div>
 

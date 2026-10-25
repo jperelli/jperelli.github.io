@@ -35,19 +35,19 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
 <div class="steps principles">
   <div class="step">
     <h3>Integración, con IA donde sirve</h3>
-    <p>La plataforma habla con decenas de servicios internos y externos. Los conecto, y agrego IA, controles de seguridad o automatizaciones de incidentes donde alguien hace el trabajo a mano.</p>
+    <p>La plataforma habla con decenas de servicios internos y externos. Los conecto; parte de eso son pasos de IA, controles de seguridad y automatizaciones de incidentes que reemplazaron trabajo manual.</p>
   </div>
   <div class="step">
     <h3>Destrabar</h3>
-    <p>Un acceso que nadie otorga, un proveedor que no contesta, un proceso sin dueño. Encuentro a la persona o la vuelta.</p>
+    <p>Un acceso que nadie otorga, un proveedor que no contesta, un proceso sin dueño. Muchas veces mi trabajo es encontrar a la persona o la vuelta.</p>
   </div>
   <div class="step">
     <h3>Explicar sistemas</h3>
     <p>Cuando algo es una caja negra lo dibujo o sigo un pedido de punta a punta, y después presento las opciones para que la dirección decida.</p>
   </div>
   <div class="step">
-    <h3>Medir</h3>
-    <p>Builds de 15 a 5 minutos. Ciclo de desarrollo de 10 minutos a 10 segundos. Cobertura de TypeScript del 20% al 80%. Cada cambio medido antes y después.</p>
+    <h3>Algunos resultados</h3>
+    <p>Builds de 15 a 5 minutos. Ciclo de desarrollo de 10 minutos a 10 segundos. Cobertura de TypeScript del 20% al 80%. Todo en BetOnline, con el equipo.</p>
   </div>
 </div>
 
