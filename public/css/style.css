@@ -778,6 +778,7 @@ a.pagination-item:hover {
   padding-top: 0.15rem;
 }
 .tl-sub h4 { margin: 0 0 0.2rem; font-size: 1rem; }
+.flag { width: 1.25em; height: auto; vertical-align: -0.1em; margin-left: 0.15em; border-radius: 2px; }
 .tl-sub p { margin: 0; font-size: 0.95rem; }
 .hero-engineer {
   display: grid;

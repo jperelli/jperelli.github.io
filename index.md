@@ -57,7 +57,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
   <li>
     <span class="tl-when">2023 · now</span>
     <div class="tl-body">
-      <h3>Principal Software Engineer · <a href="https://betonline.ag/">BetOnline</a> 🇪🇸</h3>
+      <h3>Principal Software Engineer · <a href="https://betonline.ag/">BetOnline</a> <img class="flag" src="/public/img/flags/es.svg" alt="Spain" width="20" height="15"></h3>
       <p class="tl-meta">Online gaming · FoshTech subsidiary · remote</p>
       <p>Microservices that match millions of bet, deposit and click events per hour and trigger customer bonuses. I sit between the architects, the product owner and 8+ engineers.</p>
       <p class="tl-tech">TypeScript · Node.js · NestJS · MongoDB · Next.js · Svelte · Web Components · Vite · Jest · k6 · Kubernetes · ArgoCD · Jenkins</p>
@@ -72,28 +72,28 @@ description: Julián Perelli, software engineer. 16 years building and running w
         <li>
           <span class="tl-sub-when">2019 · 2023</span>
           <div>
-            <h4>Chief Technology Officer 🇺🇸</h4>
+            <h4>Chief Technology Officer <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
             <p>Product architecture and hands-on development with a small team. AWS, then Vercel. PostgreSQL.</p>
           </div>
         </li>
         <li>
           <span class="tl-sub-when">2018 · 2019</span>
           <div>
-            <h4>Software Architect, for Mosaique 🇺🇸</h4>
+            <h4>Software Architect, for Mosaique <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
             <p>Fintech start-up in Chicago. Django, Celery and React platform built from scratch on AWS Fargate.</p>
           </div>
         </li>
         <li>
           <span class="tl-sub-when">2017 · 2018</span>
           <div>
-            <h4>Frontend Engineer, for Matterport 🇺🇸</h4>
+            <h4>Frontend Engineer, for Matterport <img class="flag" src="/public/img/flags/us.svg" alt="USA" width="20" height="15"></h4>
             <p>3D spatial mapping, Sunnyvale. AngularJS and Django; migrated a 1000+ file frontend from grunt to webpack.</p>
           </div>
         </li>
         <li>
           <span class="tl-sub-when">2016 · 2017</span>
           <div>
-            <h4>Senior Lead Software Engineer, for Celerative 🇦🇷</h4>
+            <h4>Senior Lead Software Engineer, for Celerative <img class="flag" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"></h4>
             <p>Consultancy in La Plata. Client projects on AWS, React, React Native, Vue and AngularJS.</p>
           </div>
         </li>
@@ -103,7 +103,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
   <li>
     <span class="tl-when">2015 · 2017</span>
     <div class="tl-body">
-      <h3>Fullstack Engineer · mainstorconcept 🇩🇪</h3>
+      <h3>Fullstack Engineer · mainstorconcept <img class="flag" src="/public/img/flags/de.svg" alt="Germany" width="20" height="15"></h3>
       <p class="tl-meta">Mainframe services · remote, part time, team in Ettlingen, Germany</p>
       <p>Web application for a mainframe tape-emulation system. Django REST API, AngularJS.</p>
     </div>
@@ -111,7 +111,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
   <li>
     <span class="tl-when">2012 · 2015</span>
     <div class="tl-body">
-      <h3>Assistant Professor · UTN &nbsp;/&nbsp; Software &amp; Security Engineer · Ministry of Health 🇦🇷</h3>
+      <h3>Assistant Professor · UTN &nbsp;/&nbsp; Software &amp; Security Engineer · Ministry of Health <img class="flag" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"></h3>
       <p class="tl-meta">La Plata, Argentina · part time</p>
       <p>Taught Programming Paradigms and Operating Systems. At the Ministry: pentesting, security policies, and a central patient-information service.</p>
     </div>
@@ -119,7 +119,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
   <li>
     <span class="tl-when">2005 · 2011</span>
     <div class="tl-body">
-      <h3>Information Systems Engineer · UTN 🇦🇷</h3>
+      <h3>Information Systems Engineer · UTN <img class="flag" src="/public/img/flags/ar.svg" alt="Argentina" width="20" height="15"></h3>
       <p class="tl-meta">La Plata, Argentina · GPA 9.2 / 10 · six-month research scholarship at KIT, Karlsruhe</p>
     </div>
   </li>
