@@ -35,19 +35,19 @@ description: Julián Perelli, software engineer. 16 years building and running w
 <div class="steps principles">
   <div class="step">
     <h3>Integration, with AI where it helps</h3>
-    <p>The platform talks to dozens of internal and external services. I connect them and add an AI step where it replaces manual work. Security checks, incident response, feedback loops with external systems: if someone does it by hand every week, I automate it.</p>
+    <p>The platform talks to dozens of internal and external services. I connect them, and add AI, security checks or incident automations where someone does the work by hand.</p>
   </div>
   <div class="step">
     <h3>Unblocking</h3>
-    <p>Most delays are an access nobody grants, a vendor that does not answer, or a process with no owner. I find the person or the workaround.</p>
+    <p>An access nobody grants, a vendor that does not answer, a process with no owner. I find the person or the workaround.</p>
   </div>
   <div class="step">
     <h3>Explaining systems</h3>
-    <p>When something is a black box I draw it, or write a script that follows one request end to end. Then I lay out the options so management can decide. I mentor in 1:1 sessions.</p>
+    <p>When something is a black box I draw it or trace one request end to end, then lay out the options so management can decide.</p>
   </div>
   <div class="step">
     <h3>Measuring</h3>
-    <p>Backend builds from 15 to 5 minutes. Local feedback loop from 10 minutes to 10 seconds. TypeScript coverage from 20% to 80% on the backend. Bottlenecks removed in MongoDB and Kubernetes. Every change measured before and after.</p>
+    <p>Builds 15 to 5 minutes. Feedback loop 10 minutes to 10 seconds. TypeScript coverage 20% to 80%. Every change measured before and after.</p>
   </div>
 </div>
 
@@ -64,9 +64,9 @@ description: Julián Perelli, software engineer. 16 years building and running w
     </div>
   </li>
   <li>
-    <span class="tl-when">2017 · 2023</span>
+    <span class="tl-when">2016 · 2023</span>
     <div class="tl-body">
-      <h3>GoAlto · six years, three roles</h3>
+      <h3>GoAlto · seven years, four roles</h3>
       <p class="tl-meta">Consultancy and HR scale-up · remote, team in San Mateo, CA</p>
       <ol class="tl-sub">
         <li>
@@ -90,15 +90,14 @@ description: Julián Perelli, software engineer. 16 years building and running w
             <p>3D spatial mapping, Sunnyvale. AngularJS and Django; migrated a 1000+ file frontend from grunt to webpack.</p>
           </div>
         </li>
+        <li>
+          <span class="tl-sub-when">2016 · 2017</span>
+          <div>
+            <h4>Senior Lead Software Engineer, for Celerative</h4>
+            <p>Consultancy in La Plata. Client projects on AWS, React, React Native, Vue and AngularJS.</p>
+          </div>
+        </li>
       </ol>
-    </div>
-  </li>
-  <li>
-    <span class="tl-when">2016 · 2017</span>
-    <div class="tl-body">
-      <h3>Senior Lead Software Engineer · Celerative</h3>
-      <p class="tl-meta">Consultancy · La Plata, Argentina</p>
-      <p>Client projects on AWS, React, React Native, Vue and AngularJS.</p>
     </div>
   </li>
   <li>

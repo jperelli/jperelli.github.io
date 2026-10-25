@@ -35,19 +35,19 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
 <div class="steps principles">
   <div class="step">
     <h3>Integración, con IA donde sirve</h3>
-    <p>La plataforma habla con decenas de servicios internos y externos. Los conecto y agrego un paso de IA donde reemplaza trabajo manual. Controles de seguridad, respuesta a incidentes, ciclos de retroalimentación con sistemas externos: si alguien lo hace a mano todas las semanas, lo automatizo.</p>
+    <p>La plataforma habla con decenas de servicios internos y externos. Los conecto, y agrego IA, controles de seguridad o automatizaciones de incidentes donde alguien hace el trabajo a mano.</p>
   </div>
   <div class="step">
     <h3>Destrabar</h3>
-    <p>La mayoría de las demoras son un acceso que nadie otorga, un proveedor que no contesta o un proceso sin dueño. Encuentro a la persona o la vuelta para seguir.</p>
+    <p>Un acceso que nadie otorga, un proveedor que no contesta, un proceso sin dueño. Encuentro a la persona o la vuelta.</p>
   </div>
   <div class="step">
     <h3>Explicar sistemas</h3>
-    <p>Cuando algo es una caja negra lo dibujo, o escribo un script que sigue un pedido de punta a punta. Después presento las opciones para que la dirección pueda decidir. Hago mentoría en sesiones 1:1.</p>
+    <p>Cuando algo es una caja negra lo dibujo o sigo un pedido de punta a punta, y después presento las opciones para que la dirección decida.</p>
   </div>
   <div class="step">
     <h3>Medir</h3>
-    <p>Builds de backend de 15 a 5 minutos. Ciclo de desarrollo local de 10 minutos a 10 segundos. Cobertura de TypeScript del 20% al 80% en el backend. Cuellos de botella eliminados en MongoDB y Kubernetes. Cada cambio medido antes y después.</p>
+    <p>Builds de 15 a 5 minutos. Ciclo de desarrollo de 10 minutos a 10 segundos. Cobertura de TypeScript del 20% al 80%. Cada cambio medido antes y después.</p>
   </div>
 </div>
 
@@ -64,9 +64,9 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
     </div>
   </li>
   <li>
-    <span class="tl-when">2017 · 2023</span>
+    <span class="tl-when">2016 · 2023</span>
     <div class="tl-body">
-      <h3>GoAlto · seis años, tres roles</h3>
+      <h3>GoAlto · siete años, cuatro roles</h3>
       <p class="tl-meta">Consultora y scale-up de recursos humanos · remoto, equipo en San Mateo, CA</p>
       <ol class="tl-sub">
         <li>
@@ -90,15 +90,14 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
             <p>Mapeo espacial 3D, Sunnyvale. AngularJS y Django; migré un frontend de más de 1000 archivos de grunt a webpack.</p>
           </div>
         </li>
+        <li>
+          <span class="tl-sub-when">2016 · 2017</span>
+          <div>
+            <h4>Senior Lead Software Engineer, para Celerative</h4>
+            <p>Consultora en La Plata. Proyectos para clientes con AWS, React, React Native, Vue y AngularJS.</p>
+          </div>
+        </li>
       </ol>
-    </div>
-  </li>
-  <li>
-    <span class="tl-when">2016 · 2017</span>
-    <div class="tl-body">
-      <h3>Senior Lead Software Engineer · Celerative</h3>
-      <p class="tl-meta">Consultora · La Plata, Argentina</p>
-      <p>Proyectos para clientes con AWS, React, React Native, Vue y AngularJS.</p>
     </div>
   </li>
   <li>
