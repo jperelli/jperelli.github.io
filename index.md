@@ -8,8 +8,8 @@ description: Julián Perelli, software engineer. 16 years building and running w
   <img class="hero-portrait" src="/public/img/julian.jpg" alt="Julián Perelli" width="112" height="112">
   <div>
     <p class="hero-greeting"><span>Hi 👋, I'm Julián Perelli.</span></p>
-    <h1>I build and run web systems. Sixteen years in, I still write the code.</h1>
-    <p class="hero-lead">Principal Software Engineer at <a href="https://betonline.ag/">BetOnline</a>, on a team of eight that runs a platform matching millions of events per hour for about a million users. I am an individual contributor by choice: I find the bottleneck, fix it, and leave the code simpler than I found it.</p>
+    <h1>I build and run web systems. Agents write the code now; I do everything around it.</h1>
+    <p class="hero-lead">Principal Software Engineer at <a href="https://betonline.ag/">BetOnline</a>, on a team of eight that runs a platform matching millions of events per hour for about a million users. Individual contributor by choice. My work is the part that does not fit in a prompt: wiring systems together, with AI where it helps; getting data out of sources that were never meant to talk to each other; unblocking what is stuck; and giving management a clear enough picture of the system that they can decide.</p>
     <p class="hero-lead">The rest of this page is the evidence: numbers from work, a side project with 16 years of uptime, open source other people depend on, and a blog I have kept since 2012.</p>
     <p class="hero-actions">
       <a class="btn btn-primary" href="/archive/">Read the blog</a>
@@ -33,16 +33,24 @@ description: Julián Perelli, software engineer. 16 years building and running w
 
 <div class="steps principles">
   <div class="step">
-    <h3>I fix the problem in front of me</h3>
-    <p>Backend builds took 15 minutes; now they take 5. The local feedback loop took 10 minutes; with hot reload and CSS precompilation it takes 10 seconds. Neither needed a new framework, only looking at where the time went.</p>
+    <h3>I integrate systems, with AI where it helps</h3>
+    <p>The platform I work on talks to dozens of internal and external services. I connect them, pull data from sources that were never designed to be combined, and add an AI step only where it removes real manual work. Plumbing first, model second.</p>
+  </div>
+  <div class="step">
+    <h3>I unblock things</h3>
+    <p>Most delays are not technical: an access nobody grants, a vendor that does not answer, a process with no owner. I go find the person, the workaround or the missing document, so the team keeps moving while the paperwork catches up.</p>
+  </div>
+  <div class="step">
+    <h3>I make systems understandable</h3>
+    <p>When something is a black box I draw it: a diagram, a dashboard, a script that follows one request end to end. Then I lay out the implementation options with their real trade-offs, so management can decide with numbers instead of guesses.</p>
   </div>
   <div class="step">
     <h3>I measure before I change</h3>
-    <p>At BetOnline I found and removed bottlenecks in the frontend, the backend, MongoDB and Kubernetes. The platform now handles millions of events per hour with zero downtime. Each fix was measured before and after.</p>
+    <p>Backend builds took 15 minutes; now 5. The local feedback loop took 10 minutes; now 10 seconds. Bottlenecks found and removed in the frontend, the backend, MongoDB and Kubernetes, each one measured before and after. No new framework needed, only looking at where the time went.</p>
   </div>
   <div class="step">
-    <h3>Boring technology, typed code</h3>
-    <p>I took TypeScript coverage from 20% to 80% on the backend and from 0% to 40% on the frontend, gradually, while the team kept shipping. Fewer bugs, code that explains itself. I reach for Rust or Go only when the numbers say so.</p>
+    <h3>I automate the boring and the risky</h3>
+    <p>Security checks, incident response steps, and feedback loops with external systems that close themselves instead of waiting on a person. Typed code so the automation holds: TypeScript coverage from 20% to 80% on the backend and 0% to 40% on the frontend, while the team kept shipping.</p>
   </div>
   <div class="step">
     <h3>I translate between people</h3>
