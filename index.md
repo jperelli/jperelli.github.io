@@ -71,27 +71,34 @@ description: Julián Perelli, software engineer. 16 years building and running w
     </div>
   </li>
   <li>
-    <span class="tl-when">2019 · 2023</span>
+    <span class="tl-when">2017 · 2023</span>
     <div class="tl-body">
-      <h3>Chief Technology Officer · GoAlto</h3>
-      <p class="tl-meta">Payroll, accounting and HR scale-up · remote, team in San Mateo, CA</p>
-      <p>Core product architecture and hands-on development, plus a small team of engineers iterating fast on client demands. Async management over Jira, GitHub and Slack. Started on AWS, moved to Vercel. PostgreSQL and queues. Three years of running the technology of a business taught me what code is for.</p>
-    </div>
-  </li>
-  <li>
-    <span class="tl-when">2018 · 2019</span>
-    <div class="tl-body">
-      <h3>Software Architect · Mosaique</h3>
-      <p class="tl-meta">Fintech start-up · remote, team in Chicago, IL</p>
-      <p>A Django, Celery and React platform designed and built from scratch on AWS Fargate and CloudFront, including the queues, the cron jobs and a private blockchain with smart contracts.</p>
-    </div>
-  </li>
-  <li>
-    <span class="tl-when">2017 · 2018</span>
-    <div class="tl-body">
-      <h3>Frontend Engineer · Matterport</h3>
-      <p class="tl-meta">3D spatial mapping · remote, team in Sunnyvale, CA</p>
-      <p>Full-stack work on an AngularJS and Django application: a Leaflet location and bearing selector, Google Places click-on-map selection, and migrating a 1000+ file frontend from grunt to webpack.</p>
+      <h3>GoAlto · six years, three roles</h3>
+      <p class="tl-meta">Consultancy and HR scale-up · remote, visiting the team in San Mateo, CA</p>
+      <p>I joined as an engineer placed with GoAlto's clients and ended up running its technology.</p>
+      <ol class="tl-sub">
+        <li>
+          <span class="tl-sub-when">2019 · 2023</span>
+          <div>
+            <h4>Chief Technology Officer</h4>
+            <p>Core product architecture and hands-on development, plus a small team of engineers iterating fast on client demands. Async management over Jira, GitHub and Slack. Started on AWS, moved to Vercel. PostgreSQL and queues. Three years of running the technology of a business taught me what code is for.</p>
+          </div>
+        </li>
+        <li>
+          <span class="tl-sub-when">2018 · 2019</span>
+          <div>
+            <h4>Software Architect, for Mosaique</h4>
+            <p>Fintech start-up, team in Chicago, IL. A Django, Celery and React platform designed and built from scratch on AWS Fargate and CloudFront, including the queues, the cron jobs and a private blockchain with smart contracts.</p>
+          </div>
+        </li>
+        <li>
+          <span class="tl-sub-when">2017 · 2018</span>
+          <div>
+            <h4>Frontend Engineer, for Matterport</h4>
+            <p>3D spatial mapping, team in Sunnyvale, CA. Full-stack work on an AngularJS and Django application: a Leaflet location and bearing selector, Google Places click-on-map selection, and migrating a 1000+ file frontend from grunt to webpack.</p>
+          </div>
+        </li>
+      </ol>
     </div>
   </li>
   <li>

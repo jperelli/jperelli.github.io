@@ -758,6 +758,27 @@ a.pagination-item:hover {
 
 
 /* ---------- Engineer home ---------- */
+.tl-sub {
+  list-style: none;
+  margin: 0.9rem 0 0;
+  padding: 0 0 0 1rem;
+  border-left: 2px solid var(--border);
+}
+.tl-sub > li {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  gap: 0.8rem;
+  margin: 0 0 0.9rem;
+}
+.tl-sub > li:last-child { margin-bottom: 0; }
+.tl-sub-when {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.15rem;
+}
+.tl-sub h4 { margin: 0 0 0.2rem; font-size: 1rem; }
+.tl-sub p { margin: 0; font-size: 0.95rem; }
 .hero-engineer {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
@@ -928,6 +949,7 @@ a.pagination-item:hover {
   .timeline > li::before { left: 0.25rem; top: 0.5rem; }
   .timeline > li::after { left: calc(0.25rem - 5px); top: 0.25rem; }
   .tl-body { padding-left: 0; }
+  .tl-sub > li { grid-template-columns: 1fr; gap: 0.1rem; }
   .stack-row { grid-template-columns: 1fr; gap: 0.1rem; }
 }
 
