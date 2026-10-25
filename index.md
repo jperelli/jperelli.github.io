@@ -1,5 +1,7 @@
 ---
 layout: default
+lang: en
+i18n_key: home
 title: Software engineer
 description: Julián Perelli, software engineer. 16 years building and running web systems. Open source, co-creator of cualbondi.com, blog since 2012.
 ---

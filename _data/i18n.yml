@@ -31,7 +31,7 @@ es:
     blog: Blog
     talks: Charlas
   paths:
-    home: /
+    home: /es/
     about: /es/about/
     consultancy: /es/consultoria/
     case_stock_tracker: /es/casos/stock-tracker/

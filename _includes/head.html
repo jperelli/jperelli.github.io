@@ -41,7 +41,9 @@
   {% assign t = site.data.i18n[lang] %}
   {% if page.i18n_key %}
     {% for l in site.data.i18n %}
+    {% unless l[0] != 'en' and l[1].paths[page.i18n_key] == site.data.i18n.en.paths[page.i18n_key] %}
     <link rel="alternate" hreflang="{{ l[0] }}" href="{{ site.url }}{{ l[1].paths[page.i18n_key] | remove_first: '/' }}">
+    {% endunless %}
     {% endfor %}
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.data.i18n.en.paths[page.i18n_key] | remove_first: '/' }}">
     <link rel="canonical" href="{{ site.url }}{{ t.paths[page.i18n_key] | remove_first: '/' }}">
@@ -49,20 +51,17 @@
   {% elsif page.description %}
     <meta name="description" content="{{ page.description }}">
   {% endif %}
-  {% if page.url == '/' %}
-    <link rel="canonical" href="{{ site.url }}">
-  {% endif %}
   {% if page.noindex %}
     <meta name="robots" content="noindex">
   {% endif %}
   <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.url == '/' %}
+  {% if page.i18n_key == 'home' %}
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.title }} · {{ site.tagline }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:title" content="{{ site.title }} · {{ t.tagline }}">
+    <meta property="og:description" content="{{ page.description | default: t.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ t.paths.home | remove_first: '/' }}">
     <meta property="og:image" content="{{ site.url }}public/img/julian.jpg">
-    <meta property="og:locale" content="en">
+    <meta property="og:locale" content="{{ lang }}">
   {% elsif page.i18n_key == 'consultancy' %}
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }} · {{ t.consultancy_tagline }}">
@@ -103,8 +102,8 @@
   {% endif %}
 
   <title>
-    {% if page.url == '/' %}
-      {{ site.title }} &middot; {{ site.tagline }}
+    {% if page.i18n_key == 'home' %}
+      {{ site.title }} &middot; {{ t.tagline }}
     {% elsif page.i18n_key == 'consultancy' %}
       {{ site.title }} &middot; {{ t.consultancy_tagline }}
     {% else %}
