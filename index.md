@@ -102,11 +102,19 @@ description: Julián Perelli, software engineer. 16 years building and running w
     </div>
   </li>
   <li>
+    <span class="tl-when">2016 · 2017</span>
+    <div class="tl-body">
+      <h3>Senior Lead Software Engineer · Celerative</h3>
+      <p class="tl-meta">Consultancy · La Plata, Argentina</p>
+      <p>Development and project management across several client projects: AWS (EC2, Elastic Beanstalk, Lambda, ECS, RDS), React and React Native, Vue, AngularJS, MySQL, MongoDB and PostgreSQL. Pixel-perfect CSS from design files, Jira and peer programming.</p>
+    </div>
+  </li>
+  <li>
     <span class="tl-when">2015 · 2017</span>
     <div class="tl-body">
-      <h3>Senior Lead Engineer · Celerative &nbsp;/&nbsp; Fullstack Engineer · mainstorconcept</h3>
-      <p class="tl-meta">La Plata, Argentina · Ettlingen, Germany (remote)</p>
-      <p>Polyglot consultancy work (AWS, React, React Native, Vue, Angular, MySQL, MongoDB, PostgreSQL) and, in parallel, a Django REST API and AngularJS interface for a mainframe tape-emulation system, with automated testing and deployment.</p>
+      <h3>Fullstack Engineer · mainstorconcept</h3>
+      <p class="tl-meta">Mainframe services · remote, part time, team in Ettlingen, Germany</p>
+      <p>Designed and built the web application that drives a mainframe tape-emulation system: REST API in Django with Celery queues, AngularJS frontend, Vagrant and LXC environments, automated testing and deployment.</p>
     </div>
   </li>
   <li>
