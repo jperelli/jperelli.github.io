@@ -10,7 +10,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
     <p class="hero-greeting"><span>Hi 👋, I'm Julián Perelli.</span></p>
     <h1>I build and run web systems. Agents write the code now; I do everything around it.</h1>
     <p class="hero-lead">Principal Software Engineer at <a href="https://betonline.ag/">BetOnline</a>, on a team of eight that runs a platform matching millions of events per hour for about a million users. Individual contributor by choice. My work is the part that does not fit in a prompt: wiring systems together, with AI where it helps; getting data out of sources that were never meant to talk to each other; unblocking what is stuck; and giving management a clear enough picture of the system that they can decide.</p>
-    <p class="hero-lead">The rest of this page is the evidence: numbers from work, a side project with 16 years of uptime, open source other people depend on, and a blog I have kept since 2012.</p>
+    <p class="hero-lead">The rest of this page is the evidence: numbers from work, a hobby project with 16 years of uptime, open source other people depend on, and a blog I have kept since 2012.</p>
     <p class="hero-actions">
       <a class="btn btn-primary" href="/archive/">Read the blog</a>
       <a class="btn btn-ghost" href="#projects">Hobby projects</a>
@@ -24,7 +24,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
   <div class="stat"><span class="stat-num">16 years</span><span class="stat-label">building web, frontend, backend, databases and mobile</span></div>
   <div class="stat"><span class="stat-num">12 years</span><span class="stat-label">working remotely with teams in the US, Germany and Spain</span></div>
   <div class="stat"><span class="stat-num">~1M users</span><span class="stat-label">on the platform I work on today, millions of events per hour</span></div>
-  <div class="stat"><span class="stat-num">~5,000 / day</span><span class="stat-label">people using cualbondi, my side project, since 2009</span></div>
+  <div class="stat"><span class="stat-num">~5,000 / day</span><span class="stat-label">people using cualbondi, my hobby project, since 2009</span></div>
   <div class="stat"><span class="stat-num">400+ stars</span><span class="stat-label">on GitHub across three open-source tools I maintain</span></div>
   <div class="stat"><span class="stat-num">4 years</span><span class="stat-label">teaching Programming Paradigms and Operating Systems at university</span></div>
 </div>
@@ -122,7 +122,7 @@ description: Julián Perelli, software engineer. 16 years building and running w
 
 ## Things I built on my own time {#projects}
 
-<p class="section-intro">Side projects are where I try ideas without a deadline. Some became tools other people rely on.</p>
+<p class="section-intro">Hobby projects are where I try ideas without a deadline. Some became tools other people rely on.</p>
 
 <div class="card-grid">
   <a class="card" href="https://cualbondi.com/">
