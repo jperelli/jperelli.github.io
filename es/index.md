@@ -57,7 +57,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
   <li>
     <span class="tl-when">2023 · hoy</span>
     <div class="tl-body">
-      <h3>Principal Software Engineer · <a href="https://betonline.ag/">BetOnline</a></h3>
+      <h3>Principal Software Engineer · <a href="https://betonline.ag/">BetOnline</a> 🇪🇸</h3>
       <p class="tl-meta">Juego online · subsidiaria de FoshTech · remoto</p>
       <p>Microservicios que cruzan millones de eventos de apuestas, depósitos y clics por hora y disparan bonificaciones a clientes. Estoy entre los arquitectos, el product owner y más de 8 ingenieros.</p>
       <p class="tl-tech">TypeScript · Node.js · NestJS · MongoDB · Next.js · Svelte · Web Components · Vite · Jest · k6 · Kubernetes · ArgoCD · Jenkins</p>
@@ -72,28 +72,28 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
         <li>
           <span class="tl-sub-when">2019 · 2023</span>
           <div>
-            <h4>Chief Technology Officer</h4>
+            <h4>Chief Technology Officer 🇺🇸</h4>
             <p>Arquitectura del producto y desarrollo con las manos en el código, con un equipo chico. AWS, después Vercel. PostgreSQL.</p>
           </div>
         </li>
         <li>
           <span class="tl-sub-when">2018 · 2019</span>
           <div>
-            <h4>Software Architect, para Mosaique</h4>
+            <h4>Software Architect, para Mosaique 🇺🇸</h4>
             <p>Start-up fintech en Chicago. Plataforma en Django, Celery y React construida desde cero sobre AWS Fargate.</p>
           </div>
         </li>
         <li>
           <span class="tl-sub-when">2017 · 2018</span>
           <div>
-            <h4>Frontend Engineer, para Matterport</h4>
+            <h4>Frontend Engineer, para Matterport 🇺🇸</h4>
             <p>Mapeo espacial 3D, Sunnyvale. AngularJS y Django; migré un frontend de más de 1000 archivos de grunt a webpack.</p>
           </div>
         </li>
         <li>
           <span class="tl-sub-when">2016 · 2017</span>
           <div>
-            <h4>Senior Lead Software Engineer, para Celerative</h4>
+            <h4>Senior Lead Software Engineer, para Celerative 🇦🇷</h4>
             <p>Consultora en La Plata. Proyectos para clientes con AWS, React, React Native, Vue y AngularJS.</p>
           </div>
         </li>
@@ -103,7 +103,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
   <li>
     <span class="tl-when">2015 · 2017</span>
     <div class="tl-body">
-      <h3>Fullstack Engineer · mainstorconcept</h3>
+      <h3>Fullstack Engineer · mainstorconcept 🇩🇪</h3>
       <p class="tl-meta">Servicios de mainframe · remoto, medio tiempo, equipo en Ettlingen, Alemania</p>
       <p>Aplicación web para un sistema de emulación de cintas de mainframe. API REST en Django, AngularJS.</p>
     </div>
@@ -111,7 +111,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
   <li>
     <span class="tl-when">2012 · 2015</span>
     <div class="tl-body">
-      <h3>Profesor adjunto · UTN &nbsp;/&nbsp; Ingeniero de software y seguridad · Ministerio de Salud</h3>
+      <h3>Profesor adjunto · UTN &nbsp;/&nbsp; Ingeniero de software y seguridad · Ministerio de Salud 🇦🇷</h3>
       <p class="tl-meta">La Plata, Argentina · medio tiempo</p>
       <p>Di clases de Paradigmas de Programación y Sistemas Operativos. En el Ministerio: pentesting, políticas de seguridad y un servicio central de información de pacientes.</p>
     </div>
@@ -119,7 +119,7 @@ description: Julián Perelli, ingeniero de software. 16 años construyendo y ope
   <li>
     <span class="tl-when">2005 · 2011</span>
     <div class="tl-body">
-      <h3>Ingeniero en Sistemas de Información · UTN</h3>
+      <h3>Ingeniero en Sistemas de Información · UTN 🇦🇷</h3>
       <p class="tl-meta">La Plata, Argentina · promedio 9,2 / 10 · beca de investigación de seis meses en el KIT, Karlsruhe</p>
     </div>
   </li>
