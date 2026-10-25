@@ -106,7 +106,7 @@ No és posar IA a tot arreu. La intel·ligència artificial no ho resol tot: té
 - **Vaig ser professor a la universitat durant quatre anys.** Sé explicar coses difícils amb paraules senzilles, i m'agrada.
 - **Soc cocreador de [Cualbondi](https://cualbondi.com/)**, una aplicació de transport públic que fan servir milers de persones a l'Argentina, i he fet [moltes xerrades públiques](/talks/).
 
-La història completa, amb totes les paraules tècniques: [sobre mi](/ca/about/).
+La història completa, amb totes les paraules tècniques: [el meu perfil d'enginyer](/).
 
 ## El que diuen altres de la meva feina {#proof}
 

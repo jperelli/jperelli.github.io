@@ -106,7 +106,7 @@ No es poner IA en todos lados. La inteligencia artificial no lo resuelve todo: t
 - **Fui profesor en la universidad durante cuatro años.** Sé explicar cosas difíciles con palabras sencillas, y me gusta.
 - **Soy cocreador de [Cualbondi](https://cualbondi.com/)**, una aplicación de transporte público que usan miles de personas en Argentina, y he dado [muchas charlas públicas](/talks/).
 
-La historia completa, con todas las palabras técnicas: [sobre mí](/es/about/).
+La historia completa, con todas las palabras técnicas: [mi perfil de ingeniero](/es/).
 
 ## Lo que dicen otros de mi trabajo {#proof}
 

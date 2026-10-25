@@ -1,6 +1,6 @@
-# UI strings per language. The engineer home is English-only (index.md).
-# The consultancy pages live in consultancy/index.md, es/consultoria/index.md,
-# ca/consultoria/index.md; About in about.md, es/about.md, ca/about.md.
+# UI strings per language. The engineer home is index.md (en) and es/index.md (es); no Catalan home.
+# The consultancy pages live in consultancy/index.md, es/consultoria/index.md, ca/consultoria/index.md.
+# The old /about/ pages are redirect stubs (about.html, es/about.html, ca/about.html) to the home.
 en:
   name: English
   title: Julián Perelli
@@ -8,13 +8,11 @@ en:
   consultancy_tagline: "Helping companies integrate artificial intelligence into their processes"
   description: "Julián Perelli, software engineer. 16 years building and running web systems, individual contributor, open-source author, co-creator of cualbondi.com."
   nav:
-    about: About me
     projects: Projects
     blog: Blog
     talks: Talks
   paths:
     home: /
-    about: /about/
     consultancy: /consultancy/
     case_stock_tracker: /cases/stock-tracker/
     case_claude_tracker: /cases/claude-tracker/
@@ -26,13 +24,11 @@ es:
   consultancy_tagline: "Ayudo a empresas a integrar inteligencia artificial en sus procesos"
   description: "Julián Perelli, ingeniero de software. 16 años construyendo y operando sistemas web, contribuidor individual, autor de software libre, cocreador de cualbondi.com."
   nav:
-    about: Sobre mí
     projects: Proyectos
     blog: Blog
     talks: Charlas
   paths:
     home: /es/
-    about: /es/about/
     consultancy: /es/consultoria/
     case_stock_tracker: /es/casos/stock-tracker/
     case_claude_tracker: /es/casos/claude-tracker/
@@ -44,13 +40,11 @@ ca:
   consultancy_tagline: "Ajudo empreses a integrar intel·ligència artificial als seus processos"
   description: "Julián Perelli, enginyer de programari. 16 anys construint i operant sistemes web, contribuïdor individual, autor de programari lliure, cocreador de cualbondi.com."
   nav:
-    about: Sobre mi
     projects: Projectes
     blog: Blog
     talks: Xerrades
   paths:
     home: /
-    about: /ca/about/
     consultancy: /ca/consultoria/
     case_stock_tracker: /ca/casos/stock-tracker/
     case_claude_tracker: /ca/casos/claude-tracker/

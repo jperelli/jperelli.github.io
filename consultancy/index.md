@@ -106,7 +106,7 @@ It is not about putting AI everywhere. Artificial intelligence does not solve ev
 - **I taught at university for four years.** I know how to explain difficult things in simple words, and I enjoy it.
 - **I co-created [Cualbondi](https://cualbondi.com/)**, a public-transport app used by thousands of people in Argentina, and I have given [many public talks](/talks/).
 
-The full story, with all the technical words: [about me](/about/).
+The full story, with all the technical words: [my engineering profile](/).
 
 ## What other people say about my work {#proof}
 
